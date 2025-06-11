@@ -1,0 +1,974 @@
+[1] "Args: samples.csv ../../counts_proc/call/CT-1-1-1-1_S17_L001_counts.txt ../../counts_proc/call/CT-1-1-1-1_S17_L002_counts.txt ../../counts_proc/call/CT-1-1-1-1_S17_L003_counts.txt ../../counts_proc/call/CT-1-1-1-1_S17_L004_counts.txt ../../counts_proc/call/CT-1-1-1-2_S21_L001_counts.txt ../../counts_proc/call/CT-1-1-1-2_S21_L002_counts.txt ../../counts_proc/call/CT-1-1-1-2_S21_L003_counts.txt ../../counts_proc/call/CT-1-1-1-2_S21_L004_counts.txt ../../counts_proc/call/CT-1-1-2-1_S18_L001_counts.txt ../../counts_proc/call/CT-1-1-2-1_S18_L002_counts.txt ../../counts_proc/call/CT-1-1-2-1_S18_L003_counts.txt ../../counts_proc/call/CT-1-1-2-1_S18_L004_counts.txt ../../counts_proc/call/CT-1-1-2-2_S22_L001_counts.txt ../../counts_proc/call/CT-1-1-2-2_S22_L002_counts.txt ../../counts_proc/call/CT-1-1-2-2_S22_L003_counts.txt ../../counts_proc/call/CT-1-1-2-2_S22_L004_counts.txt ../../counts_proc/call/CT-1-1-3-1_S19_L001_counts.txt ../../counts_proc/call/CT-1-1-3-1_S19_L002_counts.txt ../../counts_proc/call/CT-1-1-3-1_S19_L003_counts.txt ../../counts_proc/call/CT-1-1-3-1_S19_L004_counts.txt ../../counts_proc/call/CT-1-1-3-2_S23_L001_counts.txt ../../counts_proc/call/CT-1-1-3-2_S23_L002_counts.txt ../../counts_proc/call/CT-1-1-3-2_S23_L003_counts.txt ../../counts_proc/call/CT-1-1-3-2_S23_L004_counts.txt ../../counts_proc/call/CT-1-1-4-1_S20_L001_counts.txt ../../counts_proc/call/CT-1-1-4-1_S20_L002_counts.txt ../../counts_proc/call/CT-1-1-4-1_S20_L003_counts.txt ../../counts_proc/call/CT-1-1-4-1_S20_L004_counts.txt ../../counts_proc/call/CT-1-1-4-2_S24_L001_counts.txt ../../counts_proc/call/CT-1-1-4-2_S24_L002_counts.txt ../../counts_proc/call/CT-1-1-4-2_S24_L003_counts.txt ../../counts_proc/call/CT-1-1-4-2_S24_L004_counts.txt ../../counts_proc/call/CT-1-2-1-1_S25_L001_counts.txt ../../counts_proc/call/CT-1-2-1-1_S25_L002_counts.txt ../../counts_proc/call/CT-1-2-1-1_S25_L003_counts.txt ../../counts_proc/call/CT-1-2-1-1_S25_L004_counts.txt ../../counts_proc/call/CT-1-2-1-2_S29_L001_counts.txt ../../counts_proc/call/CT-1-2-1-2_S29_L002_counts.txt ../../counts_proc/call/CT-1-2-1-2_S29_L003_counts.txt ../../counts_proc/call/CT-1-2-1-2_S29_L004_counts.txt ../../counts_proc/call/CT-1-2-2-1_S26_L001_counts.txt ../../counts_proc/call/CT-1-2-2-1_S26_L002_counts.txt ../../counts_proc/call/CT-1-2-2-1_S26_L003_counts.txt ../../counts_proc/call/CT-1-2-2-1_S26_L004_counts.txt ../../counts_proc/call/CT-1-2-2-2_S30_L001_counts.txt ../../counts_proc/call/CT-1-2-2-2_S30_L002_counts.txt ../../counts_proc/call/CT-1-2-2-2_S30_L003_counts.txt ../../counts_proc/call/CT-1-2-2-2_S30_L004_counts.txt ../../counts_proc/call/CT-1-2-3-1_S27_L001_counts.txt ../../counts_proc/call/CT-1-2-3-1_S27_L002_counts.txt ../../counts_proc/call/CT-1-2-3-1_S27_L003_counts.txt ../../counts_proc/call/CT-1-2-3-1_S27_L004_counts.txt ../../counts_proc/call/CT-1-2-3-2_S31_L001_counts.txt ../../counts_proc/call/CT-1-2-3-2_S31_L002_counts.txt ../../counts_proc/call/CT-1-2-3-2_S31_L003_counts.txt ../../counts_proc/call/CT-1-2-3-2_S31_L004_counts.txt ../../counts_proc/call/CT-1-2-4-1_S28_L001_counts.txt ../../counts_proc/call/CT-1-2-4-1_S28_L002_counts.txt ../../counts_proc/call/CT-1-2-4-1_S28_L003_counts.txt ../../counts_proc/call/CT-1-2-4-1_S28_L004_counts.txt ../../counts_proc/call/CT-1-2-4-2_S32_L001_counts.txt ../../counts_proc/call/CT-1-2-4-2_S32_L002_counts.txt ../../counts_proc/call/CT-1-2-4-2_S32_L003_counts.txt ../../counts_proc/call/CT-1-2-4-2_S32_L004_counts.txt ../../counts_proc/call/CT-2-2-1-1_S33_L001_counts.txt ../../counts_proc/call/CT-2-2-1-1_S33_L002_counts.txt ../../counts_proc/call/CT-2-2-1-1_S33_L003_counts.txt ../../counts_proc/call/CT-2-2-1-1_S33_L004_counts.txt ../../counts_proc/call/CT-2-2-1-2_S37_L001_counts.txt ../../counts_proc/call/CT-2-2-1-2_S37_L002_counts.txt ../../counts_proc/call/CT-2-2-1-2_S37_L003_counts.txt ../../counts_proc/call/CT-2-2-1-2_S37_L004_counts.txt ../../counts_proc/call/CT-2-2-2-1_S34_L001_counts.txt ../../counts_proc/call/CT-2-2-2-1_S34_L002_counts.txt ../../counts_proc/call/CT-2-2-2-1_S34_L003_counts.txt ../../counts_proc/call/CT-2-2-2-1_S34_L004_counts.txt ../../counts_proc/call/CT-2-2-2-2_S38_L001_counts.txt ../../counts_proc/call/CT-2-2-2-2_S38_L002_counts.txt ../../counts_proc/call/CT-2-2-2-2_S38_L003_counts.txt ../../counts_proc/call/CT-2-2-2-2_S38_L004_counts.txt ../../counts_proc/call/CT-2-2-3-1_S35_L001_counts.txt ../../counts_proc/call/CT-2-2-3-1_S35_L002_counts.txt ../../counts_proc/call/CT-2-2-3-1_S35_L003_counts.txt ../../counts_proc/call/CT-2-2-3-1_S35_L004_counts.txt ../../counts_proc/call/CT-2-2-3-2_S39_L001_counts.txt ../../counts_proc/call/CT-2-2-3-2_S39_L002_counts.txt ../../counts_proc/call/CT-2-2-3-2_S39_L003_counts.txt ../../counts_proc/call/CT-2-2-3-2_S39_L004_counts.txt ../../counts_proc/call/CT-2-2-4-1_S36_L001_counts.txt ../../counts_proc/call/CT-2-2-4-1_S36_L002_counts.txt ../../counts_proc/call/CT-2-2-4-1_S36_L003_counts.txt ../../counts_proc/call/CT-2-2-4-1_S36_L004_counts.txt ../../counts_proc/call/CT-2-2-4-2_S40_L001_counts.txt ../../counts_proc/call/CT-2-2-4-2_S40_L002_counts.txt ../../counts_proc/call/CT-2-2-4-2_S40_L003_counts.txt ../../counts_proc/call/CT-2-2-4-2_S40_L004_counts.txt ../../counts_proc/call/CT-3-1-1-1_S41_L001_counts.txt ../../counts_proc/call/CT-3-1-1-1_S41_L002_counts.txt ../../counts_proc/call/CT-3-1-1-1_S41_L003_counts.txt ../../counts_proc/call/CT-3-1-1-1_S41_L004_counts.txt ../../counts_proc/call/CT-3-1-1-2_S45_L001_counts.txt ../../counts_proc/call/CT-3-1-1-2_S45_L002_counts.txt ../../counts_proc/call/CT-3-1-1-2_S45_L003_counts.txt ../../counts_proc/call/CT-3-1-1-2_S45_L004_counts.txt ../../counts_proc/call/CT-3-1-2-1_S42_L001_counts.txt ../../counts_proc/call/CT-3-1-2-1_S42_L002_counts.txt ../../counts_proc/call/CT-3-1-2-1_S42_L003_counts.txt ../../counts_proc/call/CT-3-1-2-1_S42_L004_counts.txt ../../counts_proc/call/CT-3-1-2-2_S46_L001_counts.txt ../../counts_proc/call/CT-3-1-2-2_S46_L002_counts.txt ../../counts_proc/call/CT-3-1-2-2_S46_L003_counts.txt ../../counts_proc/call/CT-3-1-2-2_S46_L004_counts.txt ../../counts_proc/call/CT-3-1-3-1_S43_L001_counts.txt ../../counts_proc/call/CT-3-1-3-1_S43_L002_counts.txt ../../counts_proc/call/CT-3-1-3-1_S43_L003_counts.txt ../../counts_proc/call/CT-3-1-3-1_S43_L004_counts.txt ../../counts_proc/call/CT-3-1-3-2_S47_L001_counts.txt ../../counts_proc/call/CT-3-1-3-2_S47_L002_counts.txt ../../counts_proc/call/CT-3-1-3-2_S47_L003_counts.txt ../../counts_proc/call/CT-3-1-3-2_S47_L004_counts.txt ../../counts_proc/call/CT-3-1-4-1_S44_L001_counts.txt ../../counts_proc/call/CT-3-1-4-1_S44_L002_counts.txt ../../counts_proc/call/CT-3-1-4-1_S44_L003_counts.txt ../../counts_proc/call/CT-3-1-4-1_S44_L004_counts.txt ../../counts_proc/call/CT-3-1-4-2_S48_L001_counts.txt ../../counts_proc/call/CT-3-1-4-2_S48_L002_counts.txt ../../counts_proc/call/CT-3-1-4-2_S48_L003_counts.txt ../../counts_proc/call/CT-3-1-4-2_S48_L004_counts.txt ../../counts_proc/call/CT-3-2-1-1_S49_L001_counts.txt ../../counts_proc/call/CT-3-2-1-1_S49_L002_counts.txt ../../counts_proc/call/CT-3-2-1-1_S49_L003_counts.txt ../../counts_proc/call/CT-3-2-1-1_S49_L004_counts.txt ../../counts_proc/call/CT-3-2-1-2_S53_L001_counts.txt ../../counts_proc/call/CT-3-2-1-2_S53_L002_counts.txt ../../counts_proc/call/CT-3-2-1-2_S53_L003_counts.txt ../../counts_proc/call/CT-3-2-1-2_S53_L004_counts.txt ../../counts_proc/call/CT-3-2-2-1_S50_L001_counts.txt ../../counts_proc/call/CT-3-2-2-1_S50_L002_counts.txt ../../counts_proc/call/CT-3-2-2-1_S50_L003_counts.txt ../../counts_proc/call/CT-3-2-2-1_S50_L004_counts.txt ../../counts_proc/call/CT-3-2-2-2_S54_L001_counts.txt ../../counts_proc/call/CT-3-2-2-2_S54_L002_counts.txt ../../counts_proc/call/CT-3-2-2-2_S54_L003_counts.txt ../../counts_proc/call/CT-3-2-2-2_S54_L004_counts.txt ../../counts_proc/call/CT-3-2-3-1_S51_L001_counts.txt ../../counts_proc/call/CT-3-2-3-1_S51_L002_counts.txt ../../counts_proc/call/CT-3-2-3-1_S51_L003_counts.txt ../../counts_proc/call/CT-3-2-3-1_S51_L004_counts.txt ../../counts_proc/call/CT-3-2-3-2_S55_L001_counts.txt ../../counts_proc/call/CT-3-2-3-2_S55_L002_counts.txt ../../counts_proc/call/CT-3-2-3-2_S55_L003_counts.txt ../../counts_proc/call/CT-3-2-3-2_S55_L004_counts.txt ../../counts_proc/call/CT-3-2-4-1_S52_L001_counts.txt ../../counts_proc/call/CT-3-2-4-1_S52_L002_counts.txt ../../counts_proc/call/CT-3-2-4-1_S52_L003_counts.txt ../../counts_proc/call/CT-3-2-4-1_S52_L004_counts.txt ../../counts_proc/call/CT-3-2-4-2_S56_L001_counts.txt ../../counts_proc/call/CT-3-2-4-2_S56_L002_counts.txt ../../counts_proc/call/CT-3-2-4-2_S56_L003_counts.txt ../../counts_proc/call/CT-3-2-4-2_S56_L004_counts.txt ../../counts_proc/call/E-1-1-1-1_S49_L001_counts.txt ../../counts_proc/call/E-1-1-1-1_S49_L002_counts.txt ../../counts_proc/call/E-1-1-1-1_S49_L003_counts.txt ../../counts_proc/call/E-1-1-1-1_S49_L004_counts.txt ../../counts_proc/call/E-1-1-1-2_S53_L001_counts.txt ../../counts_proc/call/E-1-1-1-2_S53_L002_counts.txt ../../counts_proc/call/E-1-1-1-2_S53_L003_counts.txt ../../counts_proc/call/E-1-1-1-2_S53_L004_counts.txt ../../counts_proc/call/E-1-1-2-1_S50_L001_counts.txt ../../counts_proc/call/E-1-1-2-1_S50_L002_counts.txt ../../counts_proc/call/E-1-1-2-1_S50_L003_counts.txt ../../counts_proc/call/E-1-1-2-1_S50_L004_counts.txt ../../counts_proc/call/E-1-1-2-2_S54_L001_counts.txt ../../counts_proc/call/E-1-1-2-2_S54_L002_counts.txt ../../counts_proc/call/E-1-1-2-2_S54_L003_counts.txt ../../counts_proc/call/E-1-1-2-2_S54_L004_counts.txt ../../counts_proc/call/E-1-1-3-1_S51_L001_counts.txt ../../counts_proc/call/E-1-1-3-1_S51_L002_counts.txt ../../counts_proc/call/E-1-1-3-1_S51_L003_counts.txt ../../counts_proc/call/E-1-1-3-1_S51_L004_counts.txt ../../counts_proc/call/E-1-1-3-2_S55_L001_counts.txt ../../counts_proc/call/E-1-1-3-2_S55_L002_counts.txt ../../counts_proc/call/E-1-1-3-2_S55_L003_counts.txt ../../counts_proc/call/E-1-1-3-2_S55_L004_counts.txt ../../counts_proc/call/E-1-1-4-1_S52_L001_counts.txt ../../counts_proc/call/E-1-1-4-1_S52_L002_counts.txt ../../counts_proc/call/E-1-1-4-1_S52_L003_counts.txt ../../counts_proc/call/E-1-1-4-1_S52_L004_counts.txt ../../counts_proc/call/E-1-1-4-2_S56_L001_counts.txt ../../counts_proc/call/E-1-1-4-2_S56_L002_counts.txt ../../counts_proc/call/E-1-1-4-2_S56_L003_counts.txt ../../counts_proc/call/E-1-1-4-2_S56_L004_counts.txt ../../counts_proc/call/E-1-2-1-1_S57_L001_counts.txt ../../counts_proc/call/E-1-2-1-1_S57_L002_counts.txt ../../counts_proc/call/E-1-2-1-1_S57_L003_counts.txt ../../counts_proc/call/E-1-2-1-1_S57_L004_counts.txt ../../counts_proc/call/E-1-2-1-2_S61_L001_counts.txt ../../counts_proc/call/E-1-2-1-2_S61_L002_counts.txt ../../counts_proc/call/E-1-2-1-2_S61_L003_counts.txt ../../counts_proc/call/E-1-2-1-2_S61_L004_counts.txt ../../counts_proc/call/E-1-2-2-1_S58_L001_counts.txt ../../counts_proc/call/E-1-2-2-1_S58_L002_counts.txt ../../counts_proc/call/E-1-2-2-1_S58_L003_counts.txt ../../counts_proc/call/E-1-2-2-1_S58_L004_counts.txt ../../counts_proc/call/E-1-2-2-2_S62_L001_counts.txt ../../counts_proc/call/E-1-2-2-2_S62_L002_counts.txt ../../counts_proc/call/E-1-2-2-2_S62_L003_counts.txt ../../counts_proc/call/E-1-2-2-2_S62_L004_counts.txt ../../counts_proc/call/E-1-2-3-1_S59_L001_counts.txt ../../counts_proc/call/E-1-2-3-1_S59_L002_counts.txt ../../counts_proc/call/E-1-2-3-1_S59_L003_counts.txt ../../counts_proc/call/E-1-2-3-1_S59_L004_counts.txt ../../counts_proc/call/E-1-2-3-2_S63_L001_counts.txt ../../counts_proc/call/E-1-2-3-2_S63_L002_counts.txt ../../counts_proc/call/E-1-2-3-2_S63_L003_counts.txt ../../counts_proc/call/E-1-2-3-2_S63_L004_counts.txt ../../counts_proc/call/E-1-2-4-1_S60_L001_counts.txt ../../counts_proc/call/E-1-2-4-1_S60_L002_counts.txt ../../counts_proc/call/E-1-2-4-1_S60_L003_counts.txt ../../counts_proc/call/E-1-2-4-1_S60_L004_counts.txt ../../counts_proc/call/E-1-2-4-2_S64_L001_counts.txt ../../counts_proc/call/E-1-2-4-2_S64_L002_counts.txt ../../counts_proc/call/E-1-2-4-2_S64_L003_counts.txt ../../counts_proc/call/E-1-2-4-2_S64_L004_counts.txt ../../counts_proc/call/E-2-1-1-1_S65_L001_counts.txt ../../counts_proc/call/E-2-1-1-1_S65_L002_counts.txt ../../counts_proc/call/E-2-1-1-1_S65_L003_counts.txt ../../counts_proc/call/E-2-1-1-1_S65_L004_counts.txt ../../counts_proc/call/E-2-1-1-2_S69_L001_counts.txt ../../counts_proc/call/E-2-1-1-2_S69_L002_counts.txt ../../counts_proc/call/E-2-1-1-2_S69_L003_counts.txt ../../counts_proc/call/E-2-1-1-2_S69_L004_counts.txt ../../counts_proc/call/E-2-1-2-1_S66_L001_counts.txt ../../counts_proc/call/E-2-1-2-1_S66_L002_counts.txt ../../counts_proc/call/E-2-1-2-1_S66_L003_counts.txt ../../counts_proc/call/E-2-1-2-1_S66_L004_counts.txt ../../counts_proc/call/E-2-1-2-2_S70_L001_counts.txt ../../counts_proc/call/E-2-1-2-2_S70_L002_counts.txt ../../counts_proc/call/E-2-1-2-2_S70_L003_counts.txt ../../counts_proc/call/E-2-1-2-2_S70_L004_counts.txt ../../counts_proc/call/E-2-1-3-1_S67_L001_counts.txt ../../counts_proc/call/E-2-1-3-1_S67_L002_counts.txt ../../counts_proc/call/E-2-1-3-1_S67_L003_counts.txt ../../counts_proc/call/E-2-1-3-1_S67_L004_counts.txt ../../counts_proc/call/E-2-1-3-2_S71_L001_counts.txt ../../counts_proc/call/E-2-1-3-2_S71_L002_counts.txt ../../counts_proc/call/E-2-1-3-2_S71_L003_counts.txt ../../counts_proc/call/E-2-1-3-2_S71_L004_counts.txt ../../counts_proc/call/E-2-1-4-1_S68_L001_counts.txt ../../counts_proc/call/E-2-1-4-1_S68_L002_counts.txt ../../counts_proc/call/E-2-1-4-1_S68_L003_counts.txt ../../counts_proc/call/E-2-1-4-1_S68_L004_counts.txt ../../counts_proc/call/E-2-1-4-2_S72_L001_counts.txt ../../counts_proc/call/E-2-1-4-2_S72_L002_counts.txt ../../counts_proc/call/E-2-1-4-2_S72_L003_counts.txt ../../counts_proc/call/E-2-1-4-2_S72_L004_counts.txt ../../counts_proc/call/E-2-2-1-1_S73_L001_counts.txt ../../counts_proc/call/E-2-2-1-1_S73_L002_counts.txt ../../counts_proc/call/E-2-2-1-1_S73_L003_counts.txt ../../counts_proc/call/E-2-2-1-1_S73_L004_counts.txt ../../counts_proc/call/E-2-2-1-2_S77_L001_counts.txt ../../counts_proc/call/E-2-2-1-2_S77_L002_counts.txt ../../counts_proc/call/E-2-2-1-2_S77_L003_counts.txt ../../counts_proc/call/E-2-2-1-2_S77_L004_counts.txt ../../counts_proc/call/E-2-2-2-1_S74_L001_counts.txt ../../counts_proc/call/E-2-2-2-1_S74_L002_counts.txt ../../counts_proc/call/E-2-2-2-1_S74_L003_counts.txt ../../counts_proc/call/E-2-2-2-1_S74_L004_counts.txt ../../counts_proc/call/E-2-2-2-2_S78_L001_counts.txt ../../counts_proc/call/E-2-2-2-2_S78_L002_counts.txt ../../counts_proc/call/E-2-2-2-2_S78_L003_counts.txt ../../counts_proc/call/E-2-2-2-2_S78_L004_counts.txt ../../counts_proc/call/E-2-2-3-1_S75_L001_counts.txt ../../counts_proc/call/E-2-2-3-1_S75_L002_counts.txt ../../counts_proc/call/E-2-2-3-1_S75_L003_counts.txt ../../counts_proc/call/E-2-2-3-1_S75_L004_counts.txt ../../counts_proc/call/E-2-2-3-2_S79_L001_counts.txt ../../counts_proc/call/E-2-2-3-2_S79_L002_counts.txt ../../counts_proc/call/E-2-2-3-2_S79_L003_counts.txt ../../counts_proc/call/E-2-2-3-2_S79_L004_counts.txt ../../counts_proc/call/E-2-2-4-1_S76_L001_counts.txt ../../counts_proc/call/E-2-2-4-1_S76_L002_counts.txt ../../counts_proc/call/E-2-2-4-1_S76_L003_counts.txt ../../counts_proc/call/E-2-2-4-1_S76_L004_counts.txt ../../counts_proc/call/E-2-2-4-2_S80_L001_counts.txt ../../counts_proc/call/E-2-2-4-2_S80_L002_counts.txt ../../counts_proc/call/E-2-2-4-2_S80_L003_counts.txt ../../counts_proc/call/E-2-2-4-2_S80_L004_counts.txt ../../counts_proc/call/E-3-1-1-1_S1_L001_counts.txt ../../counts_proc/call/E-3-1-1-1_S1_L002_counts.txt ../../counts_proc/call/E-3-1-1-1_S1_L003_counts.txt ../../counts_proc/call/E-3-1-1-1_S1_L004_counts.txt ../../counts_proc/call/E-3-1-1-2_S5_L001_counts.txt ../../counts_proc/call/E-3-1-1-2_S5_L002_counts.txt ../../counts_proc/call/E-3-1-1-2_S5_L003_counts.txt ../../counts_proc/call/E-3-1-1-2_S5_L004_counts.txt ../../counts_proc/call/E-3-1-2-1_S2_L001_counts.txt ../../counts_proc/call/E-3-1-2-1_S2_L002_counts.txt ../../counts_proc/call/E-3-1-2-1_S2_L003_counts.txt ../../counts_proc/call/E-3-1-2-1_S2_L004_counts.txt ../../counts_proc/call/E-3-1-2-2_S6_L001_counts.txt ../../counts_proc/call/E-3-1-2-2_S6_L002_counts.txt ../../counts_proc/call/E-3-1-2-2_S6_L003_counts.txt ../../counts_proc/call/E-3-1-2-2_S6_L004_counts.txt ../../counts_proc/call/E-3-1-3-1_S3_L001_counts.txt ../../counts_proc/call/E-3-1-3-1_S3_L002_counts.txt ../../counts_proc/call/E-3-1-3-1_S3_L003_counts.txt ../../counts_proc/call/E-3-1-3-1_S3_L004_counts.txt ../../counts_proc/call/E-3-1-3-2_S7_L001_counts.txt ../../counts_proc/call/E-3-1-3-2_S7_L002_counts.txt ../../counts_proc/call/E-3-1-3-2_S7_L003_counts.txt ../../counts_proc/call/E-3-1-3-2_S7_L004_counts.txt ../../counts_proc/call/E-3-1-4-1_S4_L001_counts.txt ../../counts_proc/call/E-3-1-4-1_S4_L002_counts.txt ../../counts_proc/call/E-3-1-4-1_S4_L003_counts.txt ../../counts_proc/call/E-3-1-4-1_S4_L004_counts.txt ../../counts_proc/call/E-3-1-4-2_S8_L001_counts.txt ../../counts_proc/call/E-3-1-4-2_S8_L002_counts.txt ../../counts_proc/call/E-3-1-4-2_S8_L003_counts.txt ../../counts_proc/call/E-3-1-4-2_S8_L004_counts.txt ../../counts_proc/call/E-3-2-1-1_S9_L001_counts.txt ../../counts_proc/call/E-3-2-1-1_S9_L002_counts.txt ../../counts_proc/call/E-3-2-1-1_S9_L003_counts.txt ../../counts_proc/call/E-3-2-1-1_S9_L004_counts.txt ../../counts_proc/call/E-3-2-1-2_S13_L001_counts.txt ../../counts_proc/call/E-3-2-1-2_S13_L002_counts.txt ../../counts_proc/call/E-3-2-1-2_S13_L003_counts.txt ../../counts_proc/call/E-3-2-1-2_S13_L004_counts.txt ../../counts_proc/call/E-3-2-2-1_S10_L001_counts.txt ../../counts_proc/call/E-3-2-2-1_S10_L002_counts.txt ../../counts_proc/call/E-3-2-2-1_S10_L003_counts.txt ../../counts_proc/call/E-3-2-2-1_S10_L004_counts.txt ../../counts_proc/call/E-3-2-2-2_S14_L001_counts.txt ../../counts_proc/call/E-3-2-2-2_S14_L002_counts.txt ../../counts_proc/call/E-3-2-2-2_S14_L003_counts.txt ../../counts_proc/call/E-3-2-2-2_S14_L004_counts.txt ../../counts_proc/call/E-3-2-3-1_S11_L001_counts.txt ../../counts_proc/call/E-3-2-3-1_S11_L002_counts.txt ../../counts_proc/call/E-3-2-3-1_S11_L003_counts.txt ../../counts_proc/call/E-3-2-3-1_S11_L004_counts.txt ../../counts_proc/call/E-3-2-3-2_S15_L001_counts.txt ../../counts_proc/call/E-3-2-3-2_S15_L002_counts.txt ../../counts_proc/call/E-3-2-3-2_S15_L003_counts.txt ../../counts_proc/call/E-3-2-3-2_S15_L004_counts.txt ../../counts_proc/call/E-3-2-4-1_S12_L001_counts.txt ../../counts_proc/call/E-3-2-4-1_S12_L002_counts.txt ../../counts_proc/call/E-3-2-4-1_S12_L003_counts.txt ../../counts_proc/call/E-3-2-4-1_S12_L004_counts.txt ../../counts_proc/call/E-3-2-4-2_S16_L001_counts.txt ../../counts_proc/call/E-3-2-4-2_S16_L002_counts.txt ../../counts_proc/call/E-3-2-4-2_S16_L003_counts.txt ../../counts_proc/call/E-3-2-4-2_S16_L004_counts.txt ../../counts_proc/call/O-1-1-1-1_S1_L001_counts.txt ../../counts_proc/call/O-1-1-1-1_S1_L002_counts.txt ../../counts_proc/call/O-1-1-1-1_S1_L003_counts.txt ../../counts_proc/call/O-1-1-1-1_S1_L004_counts.txt ../../counts_proc/call/O-1-1-1-2_S5_L001_counts.txt ../../counts_proc/call/O-1-1-1-2_S5_L002_counts.txt ../../counts_proc/call/O-1-1-1-2_S5_L003_counts.txt ../../counts_proc/call/O-1-1-1-2_S5_L004_counts.txt ../../counts_proc/call/O-1-1-2-1_S2_L001_counts.txt ../../counts_proc/call/O-1-1-2-1_S2_L002_counts.txt ../../counts_proc/call/O-1-1-2-1_S2_L003_counts.txt ../../counts_proc/call/O-1-1-2-1_S2_L004_counts.txt ../../counts_proc/call/O-1-1-2-2_S6_L001_counts.txt ../../counts_proc/call/O-1-1-2-2_S6_L002_counts.txt ../../counts_proc/call/O-1-1-2-2_S6_L003_counts.txt ../../counts_proc/call/O-1-1-2-2_S6_L004_counts.txt ../../counts_proc/call/O-1-1-3-1_S3_L001_counts.txt ../../counts_proc/call/O-1-1-3-1_S3_L002_counts.txt ../../counts_proc/call/O-1-1-3-1_S3_L003_counts.txt ../../counts_proc/call/O-1-1-3-1_S3_L004_counts.txt ../../counts_proc/call/O-1-1-3-2_S7_L001_counts.txt ../../counts_proc/call/O-1-1-3-2_S7_L002_counts.txt ../../counts_proc/call/O-1-1-3-2_S7_L003_counts.txt ../../counts_proc/call/O-1-1-3-2_S7_L004_counts.txt ../../counts_proc/call/O-1-1-4-1_S4_L001_counts.txt ../../counts_proc/call/O-1-1-4-1_S4_L002_counts.txt ../../counts_proc/call/O-1-1-4-1_S4_L003_counts.txt ../../counts_proc/call/O-1-1-4-1_S4_L004_counts.txt ../../counts_proc/call/O-1-1-4-2_S8_L001_counts.txt ../../counts_proc/call/O-1-1-4-2_S8_L002_counts.txt ../../counts_proc/call/O-1-1-4-2_S8_L003_counts.txt ../../counts_proc/call/O-1-1-4-2_S8_L004_counts.txt ../../counts_proc/call/O-1-2-1-1_S9_L001_counts.txt ../../counts_proc/call/O-1-2-1-1_S9_L002_counts.txt ../../counts_proc/call/O-1-2-1-1_S9_L003_counts.txt ../../counts_proc/call/O-1-2-1-1_S9_L004_counts.txt ../../counts_proc/call/O-1-2-1-2_S13_L001_counts.txt ../../counts_proc/call/O-1-2-1-2_S13_L002_counts.txt ../../counts_proc/call/O-1-2-1-2_S13_L003_counts.txt ../../counts_proc/call/O-1-2-1-2_S13_L004_counts.txt ../../counts_proc/call/O-1-2-2-1_S10_L001_counts.txt ../../counts_proc/call/O-1-2-2-1_S10_L002_counts.txt ../../counts_proc/call/O-1-2-2-1_S10_L003_counts.txt ../../counts_proc/call/O-1-2-2-1_S10_L004_counts.txt ../../counts_proc/call/O-1-2-2-2_S14_L001_counts.txt ../../counts_proc/call/O-1-2-2-2_S14_L002_counts.txt ../../counts_proc/call/O-1-2-2-2_S14_L003_counts.txt ../../counts_proc/call/O-1-2-2-2_S14_L004_counts.txt ../../counts_proc/call/O-1-2-3-1_S11_L001_counts.txt ../../counts_proc/call/O-1-2-3-1_S11_L002_counts.txt ../../counts_proc/call/O-1-2-3-1_S11_L003_counts.txt ../../counts_proc/call/O-1-2-3-1_S11_L004_counts.txt ../../counts_proc/call/O-1-2-3-2_S15_L001_counts.txt ../../counts_proc/call/O-1-2-3-2_S15_L002_counts.txt ../../counts_proc/call/O-1-2-3-2_S15_L003_counts.txt ../../counts_proc/call/O-1-2-3-2_S15_L004_counts.txt ../../counts_proc/call/O-1-2-4-1_S12_L001_counts.txt ../../counts_proc/call/O-1-2-4-1_S12_L002_counts.txt ../../counts_proc/call/O-1-2-4-1_S12_L003_counts.txt ../../counts_proc/call/O-1-2-4-1_S12_L004_counts.txt ../../counts_proc/call/O-1-2-4-2_S16_L001_counts.txt ../../counts_proc/call/O-1-2-4-2_S16_L002_counts.txt ../../counts_proc/call/O-1-2-4-2_S16_L003_counts.txt ../../counts_proc/call/O-1-2-4-2_S16_L004_counts.txt ../../counts_proc/call/O-2-1-1-1_S17_L001_counts.txt ../../counts_proc/call/O-2-1-1-1_S17_L002_counts.txt ../../counts_proc/call/O-2-1-1-1_S17_L003_counts.txt ../../counts_proc/call/O-2-1-1-1_S17_L004_counts.txt ../../counts_proc/call/O-2-1-1-2_S21_L001_counts.txt ../../counts_proc/call/O-2-1-1-2_S21_L002_counts.txt ../../counts_proc/call/O-2-1-1-2_S21_L003_counts.txt ../../counts_proc/call/O-2-1-1-2_S21_L004_counts.txt ../../counts_proc/call/O-2-1-2-1_S18_L001_counts.txt ../../counts_proc/call/O-2-1-2-1_S18_L002_counts.txt ../../counts_proc/call/O-2-1-2-1_S18_L003_counts.txt ../../counts_proc/call/O-2-1-2-1_S18_L004_counts.txt ../../counts_proc/call/O-2-1-2-2_S22_L001_counts.txt ../../counts_proc/call/O-2-1-2-2_S22_L002_counts.txt ../../counts_proc/call/O-2-1-2-2_S22_L003_counts.txt ../../counts_proc/call/O-2-1-2-2_S22_L004_counts.txt ../../counts_proc/call/O-2-1-3-1_S19_L001_counts.txt ../../counts_proc/call/O-2-1-3-1_S19_L002_counts.txt ../../counts_proc/call/O-2-1-3-1_S19_L003_counts.txt ../../counts_proc/call/O-2-1-3-1_S19_L004_counts.txt ../../counts_proc/call/O-2-1-3-2_S23_L001_counts.txt ../../counts_proc/call/O-2-1-3-2_S23_L002_counts.txt ../../counts_proc/call/O-2-1-3-2_S23_L003_counts.txt ../../counts_proc/call/O-2-1-3-2_S23_L004_counts.txt ../../counts_proc/call/O-2-1-4-1_S20_L001_counts.txt ../../counts_proc/call/O-2-1-4-1_S20_L002_counts.txt ../../counts_proc/call/O-2-1-4-1_S20_L003_counts.txt ../../counts_proc/call/O-2-1-4-1_S20_L004_counts.txt ../../counts_proc/call/O-2-1-4-2_S24_L001_counts.txt ../../counts_proc/call/O-2-1-4-2_S24_L002_counts.txt ../../counts_proc/call/O-2-1-4-2_S24_L003_counts.txt ../../counts_proc/call/O-2-1-4-2_S24_L004_counts.txt ../../counts_proc/call/O-2-2-1-1_S25_L001_counts.txt ../../counts_proc/call/O-2-2-1-1_S25_L002_counts.txt ../../counts_proc/call/O-2-2-1-1_S25_L003_counts.txt ../../counts_proc/call/O-2-2-1-1_S25_L004_counts.txt ../../counts_proc/call/O-2-2-1-2_S29_L001_counts.txt ../../counts_proc/call/O-2-2-1-2_S29_L002_counts.txt ../../counts_proc/call/O-2-2-1-2_S29_L003_counts.txt ../../counts_proc/call/O-2-2-1-2_S29_L004_counts.txt ../../counts_proc/call/O-2-2-2-1_S26_L001_counts.txt ../../counts_proc/call/O-2-2-2-1_S26_L002_counts.txt ../../counts_proc/call/O-2-2-2-1_S26_L003_counts.txt ../../counts_proc/call/O-2-2-2-1_S26_L004_counts.txt ../../counts_proc/call/O-2-2-2-2_S30_L001_counts.txt ../../counts_proc/call/O-2-2-2-2_S30_L002_counts.txt ../../counts_proc/call/O-2-2-2-2_S30_L003_counts.txt ../../counts_proc/call/O-2-2-2-2_S30_L004_counts.txt ../../counts_proc/call/O-2-2-3-1_S27_L001_counts.txt ../../counts_proc/call/O-2-2-3-1_S27_L002_counts.txt ../../counts_proc/call/O-2-2-3-1_S27_L003_counts.txt ../../counts_proc/call/O-2-2-3-1_S27_L004_counts.txt ../../counts_proc/call/O-2-2-3-2_S31_L001_counts.txt ../../counts_proc/call/O-2-2-3-2_S31_L002_counts.txt ../../counts_proc/call/O-2-2-3-2_S31_L003_counts.txt ../../counts_proc/call/O-2-2-3-2_S31_L004_counts.txt ../../counts_proc/call/O-2-2-4-1_S28_L001_counts.txt ../../counts_proc/call/O-2-2-4-1_S28_L002_counts.txt ../../counts_proc/call/O-2-2-4-1_S28_L003_counts.txt ../../counts_proc/call/O-2-2-4-1_S28_L004_counts.txt ../../counts_proc/call/O-2-2-4-2_S32_L001_counts.txt ../../counts_proc/call/O-2-2-4-2_S32_L002_counts.txt ../../counts_proc/call/O-2-2-4-2_S32_L003_counts.txt ../../counts_proc/call/O-2-2-4-2_S32_L004_counts.txt ../../counts_proc/call/O-3-1-1-1_S33_L001_counts.txt ../../counts_proc/call/O-3-1-1-1_S33_L002_counts.txt ../../counts_proc/call/O-3-1-1-1_S33_L003_counts.txt ../../counts_proc/call/O-3-1-1-1_S33_L004_counts.txt ../../counts_proc/call/O-3-1-1-2_S37_L001_counts.txt ../../counts_proc/call/O-3-1-1-2_S37_L002_counts.txt ../../counts_proc/call/O-3-1-1-2_S37_L003_counts.txt ../../counts_proc/call/O-3-1-1-2_S37_L004_counts.txt ../../counts_proc/call/O-3-1-2-1_S34_L001_counts.txt ../../counts_proc/call/O-3-1-2-1_S34_L002_counts.txt ../../counts_proc/call/O-3-1-2-1_S34_L003_counts.txt ../../counts_proc/call/O-3-1-2-1_S34_L004_counts.txt ../../counts_proc/call/O-3-1-2-2_S38_L001_counts.txt ../../counts_proc/call/O-3-1-2-2_S38_L002_counts.txt ../../counts_proc/call/O-3-1-2-2_S38_L003_counts.txt ../../counts_proc/call/O-3-1-2-2_S38_L004_counts.txt ../../counts_proc/call/O-3-1-3-1_S35_L001_counts.txt ../../counts_proc/call/O-3-1-3-1_S35_L002_counts.txt ../../counts_proc/call/O-3-1-3-1_S35_L003_counts.txt ../../counts_proc/call/O-3-1-3-1_S35_L004_counts.txt ../../counts_proc/call/O-3-1-3-2_S39_L001_counts.txt ../../counts_proc/call/O-3-1-3-2_S39_L002_counts.txt ../../counts_proc/call/O-3-1-3-2_S39_L003_counts.txt ../../counts_proc/call/O-3-1-3-2_S39_L004_counts.txt ../../counts_proc/call/O-3-1-4-1_S36_L001_counts.txt ../../counts_proc/call/O-3-1-4-1_S36_L002_counts.txt ../../counts_proc/call/O-3-1-4-1_S36_L003_counts.txt ../../counts_proc/call/O-3-1-4-1_S36_L004_counts.txt ../../counts_proc/call/O-3-1-4-2_S40_L001_counts.txt ../../counts_proc/call/O-3-1-4-2_S40_L002_counts.txt ../../counts_proc/call/O-3-1-4-2_S40_L003_counts.txt ../../counts_proc/call/O-3-1-4-2_S40_L004_counts.txt ../../counts_proc/call/O-3-2-1-1_S41_L001_counts.txt ../../counts_proc/call/O-3-2-1-1_S41_L002_counts.txt ../../counts_proc/call/O-3-2-1-1_S41_L003_counts.txt ../../counts_proc/call/O-3-2-1-1_S41_L004_counts.txt ../../counts_proc/call/O-3-2-1-2_S45_L001_counts.txt ../../counts_proc/call/O-3-2-1-2_S45_L002_counts.txt ../../counts_proc/call/O-3-2-1-2_S45_L003_counts.txt ../../counts_proc/call/O-3-2-1-2_S45_L004_counts.txt ../../counts_proc/call/O-3-2-2-1_S42_L001_counts.txt ../../counts_proc/call/O-3-2-2-1_S42_L002_counts.txt ../../counts_proc/call/O-3-2-2-1_S42_L003_counts.txt ../../counts_proc/call/O-3-2-2-1_S42_L004_counts.txt ../../counts_proc/call/O-3-2-2-2_S46_L001_counts.txt ../../counts_proc/call/O-3-2-2-2_S46_L002_counts.txt ../../counts_proc/call/O-3-2-2-2_S46_L003_counts.txt ../../counts_proc/call/O-3-2-2-2_S46_L004_counts.txt ../../counts_proc/call/O-3-2-3-1_S43_L001_counts.txt ../../counts_proc/call/O-3-2-3-1_S43_L002_counts.txt ../../counts_proc/call/O-3-2-3-1_S43_L003_counts.txt ../../counts_proc/call/O-3-2-3-1_S43_L004_counts.txt ../../counts_proc/call/O-3-2-3-2_S47_L001_counts.txt ../../counts_proc/call/O-3-2-3-2_S47_L002_counts.txt ../../counts_proc/call/O-3-2-3-2_S47_L003_counts.txt ../../counts_proc/call/O-3-2-3-2_S47_L004_counts.txt ../../counts_proc/call/O-3-2-4-1_S44_L001_counts.txt ../../counts_proc/call/O-3-2-4-1_S44_L002_counts.txt ../../counts_proc/call/O-3-2-4-1_S44_L003_counts.txt ../../counts_proc/call/O-3-2-4-1_S44_L004_counts.txt ../../counts_proc/call/O-3-2-4-2_S48_L001_counts.txt ../../counts_proc/call/O-3-2-4-2_S48_L002_counts.txt ../../counts_proc/call/O-3-2-4-2_S48_L003_counts.txt ../../counts_proc/call/O-3-2-4-2_S48_L004_counts.txt"
+[1] "Check if library Even contains unique AA sequences: FALSE"
+[1] "Check if library Odd contains unique AA sequences: FALSE"
+[1] "Check if library CT contains unique AA sequences: FALSE"
+[1] "Found 0 peptides common to all 3 libraries"
+[1] "Read controls from controls.csv and add to all libraries"
+[1] "WARNING: DNA sequence of control peptide pparg_4 is already in lib Even as ENSG00000132170_tile0002 - using control name"
+[1] "WARNING: DNA sequence of control peptide pparg_8 is already in lib Even as ENSG00000132170_tile0006 - using control name"
+[1] "WARNING: DNA sequence of control peptide pparg_30 is already in lib Even as ENSG00000132170_tile0028 - using control name"
+[1] "WARNING: DNA sequence of control peptide pparg_32 is already in lib Even as ENSG00000132170_tile0030 - using control name"
+[1] "WARNING: DNA sequence of control peptide pparg_11 is already in lib Odd as ENSG00000132170_tile0009 - using control name"
+[1] "WARNING: DNA sequence of control peptide pparg_15 is already in lib Odd as ENSG00000132170_tile0013 - using control name"
+[1] "WARNING: DNA sequence of control peptide pparg_19 is already in lib Odd as ENSG00000132170_tile0017 - using control name"
+[1] "WARNING: DNA sequence of control peptide pparg_25 is already in lib Odd as ENSG00000132170_tile0023 - using control name"
+[1] "WARNING: DNA sequence of control peptide pparg_27 is already in lib Odd as ENSG00000132170_tile0025 - using control name"
+[1] "Found 28 control sequences"
+[1] "Mapped 63245 out of 77337 raw counts (81.78%) from CT-1-1-1-1_S17_L001"
+[1] "Mapped 63106 out of 76838 raw counts (82.13%) from CT-1-1-1-1_S17_L002"
+[1] "Mapped 63428 out of 77551 raw counts (81.79%) from CT-1-1-1-1_S17_L003"
+[1] "Mapped 63015 out of 76489 raw counts (82.38%) from CT-1-1-1-1_S17_L004"
+[1] "Mapped 56408 out of 68343 raw counts (82.54%) from CT-1-1-1-2_S21_L001"
+[1] "Mapped 56841 out of 68670 raw counts (82.77%) from CT-1-1-1-2_S21_L002"
+[1] "Mapped 56190 out of 68292 raw counts (82.28%) from CT-1-1-1-2_S21_L003"
+[1] "Mapped 55905 out of 67977 raw counts (82.24%) from CT-1-1-1-2_S21_L004"
+[1] "Mapped 80536 out of 96525 raw counts (83.44%) from CT-1-1-2-1_S18_L001"
+[1] "Mapped 80087 out of 95670 raw counts (83.71%) from CT-1-1-2-1_S18_L002"
+[1] "Mapped 81039 out of 96804 raw counts (83.71%) from CT-1-1-2-1_S18_L003"
+[1] "Mapped 79602 out of 94763 raw counts (84.00%) from CT-1-1-2-1_S18_L004"
+[1] "Mapped 53047 out of 61908 raw counts (85.69%) from CT-1-1-2-2_S22_L001"
+[1] "Mapped 53171 out of 62041 raw counts (85.70%) from CT-1-1-2-2_S22_L002"
+[1] "Mapped 52725 out of 61649 raw counts (85.52%) from CT-1-1-2-2_S22_L003"
+[1] "Mapped 52640 out of 61317 raw counts (85.85%) from CT-1-1-2-2_S22_L004"
+[1] "Mapped 66392 out of 76847 raw counts (86.40%) from CT-1-1-3-1_S19_L001"
+[1] "Mapped 66009 out of 75922 raw counts (86.94%) from CT-1-1-3-1_S19_L002"
+[1] "Mapped 66345 out of 76861 raw counts (86.32%) from CT-1-1-3-1_S19_L003"
+[1] "Mapped 65807 out of 75932 raw counts (86.67%) from CT-1-1-3-1_S19_L004"
+[1] "Mapped 57169 out of 65371 raw counts (87.45%) from CT-1-1-3-2_S23_L001"
+[1] "Mapped 56840 out of 65020 raw counts (87.42%) from CT-1-1-3-2_S23_L002"
+[1] "Mapped 57269 out of 65428 raw counts (87.53%) from CT-1-1-3-2_S23_L003"
+[1] "Mapped 56350 out of 64489 raw counts (87.38%) from CT-1-1-3-2_S23_L004"
+[1] "Mapped 55363 out of 63632 raw counts (87.00%) from CT-1-1-4-1_S20_L001"
+[1] "Mapped 55299 out of 63650 raw counts (86.88%) from CT-1-1-4-1_S20_L002"
+[1] "Mapped 55228 out of 63593 raw counts (86.85%) from CT-1-1-4-1_S20_L003"
+[1] "Mapped 54960 out of 63008 raw counts (87.23%) from CT-1-1-4-1_S20_L004"
+[1] "Mapped 88247 out of 103037 raw counts (85.65%) from CT-1-1-4-2_S24_L001"
+[1] "Mapped 88377 out of 102965 raw counts (85.83%) from CT-1-1-4-2_S24_L002"
+[1] "Mapped 88634 out of 103142 raw counts (85.93%) from CT-1-1-4-2_S24_L003"
+[1] "Mapped 87607 out of 102150 raw counts (85.76%) from CT-1-1-4-2_S24_L004"
+[1] "Mapped 45596 out of 55665 raw counts (81.91%) from CT-1-2-1-1_S25_L001"
+[1] "Mapped 45693 out of 55584 raw counts (82.21%) from CT-1-2-1-1_S25_L002"
+[1] "Mapped 45717 out of 55561 raw counts (82.28%) from CT-1-2-1-1_S25_L003"
+[1] "Mapped 45184 out of 55142 raw counts (81.94%) from CT-1-2-1-1_S25_L004"
+[1] "Mapped 47756 out of 58357 raw counts (81.83%) from CT-1-2-1-2_S29_L001"
+[1] "Mapped 48080 out of 58387 raw counts (82.35%) from CT-1-2-1-2_S29_L002"
+[1] "Mapped 48743 out of 59314 raw counts (82.18%) from CT-1-2-1-2_S29_L003"
+[1] "Mapped 47754 out of 58134 raw counts (82.14%) from CT-1-2-1-2_S29_L004"
+[1] "Mapped 51596 out of 60467 raw counts (85.33%) from CT-1-2-2-1_S26_L001"
+[1] "Mapped 51616 out of 60196 raw counts (85.75%) from CT-1-2-2-1_S26_L002"
+[1] "Mapped 51268 out of 59697 raw counts (85.88%) from CT-1-2-2-1_S26_L003"
+[1] "Mapped 51211 out of 59640 raw counts (85.87%) from CT-1-2-2-1_S26_L004"
+[1] "Mapped 56889 out of 66245 raw counts (85.88%) from CT-1-2-2-2_S30_L001"
+[1] "Mapped 56433 out of 65682 raw counts (85.92%) from CT-1-2-2-2_S30_L002"
+[1] "Mapped 57035 out of 66608 raw counts (85.63%) from CT-1-2-2-2_S30_L003"
+[1] "Mapped 55652 out of 65124 raw counts (85.46%) from CT-1-2-2-2_S30_L004"
+[1] "Mapped 59473 out of 68455 raw counts (86.88%) from CT-1-2-3-1_S27_L001"
+[1] "Mapped 59811 out of 68753 raw counts (86.99%) from CT-1-2-3-1_S27_L002"
+[1] "Mapped 59564 out of 68547 raw counts (86.90%) from CT-1-2-3-1_S27_L003"
+[1] "Mapped 58459 out of 67107 raw counts (87.11%) from CT-1-2-3-1_S27_L004"
+[1] "Mapped 45475 out of 51843 raw counts (87.72%) from CT-1-2-3-2_S31_L001"
+[1] "Mapped 46069 out of 52226 raw counts (88.21%) from CT-1-2-3-2_S31_L002"
+[1] "Mapped 45958 out of 52199 raw counts (88.04%) from CT-1-2-3-2_S31_L003"
+[1] "Mapped 45572 out of 51657 raw counts (88.22%) from CT-1-2-3-2_S31_L004"
+[1] "Mapped 59091 out of 68341 raw counts (86.46%) from CT-1-2-4-1_S28_L001"
+[1] "Mapped 59012 out of 68128 raw counts (86.62%) from CT-1-2-4-1_S28_L002"
+[1] "Mapped 58739 out of 68139 raw counts (86.20%) from CT-1-2-4-1_S28_L003"
+[1] "Mapped 57722 out of 66845 raw counts (86.35%) from CT-1-2-4-1_S28_L004"
+[1] "Mapped 61068 out of 70926 raw counts (86.10%) from CT-1-2-4-2_S32_L001"
+[1] "Mapped 61073 out of 70503 raw counts (86.62%) from CT-1-2-4-2_S32_L002"
+[1] "Mapped 61321 out of 70866 raw counts (86.53%) from CT-1-2-4-2_S32_L003"
+[1] "Mapped 60692 out of 69797 raw counts (86.96%) from CT-1-2-4-2_S32_L004"
+[1] "Mapped 53698 out of 66129 raw counts (81.20%) from CT-2-2-1-1_S33_L001"
+[1] "Mapped 54021 out of 66573 raw counts (81.15%) from CT-2-2-1-1_S33_L002"
+[1] "Mapped 54194 out of 66999 raw counts (80.89%) from CT-2-2-1-1_S33_L003"
+[1] "Mapped 53599 out of 66220 raw counts (80.94%) from CT-2-2-1-1_S33_L004"
+[1] "Mapped 63849 out of 79322 raw counts (80.49%) from CT-2-2-1-2_S37_L001"
+[1] "Mapped 64311 out of 79523 raw counts (80.87%) from CT-2-2-1-2_S37_L002"
+[1] "Mapped 63803 out of 78952 raw counts (80.81%) from CT-2-2-1-2_S37_L003"
+[1] "Mapped 63248 out of 78284 raw counts (80.79%) from CT-2-2-1-2_S37_L004"
+[1] "Mapped 59488 out of 69852 raw counts (85.16%) from CT-2-2-2-1_S34_L001"
+[1] "Mapped 59101 out of 69340 raw counts (85.23%) from CT-2-2-2-1_S34_L002"
+[1] "Mapped 59474 out of 70000 raw counts (84.96%) from CT-2-2-2-1_S34_L003"
+[1] "Mapped 58924 out of 69336 raw counts (84.98%) from CT-2-2-2-1_S34_L004"
+[1] "Mapped 54816 out of 64149 raw counts (85.45%) from CT-2-2-2-2_S38_L001"
+[1] "Mapped 55583 out of 65095 raw counts (85.39%) from CT-2-2-2-2_S38_L002"
+[1] "Mapped 55549 out of 64894 raw counts (85.60%) from CT-2-2-2-2_S38_L003"
+[1] "Mapped 54729 out of 64051 raw counts (85.45%) from CT-2-2-2-2_S38_L004"
+[1] "Mapped 53595 out of 62581 raw counts (85.64%) from CT-2-2-3-1_S35_L001"
+[1] "Mapped 53878 out of 62804 raw counts (85.79%) from CT-2-2-3-1_S35_L002"
+[1] "Mapped 53110 out of 62042 raw counts (85.60%) from CT-2-2-3-1_S35_L003"
+[1] "Mapped 53206 out of 61970 raw counts (85.86%) from CT-2-2-3-1_S35_L004"
+[1] "Mapped 46064 out of 53084 raw counts (86.78%) from CT-2-2-3-2_S39_L001"
+[1] "Mapped 46157 out of 53369 raw counts (86.49%) from CT-2-2-3-2_S39_L002"
+[1] "Mapped 45989 out of 53242 raw counts (86.38%) from CT-2-2-3-2_S39_L003"
+[1] "Mapped 45372 out of 52468 raw counts (86.48%) from CT-2-2-3-2_S39_L004"
+[1] "Mapped 64966 out of 76960 raw counts (84.42%) from CT-2-2-4-1_S36_L001"
+[1] "Mapped 65807 out of 77591 raw counts (84.81%) from CT-2-2-4-1_S36_L002"
+[1] "Mapped 65623 out of 77617 raw counts (84.55%) from CT-2-2-4-1_S36_L003"
+[1] "Mapped 65129 out of 76894 raw counts (84.70%) from CT-2-2-4-1_S36_L004"
+[1] "Mapped 54881 out of 64481 raw counts (85.11%) from CT-2-2-4-2_S40_L001"
+[1] "Mapped 55705 out of 65085 raw counts (85.59%) from CT-2-2-4-2_S40_L002"
+[1] "Mapped 55375 out of 64786 raw counts (85.47%) from CT-2-2-4-2_S40_L003"
+[1] "Mapped 54689 out of 63955 raw counts (85.51%) from CT-2-2-4-2_S40_L004"
+[1] "Mapped 74454 out of 93014 raw counts (80.05%) from CT-3-1-1-1_S41_L001"
+[1] "Mapped 75249 out of 93396 raw counts (80.57%) from CT-3-1-1-1_S41_L002"
+[1] "Mapped 74699 out of 93091 raw counts (80.24%) from CT-3-1-1-1_S41_L003"
+[1] "Mapped 74173 out of 92071 raw counts (80.56%) from CT-3-1-1-1_S41_L004"
+[1] "Mapped 50081 out of 60808 raw counts (82.36%) from CT-3-1-1-2_S45_L001"
+[1] "Mapped 50545 out of 61193 raw counts (82.60%) from CT-3-1-1-2_S45_L002"
+[1] "Mapped 50428 out of 61198 raw counts (82.40%) from CT-3-1-1-2_S45_L003"
+[1] "Mapped 50102 out of 60556 raw counts (82.74%) from CT-3-1-1-2_S45_L004"
+[1] "Mapped 64290 out of 76393 raw counts (84.16%) from CT-3-1-2-1_S42_L001"
+[1] "Mapped 64281 out of 76199 raw counts (84.36%) from CT-3-1-2-1_S42_L002"
+[1] "Mapped 64531 out of 76627 raw counts (84.21%) from CT-3-1-2-1_S42_L003"
+[1] "Mapped 63671 out of 75658 raw counts (84.16%) from CT-3-1-2-1_S42_L004"
+[1] "Mapped 73402 out of 87609 raw counts (83.78%) from CT-3-1-2-2_S46_L001"
+[1] "Mapped 73652 out of 87617 raw counts (84.06%) from CT-3-1-2-2_S46_L002"
+[1] "Mapped 73549 out of 87253 raw counts (84.29%) from CT-3-1-2-2_S46_L003"
+[1] "Mapped 73190 out of 86992 raw counts (84.13%) from CT-3-1-2-2_S46_L004"
+[1] "Mapped 65219 out of 76033 raw counts (85.78%) from CT-3-1-3-1_S43_L001"
+[1] "Mapped 65742 out of 76801 raw counts (85.60%) from CT-3-1-3-1_S43_L002"
+[1] "Mapped 65523 out of 76585 raw counts (85.56%) from CT-3-1-3-1_S43_L003"
+[1] "Mapped 65212 out of 76026 raw counts (85.78%) from CT-3-1-3-1_S43_L004"
+[1] "Mapped 68032 out of 79221 raw counts (85.88%) from CT-3-1-3-2_S47_L001"
+[1] "Mapped 68661 out of 79639 raw counts (86.22%) from CT-3-1-3-2_S47_L002"
+[1] "Mapped 68904 out of 80352 raw counts (85.75%) from CT-3-1-3-2_S47_L003"
+[1] "Mapped 67896 out of 79120 raw counts (85.81%) from CT-3-1-3-2_S47_L004"
+[1] "Mapped 64750 out of 76137 raw counts (85.04%) from CT-3-1-4-1_S44_L001"
+[1] "Mapped 64897 out of 75736 raw counts (85.69%) from CT-3-1-4-1_S44_L002"
+[1] "Mapped 65480 out of 76740 raw counts (85.33%) from CT-3-1-4-1_S44_L003"
+[1] "Mapped 64034 out of 74888 raw counts (85.51%) from CT-3-1-4-1_S44_L004"
+[1] "Mapped 57453 out of 67056 raw counts (85.68%) from CT-3-1-4-2_S48_L001"
+[1] "Mapped 58066 out of 67657 raw counts (85.82%) from CT-3-1-4-2_S48_L002"
+[1] "Mapped 57858 out of 67455 raw counts (85.77%) from CT-3-1-4-2_S48_L003"
+[1] "Mapped 57652 out of 66959 raw counts (86.10%) from CT-3-1-4-2_S48_L004"
+[1] "Mapped 63019 out of 78648 raw counts (80.13%) from CT-3-2-1-1_S49_L001"
+[1] "Mapped 63263 out of 78569 raw counts (80.52%) from CT-3-2-1-1_S49_L002"
+[1] "Mapped 63065 out of 78587 raw counts (80.25%) from CT-3-2-1-1_S49_L003"
+[1] "Mapped 62994 out of 78549 raw counts (80.20%) from CT-3-2-1-1_S49_L004"
+[1] "Mapped 69906 out of 87072 raw counts (80.29%) from CT-3-2-1-2_S53_L001"
+[1] "Mapped 70733 out of 87851 raw counts (80.51%) from CT-3-2-1-2_S53_L002"
+[1] "Mapped 70342 out of 87492 raw counts (80.40%) from CT-3-2-1-2_S53_L003"
+[1] "Mapped 69738 out of 86795 raw counts (80.35%) from CT-3-2-1-2_S53_L004"
+[1] "Mapped 72385 out of 86103 raw counts (84.07%) from CT-3-2-2-1_S50_L001"
+[1] "Mapped 73288 out of 86778 raw counts (84.45%) from CT-3-2-2-1_S50_L002"
+[1] "Mapped 72578 out of 86131 raw counts (84.26%) from CT-3-2-2-1_S50_L003"
+[1] "Mapped 72707 out of 85902 raw counts (84.64%) from CT-3-2-2-1_S50_L004"
+[1] "Mapped 64126 out of 75785 raw counts (84.62%) from CT-3-2-2-2_S54_L001"
+[1] "Mapped 64344 out of 75561 raw counts (85.16%) from CT-3-2-2-2_S54_L002"
+[1] "Mapped 64306 out of 75558 raw counts (85.11%) from CT-3-2-2-2_S54_L003"
+[1] "Mapped 63659 out of 75061 raw counts (84.81%) from CT-3-2-2-2_S54_L004"
+[1] "Mapped 57725 out of 66593 raw counts (86.68%) from CT-3-2-3-1_S51_L001"
+[1] "Mapped 57998 out of 66378 raw counts (87.38%) from CT-3-2-3-1_S51_L002"
+[1] "Mapped 58292 out of 67477 raw counts (86.39%) from CT-3-2-3-1_S51_L003"
+[1] "Mapped 57317 out of 66109 raw counts (86.70%) from CT-3-2-3-1_S51_L004"
+[1] "Mapped 59839 out of 69101 raw counts (86.60%) from CT-3-2-3-2_S55_L001"
+[1] "Mapped 60407 out of 69524 raw counts (86.89%) from CT-3-2-3-2_S55_L002"
+[1] "Mapped 60281 out of 69607 raw counts (86.60%) from CT-3-2-3-2_S55_L003"
+[1] "Mapped 59483 out of 68798 raw counts (86.46%) from CT-3-2-3-2_S55_L004"
+[1] "Mapped 57777 out of 67130 raw counts (86.07%) from CT-3-2-4-1_S52_L001"
+[1] "Mapped 57745 out of 67434 raw counts (85.63%) from CT-3-2-4-1_S52_L002"
+[1] "Mapped 57915 out of 67347 raw counts (85.99%) from CT-3-2-4-1_S52_L003"
+[1] "Mapped 57522 out of 66937 raw counts (85.93%) from CT-3-2-4-1_S52_L004"
+[1] "Mapped 70326 out of 82508 raw counts (85.24%) from CT-3-2-4-2_S56_L001"
+[1] "Mapped 70239 out of 82443 raw counts (85.20%) from CT-3-2-4-2_S56_L002"
+[1] "Mapped 70788 out of 83031 raw counts (85.25%) from CT-3-2-4-2_S56_L003"
+[1] "Mapped 70340 out of 82241 raw counts (85.53%) from CT-3-2-4-2_S56_L004"
+[1] "Mapped 303905 out of 326369 raw counts (93.12%) from E-1-1-1-1_S49_L001"
+[1] "Mapped 496881 out of 538056 raw counts (92.35%) from E-1-1-1-1_S49_L002"
+[1] "Mapped 310830 out of 333209 raw counts (93.28%) from E-1-1-1-1_S49_L003"
+[1] "Mapped 468875 out of 506606 raw counts (92.55%) from E-1-1-1-1_S49_L004"
+[1] "Mapped 331824 out of 358123 raw counts (92.66%) from E-1-1-1-2_S53_L001"
+[1] "Mapped 565061 out of 614003 raw counts (92.03%) from E-1-1-1-2_S53_L002"
+[1] "Mapped 339515 out of 364892 raw counts (93.05%) from E-1-1-1-2_S53_L003"
+[1] "Mapped 529272 out of 573764 raw counts (92.25%) from E-1-1-1-2_S53_L004"
+[1] "Mapped 228384 out of 243356 raw counts (93.85%) from E-1-1-2-1_S50_L001"
+[1] "Mapped 373169 out of 400459 raw counts (93.19%) from E-1-1-2-1_S50_L002"
+[1] "Mapped 233819 out of 248745 raw counts (94.00%) from E-1-1-2-1_S50_L003"
+[1] "Mapped 352259 out of 376735 raw counts (93.50%) from E-1-1-2-1_S50_L004"
+[1] "Mapped 504421 out of 554852 raw counts (90.91%) from E-1-1-2-2_S54_L001"
+[1] "Mapped 890480 out of 983454 raw counts (90.55%) from E-1-1-2-2_S54_L002"
+[1] "Mapped 516016 out of 565118 raw counts (91.31%) from E-1-1-2-2_S54_L003"
+[1] "Mapped 825622 out of 909141 raw counts (90.81%) from E-1-1-2-2_S54_L004"
+[1] "Mapped 228369 out of 242531 raw counts (94.16%) from E-1-1-3-1_S51_L001"
+[1] "Mapped 418857 out of 448674 raw counts (93.35%) from E-1-1-3-1_S51_L002"
+[1] "Mapped 235839 out of 249490 raw counts (94.53%) from E-1-1-3-1_S51_L003"
+[1] "Mapped 387238 out of 413438 raw counts (93.66%) from E-1-1-3-1_S51_L004"
+[1] "Mapped 373750 out of 405099 raw counts (92.26%) from E-1-1-3-2_S55_L001"
+[1] "Mapped 695046 out of 758230 raw counts (91.67%) from E-1-1-3-2_S55_L002"
+[1] "Mapped 385706 out of 416456 raw counts (92.62%) from E-1-1-3-2_S55_L003"
+[1] "Mapped 639148 out of 695214 raw counts (91.94%) from E-1-1-3-2_S55_L004"
+[1] "Mapped 143475 out of 150675 raw counts (95.22%) from E-1-1-4-1_S52_L001"
+[1] "Mapped 281182 out of 298022 raw counts (94.35%) from E-1-1-4-1_S52_L002"
+[1] "Mapped 148643 out of 155767 raw counts (95.43%) from E-1-1-4-1_S52_L003"
+[1] "Mapped 257400 out of 272251 raw counts (94.55%) from E-1-1-4-1_S52_L004"
+[1] "Mapped 317552 out of 341730 raw counts (92.92%) from E-1-1-4-2_S56_L001"
+[1] "Mapped 580454 out of 628107 raw counts (92.41%) from E-1-1-4-2_S56_L002"
+[1] "Mapped 327789 out of 352166 raw counts (93.08%) from E-1-1-4-2_S56_L003"
+[1] "Mapped 535670 out of 579136 raw counts (92.49%) from E-1-1-4-2_S56_L004"
+[1] "Mapped 351277 out of 382033 raw counts (91.95%) from E-1-2-1-1_S57_L001"
+[1] "Mapped 625498 out of 686910 raw counts (91.06%) from E-1-2-1-1_S57_L002"
+[1] "Mapped 362237 out of 392926 raw counts (92.19%) from E-1-2-1-1_S57_L003"
+[1] "Mapped 580333 out of 635744 raw counts (91.28%) from E-1-2-1-1_S57_L004"
+[1] "Mapped 263430 out of 282914 raw counts (93.11%) from E-1-2-1-2_S61_L001"
+[1] "Mapped 508531 out of 550891 raw counts (92.31%) from E-1-2-1-2_S61_L002"
+[1] "Mapped 272993 out of 292134 raw counts (93.45%) from E-1-2-1-2_S61_L003"
+[1] "Mapped 465150 out of 503342 raw counts (92.41%) from E-1-2-1-2_S61_L004"
+[1] "Mapped 328495 out of 355520 raw counts (92.40%) from E-1-2-2-1_S58_L001"
+[1] "Mapped 627017 out of 684903 raw counts (91.55%) from E-1-2-2-1_S58_L002"
+[1] "Mapped 342592 out of 369182 raw counts (92.80%) from E-1-2-2-1_S58_L003"
+[1] "Mapped 573601 out of 624213 raw counts (91.89%) from E-1-2-2-1_S58_L004"
+[1] "Mapped 344108 out of 371970 raw counts (92.51%) from E-1-2-2-2_S62_L001"
+[1] "Mapped 625830 out of 682201 raw counts (91.74%) from E-1-2-2-2_S62_L002"
+[1] "Mapped 354655 out of 381894 raw counts (92.87%) from E-1-2-2-2_S62_L003"
+[1] "Mapped 577383 out of 628006 raw counts (91.94%) from E-1-2-2-2_S62_L004"
+[1] "Mapped 426058 out of 463861 raw counts (91.85%) from E-1-2-3-1_S59_L001"
+[1] "Mapped 723303 out of 790218 raw counts (91.53%) from E-1-2-3-1_S59_L002"
+[1] "Mapped 436364 out of 473029 raw counts (92.25%) from E-1-2-3-1_S59_L003"
+[1] "Mapped 673045 out of 734303 raw counts (91.66%) from E-1-2-3-1_S59_L004"
+[1] "Mapped 324348 out of 350024 raw counts (92.66%) from E-1-2-3-2_S63_L001"
+[1] "Mapped 605533 out of 658632 raw counts (91.94%) from E-1-2-3-2_S63_L002"
+[1] "Mapped 334051 out of 358995 raw counts (93.05%) from E-1-2-3-2_S63_L003"
+[1] "Mapped 556062 out of 602770 raw counts (92.25%) from E-1-2-3-2_S63_L004"
+[1] "Mapped 323619 out of 349176 raw counts (92.68%) from E-1-2-4-1_S60_L001"
+[1] "Mapped 567533 out of 616638 raw counts (92.04%) from E-1-2-4-1_S60_L002"
+[1] "Mapped 331558 out of 356322 raw counts (93.05%) from E-1-2-4-1_S60_L003"
+[1] "Mapped 525141 out of 569157 raw counts (92.27%) from E-1-2-4-1_S60_L004"
+[1] "Mapped 349499 out of 380394 raw counts (91.88%) from E-1-2-4-2_S64_L001"
+[1] "Mapped 677310 out of 741079 raw counts (91.40%) from E-1-2-4-2_S64_L002"
+[1] "Mapped 362237 out of 392335 raw counts (92.33%) from E-1-2-4-2_S64_L003"
+[1] "Mapped 619006 out of 674908 raw counts (91.72%) from E-1-2-4-2_S64_L004"
+[1] "Mapped 393851 out of 434929 raw counts (90.56%) from E-2-1-1-1_S65_L001"
+[1] "Mapped 705036 out of 786476 raw counts (89.64%) from E-2-1-1-1_S65_L002"
+[1] "Mapped 405142 out of 446299 raw counts (90.78%) from E-2-1-1-1_S65_L003"
+[1] "Mapped 652024 out of 724547 raw counts (89.99%) from E-2-1-1-1_S65_L004"
+[1] "Mapped 409930 out of 458304 raw counts (89.44%) from E-2-1-1-2_S69_L001"
+[1] "Mapped 752625 out of 848900 raw counts (88.66%) from E-2-1-1-2_S69_L002"
+[1] "Mapped 423329 out of 471456 raw counts (89.79%) from E-2-1-1-2_S69_L003"
+[1] "Mapped 695977 out of 782165 raw counts (88.98%) from E-2-1-1-2_S69_L004"
+[1] "Mapped 380634 out of 417844 raw counts (91.09%) from E-2-1-2-1_S66_L001"
+[1] "Mapped 697909 out of 773716 raw counts (90.20%) from E-2-1-2-1_S66_L002"
+[1] "Mapped 392913 out of 430281 raw counts (91.32%) from E-2-1-2-1_S66_L003"
+[1] "Mapped 644447 out of 711534 raw counts (90.57%) from E-2-1-2-1_S66_L004"
+[1] "Mapped 328807 out of 360614 raw counts (91.18%) from E-2-1-2-2_S70_L001"
+[1] "Mapped 599097 out of 663713 raw counts (90.26%) from E-2-1-2-2_S70_L002"
+[1] "Mapped 338351 out of 370007 raw counts (91.44%) from E-2-1-2-2_S70_L003"
+[1] "Mapped 552894 out of 610530 raw counts (90.56%) from E-2-1-2-2_S70_L004"
+[1] "Mapped 330461 out of 358934 raw counts (92.07%) from E-2-1-3-1_S67_L001"
+[1] "Mapped 622534 out of 681392 raw counts (91.36%) from E-2-1-3-1_S67_L002"
+[1] "Mapped 340955 out of 368626 raw counts (92.49%) from E-2-1-3-1_S67_L003"
+[1] "Mapped 574211 out of 626792 raw counts (91.61%) from E-2-1-3-1_S67_L004"
+[1] "Mapped 295467 out of 320475 raw counts (92.20%) from E-2-1-3-2_S71_L001"
+[1] "Mapped 553081 out of 604436 raw counts (91.50%) from E-2-1-3-2_S71_L002"
+[1] "Mapped 307789 out of 332537 raw counts (92.56%) from E-2-1-3-2_S71_L003"
+[1] "Mapped 508658 out of 554442 raw counts (91.74%) from E-2-1-3-2_S71_L004"
+[1] "Mapped 379421 out of 420128 raw counts (90.31%) from E-2-1-4-1_S68_L001"
+[1] "Mapped 724718 out of 805127 raw counts (90.01%) from E-2-1-4-1_S68_L002"
+[1] "Mapped 390985 out of 430795 raw counts (90.76%) from E-2-1-4-1_S68_L003"
+[1] "Mapped 664815 out of 737044 raw counts (90.20%) from E-2-1-4-1_S68_L004"
+[1] "Mapped 371668 out of 408789 raw counts (90.92%) from E-2-1-4-2_S72_L001"
+[1] "Mapped 654065 out of 723015 raw counts (90.46%) from E-2-1-4-2_S72_L002"
+[1] "Mapped 381135 out of 417860 raw counts (91.21%) from E-2-1-4-2_S72_L003"
+[1] "Mapped 606345 out of 668462 raw counts (90.71%) from E-2-1-4-2_S72_L004"
+[1] "Mapped 443194 out of 501502 raw counts (88.37%) from E-2-2-1-1_S73_L001"
+[1] "Mapped 917247 out of 1044361 raw counts (87.83%) from E-2-2-1-1_S73_L002"
+[1] "Mapped 462602 out of 519908 raw counts (88.98%) from E-2-2-1-1_S73_L003"
+[1] "Mapped 832281 out of 945320 raw counts (88.04%) from E-2-2-1-1_S73_L004"
+[1] "Mapped 333115 out of 368723 raw counts (90.34%) from E-2-2-1-2_S77_L001"
+[1] "Mapped 589683 out of 659168 raw counts (89.46%) from E-2-2-1-2_S77_L002"
+[1] "Mapped 340656 out of 376176 raw counts (90.56%) from E-2-2-1-2_S77_L003"
+[1] "Mapped 547715 out of 610203 raw counts (89.76%) from E-2-2-1-2_S77_L004"
+[1] "Mapped 484206 out of 545904 raw counts (88.70%) from E-2-2-2-1_S74_L001"
+[1] "Mapped 911464 out of 1036105 raw counts (87.97%) from E-2-2-2-1_S74_L002"
+[1] "Mapped 500888 out of 562505 raw counts (89.05%) from E-2-2-2-1_S74_L003"
+[1] "Mapped 837581 out of 948735 raw counts (88.28%) from E-2-2-2-1_S74_L004"
+[1] "Mapped 368118 out of 405937 raw counts (90.68%) from E-2-2-2-2_S78_L001"
+[1] "Mapped 675339 out of 751503 raw counts (89.87%) from E-2-2-2-2_S78_L002"
+[1] "Mapped 378305 out of 415445 raw counts (91.06%) from E-2-2-2-2_S78_L003"
+[1] "Mapped 623276 out of 691331 raw counts (90.16%) from E-2-2-2-2_S78_L004"
+[1] "Mapped 410684 out of 452827 raw counts (90.69%) from E-2-2-3-1_S75_L001"
+[1] "Mapped 765087 out of 849553 raw counts (90.06%) from E-2-2-3-1_S75_L002"
+[1] "Mapped 425439 out of 466977 raw counts (91.10%) from E-2-2-3-1_S75_L003"
+[1] "Mapped 701951 out of 775890 raw counts (90.47%) from E-2-2-3-1_S75_L004"
+[1] "Mapped 433107 out of 476911 raw counts (90.82%) from E-2-2-3-2_S79_L001"
+[1] "Mapped 793010 out of 878592 raw counts (90.26%) from E-2-2-3-2_S79_L002"
+[1] "Mapped 447256 out of 490356 raw counts (91.21%) from E-2-2-3-2_S79_L003"
+[1] "Mapped 735138 out of 811676 raw counts (90.57%) from E-2-2-3-2_S79_L004"
+[1] "Mapped 461379 out of 517171 raw counts (89.21%) from E-2-2-4-1_S76_L001"
+[1] "Mapped 870865 out of 976840 raw counts (89.15%) from E-2-2-4-1_S76_L002"
+[1] "Mapped 477730 out of 532536 raw counts (89.71%) from E-2-2-4-1_S76_L003"
+[1] "Mapped 801333 out of 895390 raw counts (89.50%) from E-2-2-4-1_S76_L004"
+[1] "Mapped 498042 out of 555927 raw counts (89.59%) from E-2-2-4-2_S80_L001"
+[1] "Mapped 874107 out of 976826 raw counts (89.48%) from E-2-2-4-2_S80_L002"
+[1] "Mapped 510337 out of 566572 raw counts (90.07%) from E-2-2-4-2_S80_L003"
+[1] "Mapped 810851 out of 904281 raw counts (89.67%) from E-2-2-4-2_S80_L004"
+[1] "Mapped 1098270 out of 1237885 raw counts (88.72%) from E-3-1-1-1_S1_L001"
+[1] "Mapped 1082744 out of 1217415 raw counts (88.94%) from E-3-1-1-1_S1_L002"
+[1] "Mapped 1103635 out of 1241533 raw counts (88.89%) from E-3-1-1-1_S1_L003"
+[1] "Mapped 1077744 out of 1211993 raw counts (88.92%) from E-3-1-1-1_S1_L004"
+[1] "Mapped 1156052 out of 1301324 raw counts (88.84%) from E-3-1-1-2_S5_L001"
+[1] "Mapped 1145868 out of 1287252 raw counts (89.02%) from E-3-1-1-2_S5_L002"
+[1] "Mapped 1164194 out of 1309858 raw counts (88.88%) from E-3-1-1-2_S5_L003"
+[1] "Mapped 1140771 out of 1281377 raw counts (89.03%) from E-3-1-1-2_S5_L004"
+[1] "Mapped 1206474 out of 1353748 raw counts (89.12%) from E-3-1-2-1_S2_L001"
+[1] "Mapped 1182072 out of 1323259 raw counts (89.33%) from E-3-1-2-1_S2_L002"
+[1] "Mapped 1213792 out of 1360627 raw counts (89.21%) from E-3-1-2-1_S2_L003"
+[1] "Mapped 1177597 out of 1317890 raw counts (89.35%) from E-3-1-2-1_S2_L004"
+[1] "Mapped 1229086 out of 1378247 raw counts (89.18%) from E-3-1-2-2_S6_L001"
+[1] "Mapped 1219031 out of 1363456 raw counts (89.41%) from E-3-1-2-2_S6_L002"
+[1] "Mapped 1234268 out of 1381566 raw counts (89.34%) from E-3-1-2-2_S6_L003"
+[1] "Mapped 1212769 out of 1356526 raw counts (89.40%) from E-3-1-2-2_S6_L004"
+[1] "Mapped 1143679 out of 1270424 raw counts (90.02%) from E-3-1-3-1_S3_L001"
+[1] "Mapped 1128912 out of 1250716 raw counts (90.26%) from E-3-1-3-1_S3_L002"
+[1] "Mapped 1148003 out of 1273143 raw counts (90.17%) from E-3-1-3-1_S3_L003"
+[1] "Mapped 1121185 out of 1242494 raw counts (90.24%) from E-3-1-3-1_S3_L004"
+[1] "Mapped 892996 out of 983765 raw counts (90.77%) from E-3-1-3-2_S7_L001"
+[1] "Mapped 873557 out of 960391 raw counts (90.96%) from E-3-1-3-2_S7_L002"
+[1] "Mapped 894937 out of 985491 raw counts (90.81%) from E-3-1-3-2_S7_L003"
+[1] "Mapped 869592 out of 955016 raw counts (91.06%) from E-3-1-3-2_S7_L004"
+[1] "Mapped 1192784 out of 1328692 raw counts (89.77%) from E-3-1-4-1_S4_L001"
+[1] "Mapped 1181641 out of 1313234 raw counts (89.98%) from E-3-1-4-1_S4_L002"
+[1] "Mapped 1193215 out of 1328053 raw counts (89.85%) from E-3-1-4-1_S4_L003"
+[1] "Mapped 1170711 out of 1301345 raw counts (89.96%) from E-3-1-4-1_S4_L004"
+[1] "Mapped 1315212 out of 1470571 raw counts (89.44%) from E-3-1-4-2_S8_L001"
+[1] "Mapped 1295354 out of 1445840 raw counts (89.59%) from E-3-1-4-2_S8_L002"
+[1] "Mapped 1319132 out of 1473338 raw counts (89.53%) from E-3-1-4-2_S8_L003"
+[1] "Mapped 1286143 out of 1435244 raw counts (89.61%) from E-3-1-4-2_S8_L004"
+[1] "Mapped 1209606 out of 1379715 raw counts (87.67%) from E-3-2-1-1_S9_L001"
+[1] "Mapped 1203700 out of 1369999 raw counts (87.86%) from E-3-2-1-1_S9_L002"
+[1] "Mapped 1216384 out of 1386321 raw counts (87.74%) from E-3-2-1-1_S9_L003"
+[1] "Mapped 1196327 out of 1360365 raw counts (87.94%) from E-3-2-1-1_S9_L004"
+[1] "Mapped 1242992 out of 1415284 raw counts (87.83%) from E-3-2-1-2_S13_L001"
+[1] "Mapped 1223986 out of 1391018 raw counts (87.99%) from E-3-2-1-2_S13_L002"
+[1] "Mapped 1248408 out of 1419934 raw counts (87.92%) from E-3-2-1-2_S13_L003"
+[1] "Mapped 1219454 out of 1386045 raw counts (87.98%) from E-3-2-1-2_S13_L004"
+[1] "Mapped 1283403 out of 1454786 raw counts (88.22%) from E-3-2-2-1_S10_L001"
+[1] "Mapped 1269681 out of 1435675 raw counts (88.44%) from E-3-2-2-1_S10_L002"
+[1] "Mapped 1288323 out of 1458489 raw counts (88.33%) from E-3-2-2-1_S10_L003"
+[1] "Mapped 1260921 out of 1425694 raw counts (88.44%) from E-3-2-2-1_S10_L004"
+[1] "Mapped 1124271 out of 1269635 raw counts (88.55%) from E-3-2-2-2_S14_L001"
+[1] "Mapped 1106990 out of 1248323 raw counts (88.68%) from E-3-2-2-2_S14_L002"
+[1] "Mapped 1124728 out of 1269965 raw counts (88.56%) from E-3-2-2-2_S14_L003"
+[1] "Mapped 1099638 out of 1239505 raw counts (88.72%) from E-3-2-2-2_S14_L004"
+[1] "Mapped 1068146 out of 1192309 raw counts (89.59%) from E-3-2-3-1_S11_L001"
+[1] "Mapped 1056397 out of 1177124 raw counts (89.74%) from E-3-2-3-1_S11_L002"
+[1] "Mapped 1073514 out of 1196821 raw counts (89.70%) from E-3-2-3-1_S11_L003"
+[1] "Mapped 1050585 out of 1170199 raw counts (89.78%) from E-3-2-3-1_S11_L004"
+[1] "Mapped 1195077 out of 1337015 raw counts (89.38%) from E-3-2-3-2_S15_L001"
+[1] "Mapped 1184607 out of 1321489 raw counts (89.64%) from E-3-2-3-2_S15_L002"
+[1] "Mapped 1196540 out of 1337399 raw counts (89.47%) from E-3-2-3-2_S15_L003"
+[1] "Mapped 1176009 out of 1312346 raw counts (89.61%) from E-3-2-3-2_S15_L004"
+[1] "Mapped 1430172 out of 1618036 raw counts (88.39%) from E-3-2-4-1_S12_L001"
+[1] "Mapped 1410503 out of 1591992 raw counts (88.60%) from E-3-2-4-1_S12_L002"
+[1] "Mapped 1434500 out of 1620203 raw counts (88.54%) from E-3-2-4-1_S12_L003"
+[1] "Mapped 1402042 out of 1580812 raw counts (88.69%) from E-3-2-4-1_S12_L004"
+[1] "Mapped 1110318 out of 1242409 raw counts (89.37%) from E-3-2-4-2_S16_L001"
+[1] "Mapped 1096527 out of 1225783 raw counts (89.46%) from E-3-2-4-2_S16_L002"
+[1] "Mapped 1116073 out of 1248527 raw counts (89.39%) from E-3-2-4-2_S16_L003"
+[1] "Mapped 1091399 out of 1219196 raw counts (89.52%) from E-3-2-4-2_S16_L004"
+[1] "Mapped 383852 out of 442342 raw counts (86.78%) from O-1-1-1-1_S1_L001"
+[1] "Mapped 611857 out of 709749 raw counts (86.21%) from O-1-1-1-1_S1_L002"
+[1] "Mapped 389744 out of 448185 raw counts (86.96%) from O-1-1-1-1_S1_L003"
+[1] "Mapped 575107 out of 665785 raw counts (86.38%) from O-1-1-1-1_S1_L004"
+[1] "Mapped 443082 out of 515052 raw counts (86.03%) from O-1-1-1-2_S5_L001"
+[1] "Mapped 722002 out of 843732 raw counts (85.57%) from O-1-1-1-2_S5_L002"
+[1] "Mapped 451216 out of 522964 raw counts (86.28%) from O-1-1-1-2_S5_L003"
+[1] "Mapped 675332 out of 787529 raw counts (85.75%) from O-1-1-1-2_S5_L004"
+[1] "Mapped 180839 out of 198958 raw counts (90.89%) from O-1-1-2-1_S2_L001"
+[1] "Mapped 308140 out of 342830 raw counts (89.88%) from O-1-1-2-1_S2_L002"
+[1] "Mapped 185429 out of 203875 raw counts (90.95%) from O-1-1-2-1_S2_L003"
+[1] "Mapped 286663 out of 318227 raw counts (90.08%) from O-1-1-2-1_S2_L004"
+[1] "Mapped 380256 out of 432357 raw counts (87.95%) from O-1-1-2-2_S6_L001"
+[1] "Mapped 617430 out of 707365 raw counts (87.29%) from O-1-1-2-2_S6_L002"
+[1] "Mapped 387577 out of 439565 raw counts (88.17%) from O-1-1-2-2_S6_L003"
+[1] "Mapped 579621 out of 662073 raw counts (87.55%) from O-1-1-2-2_S6_L004"
+[1] "Mapped 417364 out of 473223 raw counts (88.20%) from O-1-1-3-1_S3_L001"
+[1] "Mapped 652048 out of 741822 raw counts (87.90%) from O-1-1-3-1_S3_L002"
+[1] "Mapped 426535 out of 481407 raw counts (88.60%) from O-1-1-3-1_S3_L003"
+[1] "Mapped 618107 out of 701691 raw counts (88.09%) from O-1-1-3-1_S3_L004"
+[1] "Mapped 434493 out of 493921 raw counts (87.97%) from O-1-1-3-2_S7_L001"
+[1] "Mapped 697853 out of 797558 raw counts (87.50%) from O-1-1-3-2_S7_L002"
+[1] "Mapped 443338 out of 501915 raw counts (88.33%) from O-1-1-3-2_S7_L003"
+[1] "Mapped 657356 out of 748869 raw counts (87.78%) from O-1-1-3-2_S7_L004"
+[1] "Mapped 389160 out of 444915 raw counts (87.47%) from O-1-1-4-1_S4_L001"
+[1] "Mapped 628975 out of 720707 raw counts (87.27%) from O-1-1-4-1_S4_L002"
+[1] "Mapped 397267 out of 452316 raw counts (87.83%) from O-1-1-4-1_S4_L003"
+[1] "Mapped 590535 out of 674817 raw counts (87.51%) from O-1-1-4-1_S4_L004"
+[1] "Mapped 502725 out of 582787 raw counts (86.26%) from O-1-1-4-2_S8_L001"
+[1] "Mapped 848593 out of 983301 raw counts (86.30%) from O-1-1-4-2_S8_L002"
+[1] "Mapped 518731 out of 598196 raw counts (86.72%) from O-1-1-4-2_S8_L003"
+[1] "Mapped 789325 out of 912825 raw counts (86.47%) from O-1-1-4-2_S8_L004"
+[1] "Mapped 390658 out of 454719 raw counts (85.91%) from O-1-2-1-1_S9_L001"
+[1] "Mapped 642903 out of 754066 raw counts (85.26%) from O-1-2-1-1_S9_L002"
+[1] "Mapped 398872 out of 463278 raw counts (86.10%) from O-1-2-1-1_S9_L003"
+[1] "Mapped 599790 out of 702088 raw counts (85.43%) from O-1-2-1-1_S9_L004"
+[1] "Mapped 585032 out of 695158 raw counts (84.16%) from O-1-2-1-2_S13_L001"
+[1] "Mapped 876462 out of 1043172 raw counts (84.02%) from O-1-2-1-2_S13_L002"
+[1] "Mapped 594203 out of 703281 raw counts (84.49%) from O-1-2-1-2_S13_L003"
+[1] "Mapped 828381 out of 984167 raw counts (84.17%) from O-1-2-1-2_S13_L004"
+[1] "Mapped 257390 out of 288888 raw counts (89.10%) from O-1-2-2-1_S10_L001"
+[1] "Mapped 446002 out of 505311 raw counts (88.26%) from O-1-2-2-1_S10_L002"
+[1] "Mapped 263731 out of 295167 raw counts (89.35%) from O-1-2-2-1_S10_L003"
+[1] "Mapped 414835 out of 468775 raw counts (88.49%) from O-1-2-2-1_S10_L004"
+[1] "Mapped 520745 out of 603992 raw counts (86.22%) from O-1-2-2-2_S14_L001"
+[1] "Mapped 808152 out of 942267 raw counts (85.77%) from O-1-2-2-2_S14_L002"
+[1] "Mapped 526872 out of 609485 raw counts (86.45%) from O-1-2-2-2_S14_L003"
+[1] "Mapped 762232 out of 886246 raw counts (86.01%) from O-1-2-2-2_S14_L004"
+[1] "Mapped 324253 out of 364402 raw counts (88.98%) from O-1-2-3-1_S11_L001"
+[1] "Mapped 532377 out of 602641 raw counts (88.34%) from O-1-2-3-1_S11_L002"
+[1] "Mapped 331155 out of 371809 raw counts (89.07%) from O-1-2-3-1_S11_L003"
+[1] "Mapped 500871 out of 566216 raw counts (88.46%) from O-1-2-3-1_S11_L004"
+[1] "Mapped 339171 out of 382898 raw counts (88.58%) from O-1-2-3-2_S15_L001"
+[1] "Mapped 586524 out of 666618 raw counts (87.99%) from O-1-2-3-2_S15_L002"
+[1] "Mapped 347151 out of 390314 raw counts (88.94%) from O-1-2-3-2_S15_L003"
+[1] "Mapped 547163 out of 619816 raw counts (88.28%) from O-1-2-3-2_S15_L004"
+[1] "Mapped 270160 out of 305736 raw counts (88.36%) from O-1-2-4-1_S12_L001"
+[1] "Mapped 450480 out of 511451 raw counts (88.08%) from O-1-2-4-1_S12_L002"
+[1] "Mapped 277283 out of 312439 raw counts (88.75%) from O-1-2-4-1_S12_L003"
+[1] "Mapped 422442 out of 478778 raw counts (88.23%) from O-1-2-4-1_S12_L004"
+[1] "Mapped 322248 out of 366477 raw counts (87.93%) from O-1-2-4-2_S16_L001"
+[1] "Mapped 527817 out of 603146 raw counts (87.51%) from O-1-2-4-2_S16_L002"
+[1] "Mapped 330641 out of 374434 raw counts (88.30%) from O-1-2-4-2_S16_L003"
+[1] "Mapped 494895 out of 564198 raw counts (87.72%) from O-1-2-4-2_S16_L004"
+[1] "Mapped 341101 out of 391487 raw counts (87.13%) from O-2-1-1-1_S17_L001"
+[1] "Mapped 560177 out of 648187 raw counts (86.42%) from O-2-1-1-1_S17_L002"
+[1] "Mapped 346911 out of 396869 raw counts (87.41%) from O-2-1-1-1_S17_L003"
+[1] "Mapped 523092 out of 603407 raw counts (86.69%) from O-2-1-1-1_S17_L004"
+[1] "Mapped 379026 out of 435672 raw counts (87.00%) from O-2-1-1-2_S21_L001"
+[1] "Mapped 616439 out of 714235 raw counts (86.31%) from O-2-1-1-2_S21_L002"
+[1] "Mapped 385044 out of 442152 raw counts (87.08%) from O-2-1-1-2_S21_L003"
+[1] "Mapped 578486 out of 668624 raw counts (86.52%) from O-2-1-1-2_S21_L004"
+[1] "Mapped 347046 out of 394607 raw counts (87.95%) from O-2-1-2-1_S18_L001"
+[1] "Mapped 584996 out of 670655 raw counts (87.23%) from O-2-1-2-1_S18_L002"
+[1] "Mapped 355471 out of 403138 raw counts (88.18%) from O-2-1-2-1_S18_L003"
+[1] "Mapped 548643 out of 627038 raw counts (87.50%) from O-2-1-2-1_S18_L004"
+[1] "Mapped 433684 out of 496370 raw counts (87.37%) from O-2-1-2-2_S22_L001"
+[1] "Mapped 680312 out of 783398 raw counts (86.84%) from O-2-1-2-2_S22_L002"
+[1] "Mapped 440469 out of 502567 raw counts (87.64%) from O-2-1-2-2_S22_L003"
+[1] "Mapped 642284 out of 737554 raw counts (87.08%) from O-2-1-2-2_S22_L004"
+[1] "Mapped 376835 out of 427016 raw counts (88.25%) from O-2-1-3-1_S19_L001"
+[1] "Mapped 627761 out of 715249 raw counts (87.77%) from O-2-1-3-1_S19_L002"
+[1] "Mapped 386095 out of 436324 raw counts (88.49%) from O-2-1-3-1_S19_L003"
+[1] "Mapped 587585 out of 668289 raw counts (87.92%) from O-2-1-3-1_S19_L004"
+[1] "Mapped 301653 out of 339320 raw counts (88.90%) from O-2-1-3-2_S23_L001"
+[1] "Mapped 570690 out of 648432 raw counts (88.01%) from O-2-1-3-2_S23_L002"
+[1] "Mapped 311411 out of 349325 raw counts (89.15%) from O-2-1-3-2_S23_L003"
+[1] "Mapped 523855 out of 593338 raw counts (88.29%) from O-2-1-3-2_S23_L004"
+[1] "Mapped 403915 out of 463757 raw counts (87.10%) from O-2-1-4-1_S20_L001"
+[1] "Mapped 662851 out of 763152 raw counts (86.86%) from O-2-1-4-1_S20_L002"
+[1] "Mapped 412499 out of 471629 raw counts (87.46%) from O-2-1-4-1_S20_L003"
+[1] "Mapped 621569 out of 713537 raw counts (87.11%) from O-2-1-4-1_S20_L004"
+[1] "Mapped 375312 out of 428124 raw counts (87.66%) from O-2-1-4-2_S24_L001"
+[1] "Mapped 640094 out of 732295 raw counts (87.41%) from O-2-1-4-2_S24_L002"
+[1] "Mapped 387007 out of 439812 raw counts (87.99%) from O-2-1-4-2_S24_L003"
+[1] "Mapped 598086 out of 683436 raw counts (87.51%) from O-2-1-4-2_S24_L004"
+[1] "Mapped 263539 out of 299793 raw counts (87.91%) from O-2-2-1-1_S25_L001"
+[1] "Mapped 431927 out of 495977 raw counts (87.09%) from O-2-2-1-1_S25_L002"
+[1] "Mapped 269573 out of 305850 raw counts (88.14%) from O-2-2-1-1_S25_L003"
+[1] "Mapped 403580 out of 462006 raw counts (87.35%) from O-2-2-1-1_S25_L004"
+[1] "Mapped 392384 out of 454766 raw counts (86.28%) from O-2-2-1-2_S29_L001"
+[1] "Mapped 629684 out of 733829 raw counts (85.81%) from O-2-2-1-2_S29_L002"
+[1] "Mapped 400766 out of 462967 raw counts (86.56%) from O-2-2-1-2_S29_L003"
+[1] "Mapped 595034 out of 691055 raw counts (86.11%) from O-2-2-1-2_S29_L004"
+[1] "Mapped 363464 out of 417306 raw counts (87.10%) from O-2-2-2-1_S26_L001"
+[1] "Mapped 614526 out of 710100 raw counts (86.54%) from O-2-2-2-1_S26_L002"
+[1] "Mapped 372682 out of 425691 raw counts (87.55%) from O-2-2-2-1_S26_L003"
+[1] "Mapped 573453 out of 661272 raw counts (86.72%) from O-2-2-2-1_S26_L004"
+[1] "Mapped 345728 out of 393819 raw counts (87.79%) from O-2-2-2-2_S30_L001"
+[1] "Mapped 542759 out of 622487 raw counts (87.19%) from O-2-2-2-2_S30_L002"
+[1] "Mapped 352091 out of 400605 raw counts (87.89%) from O-2-2-2-2_S30_L003"
+[1] "Mapped 512303 out of 586680 raw counts (87.32%) from O-2-2-2-2_S30_L004"
+[1] "Mapped 323746 out of 365303 raw counts (88.62%) from O-2-2-3-1_S27_L001"
+[1] "Mapped 525775 out of 597374 raw counts (88.01%) from O-2-2-3-1_S27_L002"
+[1] "Mapped 330009 out of 371122 raw counts (88.92%) from O-2-2-3-1_S27_L003"
+[1] "Mapped 493471 out of 559649 raw counts (88.18%) from O-2-2-3-1_S27_L004"
+[1] "Mapped 258116 out of 288539 raw counts (89.46%) from O-2-2-3-2_S31_L001"
+[1] "Mapped 440827 out of 496872 raw counts (88.72%) from O-2-2-3-2_S31_L002"
+[1] "Mapped 264673 out of 295058 raw counts (89.70%) from O-2-2-3-2_S31_L003"
+[1] "Mapped 409789 out of 460701 raw counts (88.95%) from O-2-2-3-2_S31_L004"
+[1] "Mapped 348929 out of 396951 raw counts (87.90%) from O-2-2-4-1_S28_L001"
+[1] "Mapped 576708 out of 658444 raw counts (87.59%) from O-2-2-4-1_S28_L002"
+[1] "Mapped 357591 out of 404531 raw counts (88.40%) from O-2-2-4-1_S28_L003"
+[1] "Mapped 540497 out of 615977 raw counts (87.75%) from O-2-2-4-1_S28_L004"
+[1] "Mapped 425872 out of 489949 raw counts (86.92%) from O-2-2-4-2_S32_L001"
+[1] "Mapped 682255 out of 786330 raw counts (86.76%) from O-2-2-4-2_S32_L002"
+[1] "Mapped 435603 out of 499158 raw counts (87.27%) from O-2-2-4-2_S32_L003"
+[1] "Mapped 640674 out of 737711 raw counts (86.85%) from O-2-2-4-2_S32_L004"
+[1] "Mapped 290576 out of 330876 raw counts (87.82%) from O-3-1-1-1_S33_L001"
+[1] "Mapped 489633 out of 563791 raw counts (86.85%) from O-3-1-1-1_S33_L002"
+[1] "Mapped 295106 out of 335423 raw counts (87.98%) from O-3-1-1-1_S33_L003"
+[1] "Mapped 456697 out of 523879 raw counts (87.18%) from O-3-1-1-1_S33_L004"
+[1] "Mapped 195198 out of 218157 raw counts (89.48%) from O-3-1-1-2_S37_L001"
+[1] "Mapped 338332 out of 381959 raw counts (88.58%) from O-3-1-1-2_S37_L002"
+[1] "Mapped 198448 out of 221324 raw counts (89.66%) from O-3-1-1-2_S37_L003"
+[1] "Mapped 313893 out of 353131 raw counts (88.89%) from O-3-1-1-2_S37_L004"
+[1] "Mapped 199395 out of 221058 raw counts (90.20%) from O-3-1-2-1_S34_L001"
+[1] "Mapped 346202 out of 388427 raw counts (89.13%) from O-3-1-2-1_S34_L002"
+[1] "Mapped 204938 out of 226614 raw counts (90.43%) from O-3-1-2-1_S34_L003"
+[1] "Mapped 323451 out of 361526 raw counts (89.47%) from O-3-1-2-1_S34_L004"
+[1] "Mapped 359181 out of 407916 raw counts (88.05%) from O-3-1-2-2_S38_L001"
+[1] "Mapped 607577 out of 696371 raw counts (87.25%) from O-3-1-2-2_S38_L002"
+[1] "Mapped 368988 out of 417609 raw counts (88.36%) from O-3-1-2-2_S38_L003"
+[1] "Mapped 567719 out of 648147 raw counts (87.59%) from O-3-1-2-2_S38_L004"
+[1] "Mapped 331207 out of 373019 raw counts (88.79%) from O-3-1-3-1_S35_L001"
+[1] "Mapped 574484 out of 652980 raw counts (87.98%) from O-3-1-3-1_S35_L002"
+[1] "Mapped 338862 out of 380707 raw counts (89.01%) from O-3-1-3-1_S35_L003"
+[1] "Mapped 531284 out of 601650 raw counts (88.30%) from O-3-1-3-1_S35_L004"
+[1] "Mapped 334593 out of 377378 raw counts (88.66%) from O-3-1-3-2_S39_L001"
+[1] "Mapped 613478 out of 696537 raw counts (88.08%) from O-3-1-3-2_S39_L002"
+[1] "Mapped 350133 out of 392631 raw counts (89.18%) from O-3-1-3-2_S39_L003"
+[1] "Mapped 565002 out of 640229 raw counts (88.25%) from O-3-1-3-2_S39_L004"
+[1] "Mapped 346475 out of 397614 raw counts (87.14%) from O-3-1-4-1_S36_L001"
+[1] "Mapped 612148 out of 703762 raw counts (86.98%) from O-3-1-4-1_S36_L002"
+[1] "Mapped 358250 out of 408344 raw counts (87.73%) from O-3-1-4-1_S36_L003"
+[1] "Mapped 566283 out of 649213 raw counts (87.23%) from O-3-1-4-1_S36_L004"
+[1] "Mapped 340465 out of 386404 raw counts (88.11%) from O-3-1-4-2_S40_L001"
+[1] "Mapped 544802 out of 620617 raw counts (87.78%) from O-3-1-4-2_S40_L002"
+[1] "Mapped 349530 out of 395088 raw counts (88.47%) from O-3-1-4-2_S40_L003"
+[1] "Mapped 510627 out of 580807 raw counts (87.92%) from O-3-1-4-2_S40_L004"
+[1] "Mapped 262812 out of 295209 raw counts (89.03%) from O-3-2-1-1_S41_L001"
+[1] "Mapped 445176 out of 504853 raw counts (88.18%) from O-3-2-1-1_S41_L002"
+[1] "Mapped 268737 out of 300934 raw counts (89.30%) from O-3-2-1-1_S41_L003"
+[1] "Mapped 414765 out of 469389 raw counts (88.36%) from O-3-2-1-1_S41_L004"
+[1] "Mapped 289015 out of 327854 raw counts (88.15%) from O-3-2-1-2_S45_L001"
+[1] "Mapped 496651 out of 567183 raw counts (87.56%) from O-3-2-1-2_S45_L002"
+[1] "Mapped 295724 out of 333955 raw counts (88.55%) from O-3-2-1-2_S45_L003"
+[1] "Mapped 461021 out of 525948 raw counts (87.66%) from O-3-2-1-2_S45_L004"
+[1] "Mapped 368966 out of 415590 raw counts (88.78%) from O-3-2-2-1_S42_L001"
+[1] "Mapped 581055 out of 660171 raw counts (88.02%) from O-3-2-2-1_S42_L002"
+[1] "Mapped 374696 out of 421794 raw counts (88.83%) from O-3-2-2-1_S42_L003"
+[1] "Mapped 548243 out of 621247 raw counts (88.25%) from O-3-2-2-1_S42_L004"
+[1] "Mapped 298637 out of 334025 raw counts (89.41%) from O-3-2-2-2_S46_L001"
+[1] "Mapped 523616 out of 592896 raw counts (88.31%) from O-3-2-2-2_S46_L002"
+[1] "Mapped 307473 out of 342823 raw counts (89.69%) from O-3-2-2-2_S46_L003"
+[1] "Mapped 483574 out of 545065 raw counts (88.72%) from O-3-2-2-2_S46_L004"
+[1] "Mapped 316292 out of 353203 raw counts (89.55%) from O-3-2-3-1_S43_L001"
+[1] "Mapped 502550 out of 565443 raw counts (88.88%) from O-3-2-3-1_S43_L002"
+[1] "Mapped 322513 out of 359081 raw counts (89.82%) from O-3-2-3-1_S43_L003"
+[1] "Mapped 473324 out of 532328 raw counts (88.92%) from O-3-2-3-1_S43_L004"
+[1] "Mapped 359220 out of 403195 raw counts (89.09%) from O-3-2-3-2_S47_L001"
+[1] "Mapped 582049 out of 658315 raw counts (88.41%) from O-3-2-3-2_S47_L002"
+[1] "Mapped 366977 out of 411455 raw counts (89.19%) from O-3-2-3-2_S47_L003"
+[1] "Mapped 546746 out of 616051 raw counts (88.75%) from O-3-2-3-2_S47_L004"
+[1] "Mapped 274315 out of 309182 raw counts (88.72%) from O-3-2-4-1_S44_L001"
+[1] "Mapped 456019 out of 517019 raw counts (88.20%) from O-3-2-4-1_S44_L002"
+[1] "Mapped 280203 out of 315045 raw counts (88.94%) from O-3-2-4-1_S44_L003"
+[1] "Mapped 426340 out of 482346 raw counts (88.39%) from O-3-2-4-1_S44_L004"
+[1] "Mapped 354618 out of 403358 raw counts (87.92%) from O-3-2-4-2_S48_L001"
+[1] "Mapped 583317 out of 666706 raw counts (87.49%) from O-3-2-4-2_S48_L002"
+[1] "Mapped 361519 out of 409966 raw counts (88.18%) from O-3-2-4-2_S48_L003"
+[1] "Mapped 543251 out of 619403 raw counts (87.71%) from O-3-2-4-2_S48_L004"
+[1] "Merging 4 lanes into E-1-1-1-1_S49"
+[1] "Merging 4 lanes into E-1-1-1-2_S53"
+[1] "Merging 4 lanes into E-1-1-2-1_S50"
+[1] "Merging 4 lanes into E-1-1-2-2_S54"
+[1] "Merging 4 lanes into E-1-1-3-1_S51"
+[1] "Merging 4 lanes into E-1-1-3-2_S55"
+[1] "Merging 4 lanes into E-1-1-4-1_S52"
+[1] "Merging 4 lanes into E-1-1-4-2_S56"
+[1] "Merging 4 lanes into E-1-2-1-1_S57"
+[1] "Merging 4 lanes into E-1-2-1-2_S61"
+[1] "Merging 4 lanes into E-1-2-2-1_S58"
+[1] "Merging 4 lanes into E-1-2-2-2_S62"
+[1] "Merging 4 lanes into E-1-2-3-1_S59"
+[1] "Merging 4 lanes into E-1-2-3-2_S63"
+[1] "Merging 4 lanes into E-1-2-4-1_S60"
+[1] "Merging 4 lanes into E-1-2-4-2_S64"
+[1] "Merging 4 lanes into E-2-1-1-1_S65"
+[1] "Merging 4 lanes into E-2-1-1-2_S69"
+[1] "Merging 4 lanes into E-2-1-2-1_S66"
+[1] "Merging 4 lanes into E-2-1-2-2_S70"
+[1] "Merging 4 lanes into E-2-1-3-1_S67"
+[1] "Merging 4 lanes into E-2-1-3-2_S71"
+[1] "Merging 4 lanes into E-2-1-4-1_S68"
+[1] "Merging 4 lanes into E-2-1-4-2_S72"
+[1] "Merging 4 lanes into E-2-2-1-1_S73"
+[1] "Merging 4 lanes into E-2-2-1-2_S77"
+[1] "Merging 4 lanes into E-2-2-2-1_S74"
+[1] "Merging 4 lanes into E-2-2-2-2_S78"
+[1] "Merging 4 lanes into E-2-2-3-1_S75"
+[1] "Merging 4 lanes into E-2-2-3-2_S79"
+[1] "Merging 4 lanes into E-2-2-4-1_S76"
+[1] "Merging 4 lanes into E-2-2-4-2_S80"
+[1] "Merging 4 lanes into E-3-1-1-1_S1"
+[1] "Merging 4 lanes into E-3-1-1-2_S5"
+[1] "Merging 4 lanes into E-3-1-2-1_S2"
+[1] "Merging 4 lanes into E-3-1-2-2_S6"
+[1] "Merging 4 lanes into E-3-1-3-1_S3"
+[1] "Merging 4 lanes into E-3-1-3-2_S7"
+[1] "Merging 4 lanes into E-3-1-4-1_S4"
+[1] "Merging 4 lanes into E-3-1-4-2_S8"
+[1] "Merging 4 lanes into E-3-2-1-1_S9"
+[1] "Merging 4 lanes into E-3-2-1-2_S13"
+[1] "Merging 4 lanes into E-3-2-2-1_S10"
+[1] "Merging 4 lanes into E-3-2-2-2_S14"
+[1] "Merging 4 lanes into E-3-2-3-1_S11"
+[1] "Merging 4 lanes into E-3-2-3-2_S15"
+[1] "Merging 4 lanes into E-3-2-4-1_S12"
+[1] "Merging 4 lanes into E-3-2-4-2_S16"
+[1] "Merging 4 lanes into O-1-1-1-1_S1"
+[1] "Merging 4 lanes into O-1-1-1-2_S5"
+[1] "Merging 4 lanes into O-1-1-2-1_S2"
+[1] "Merging 4 lanes into O-1-1-2-2_S6"
+[1] "Merging 4 lanes into O-1-1-3-1_S3"
+[1] "Merging 4 lanes into O-1-1-3-2_S7"
+[1] "Merging 4 lanes into O-1-1-4-1_S4"
+[1] "Merging 4 lanes into O-1-1-4-2_S8"
+[1] "Merging 4 lanes into O-1-2-1-1_S9"
+[1] "Merging 4 lanes into O-1-2-1-2_S13"
+[1] "Merging 4 lanes into O-1-2-2-1_S10"
+[1] "Merging 4 lanes into O-1-2-2-2_S14"
+[1] "Merging 4 lanes into O-1-2-3-1_S11"
+[1] "Merging 4 lanes into O-1-2-3-2_S15"
+[1] "Merging 4 lanes into O-1-2-4-1_S12"
+[1] "Merging 4 lanes into O-1-2-4-2_S16"
+[1] "Merging 4 lanes into O-2-1-1-1_S17"
+[1] "Merging 4 lanes into O-2-1-1-2_S21"
+[1] "Merging 4 lanes into O-2-1-2-1_S18"
+[1] "Merging 4 lanes into O-2-1-2-2_S22"
+[1] "Merging 4 lanes into O-2-1-3-1_S19"
+[1] "Merging 4 lanes into O-2-1-3-2_S23"
+[1] "Merging 4 lanes into O-2-1-4-1_S20"
+[1] "Merging 4 lanes into O-2-1-4-2_S24"
+[1] "Merging 4 lanes into O-2-2-1-1_S25"
+[1] "Merging 4 lanes into O-2-2-1-2_S29"
+[1] "Merging 4 lanes into O-2-2-2-1_S26"
+[1] "Merging 4 lanes into O-2-2-2-2_S30"
+[1] "Merging 4 lanes into O-2-2-3-1_S27"
+[1] "Merging 4 lanes into O-2-2-3-2_S31"
+[1] "Merging 4 lanes into O-2-2-4-1_S28"
+[1] "Merging 4 lanes into O-2-2-4-2_S32"
+[1] "Merging 4 lanes into O-3-1-1-1_S33"
+[1] "Merging 4 lanes into O-3-1-1-2_S37"
+[1] "Merging 4 lanes into O-3-1-2-1_S34"
+[1] "Merging 4 lanes into O-3-1-2-2_S38"
+[1] "Merging 4 lanes into O-3-1-3-1_S35"
+[1] "Merging 4 lanes into O-3-1-3-2_S39"
+[1] "Merging 4 lanes into O-3-1-4-1_S36"
+[1] "Merging 4 lanes into O-3-1-4-2_S40"
+[1] "Merging 4 lanes into O-3-2-1-1_S41"
+[1] "Merging 4 lanes into O-3-2-1-2_S45"
+[1] "Merging 4 lanes into O-3-2-2-1_S42"
+[1] "Merging 4 lanes into O-3-2-2-2_S46"
+[1] "Merging 4 lanes into O-3-2-3-1_S43"
+[1] "Merging 4 lanes into O-3-2-3-2_S47"
+[1] "Merging 4 lanes into O-3-2-4-1_S44"
+[1] "Merging 4 lanes into O-3-2-4-2_S48"
+[1] "Merging 4 lanes into CT-1-1-1-1_S17"
+[1] "Merging 4 lanes into CT-1-1-1-2_S21"
+[1] "Merging 4 lanes into CT-1-1-2-1_S18"
+[1] "Merging 4 lanes into CT-1-1-2-2_S22"
+[1] "Merging 4 lanes into CT-1-1-3-1_S19"
+[1] "Merging 4 lanes into CT-1-1-3-2_S23"
+[1] "Merging 4 lanes into CT-1-1-4-1_S20"
+[1] "Merging 4 lanes into CT-1-1-4-2_S24"
+[1] "Merging 4 lanes into CT-1-2-1-1_S25"
+[1] "Merging 4 lanes into CT-1-2-1-2_S29"
+[1] "Merging 4 lanes into CT-1-2-2-1_S26"
+[1] "Merging 4 lanes into CT-1-2-2-2_S30"
+[1] "Merging 4 lanes into CT-1-2-3-1_S27"
+[1] "Merging 4 lanes into CT-1-2-3-2_S31"
+[1] "Merging 4 lanes into CT-1-2-4-1_S28"
+[1] "Merging 4 lanes into CT-1-2-4-2_S32"
+[1] "Merging 4 lanes into CT-2-2-1-1_S33"
+[1] "Merging 4 lanes into CT-2-2-1-2_S37"
+[1] "Merging 4 lanes into CT-2-2-2-1_S34"
+[1] "Merging 4 lanes into CT-2-2-2-2_S38"
+[1] "Merging 4 lanes into CT-2-2-3-1_S35"
+[1] "Merging 4 lanes into CT-2-2-3-2_S39"
+[1] "Merging 4 lanes into CT-2-2-4-1_S36"
+[1] "Merging 4 lanes into CT-2-2-4-2_S40"
+[1] "Merging 4 lanes into CT-3-1-1-1_S41"
+[1] "Merging 4 lanes into CT-3-1-1-2_S45"
+[1] "Merging 4 lanes into CT-3-1-2-1_S42"
+[1] "Merging 4 lanes into CT-3-1-2-2_S46"
+[1] "Merging 4 lanes into CT-3-1-3-1_S43"
+[1] "Merging 4 lanes into CT-3-1-3-2_S47"
+[1] "Merging 4 lanes into CT-3-1-4-1_S44"
+[1] "Merging 4 lanes into CT-3-1-4-2_S48"
+[1] "Merging 4 lanes into CT-3-2-1-1_S49"
+[1] "Merging 4 lanes into CT-3-2-1-2_S53"
+[1] "Merging 4 lanes into CT-3-2-2-1_S50"
+[1] "Merging 4 lanes into CT-3-2-2-2_S54"
+[1] "Merging 4 lanes into CT-3-2-3-1_S51"
+[1] "Merging 4 lanes into CT-3-2-3-2_S55"
+[1] "Merging 4 lanes into CT-3-2-4-1_S52"
+[1] "Merging 4 lanes into CT-3-2-4-2_S56"
+[1] ""
+[1] "Read counts summary"
+            sample  lib coverage ctrl_cover     all  mapped controls mapped_other_lib unmapped unmapped_bad_len
+1   CT-1-1-1-1_S17   CT    92.48      85.71  308215  252794    12509              207    41940             9162
+2   CT-1-1-1-2_S21   CT    90.78      85.71  273282  225344    11359              139    34813             7309
+3   CT-1-1-2-1_S18   CT    94.96      85.71  383762  321264     9379              151    45687             8725
+4   CT-1-1-2-2_S22   CT    85.07      85.71  246915  211583     6527               47    23801             4424
+5   CT-1-1-3-1_S19   CT    93.26      85.71  305562  264553     2191               91    29677             2269
+6   CT-1-1-3-2_S23   CT    91.63      85.71  260308  227628     1902               79    22646             1483
+7   CT-1-1-4-1_S20   CT    89.93      85.71  253883  220850     1795               31    24682              885
+8   CT-1-1-4-2_S24   CT    95.87      85.71  411294  352865     2990               89    46028             2920
+9   CT-1-2-1-1_S25   CT    76.21      85.71  221952  182190     9470               94    28246             5417
+10  CT-1-2-1-2_S29   CT    82.10      85.71  234192  192333    10137              139    29863             5765
+11  CT-1-2-2-1_S26   CT    84.59      85.71  240000  205691     6193               73    22432             3950
+12  CT-1-2-2-2_S30   CT    89.62      85.71  263659  226009     6657               53    25374             4729
+13  CT-1-2-3-1_S27   CT    91.93      82.14  272862  237307     1915               54    25313             1420
+14  CT-1-2-3-2_S31   CT    89.87      82.14  207925  183074     1489               31    17009              909
+15  CT-1-2-4-1_S28   CT    84.65      85.71  271453  234564     1596              136    27596             1407
+16  CT-1-2-4-2_S32   CT    85.98      78.57  282092  244154     1674               79    28520             1381
+17  CT-2-2-1-1_S33   CT    89.93      85.71  265921  215512    10163              458    41380            10982
+18  CT-2-2-1-2_S37   CT    93.08      85.71  316081  255211    12538              524    51705            13811
+19  CT-2-2-2-1_S34   CT    95.51      85.71  278528  236987     6738              193    29377             5949
+20  CT-2-2-2-2_S38   CT    94.66      85.71  258189  220677     6257              151    25847             5216
+21  CT-2-2-3-1_S35   CT    93.14      85.71  249397  213789     1965              151    25637             2308
+22  CT-2-2-3-2_S39   CT    92.35      85.71  212163  183582     1685               80    20090             1770
+23  CT-2-2-4-1_S36   CT    91.32      85.71  309062  261525     2003              485    38482             3203
+24  CT-2-2-4-2_S40   CT    89.50      85.71  258307  220650     1764              320    29567             1960
+25  CT-3-1-1-1_S41   CT    93.45      85.71  371572  298575    15261              437    57499            12481
+26  CT-3-1-1-2_S45   CT    86.65      85.71  243755  201156     9854               72    30611             6239
+27  CT-3-1-2-1_S42   CT    89.50      85.71  304877  256773     7565              129    33723             7330
+28  CT-3-1-2-2_S46   CT    94.54      85.71  349471  293793     8602              229    39899             8128
+29  CT-3-1-3-1_S43   CT    88.71      82.14  305445  261696     2030              178    32138             2524
+30  CT-3-1-3-2_S47   CT    91.57      85.71  318332  273493     2281              225    32907             2659
+31  CT-3-1-4-1_S44   CT    85.01      78.57  303501  259161     1679              218    34747             2142
+32  CT-3-1-4-2_S48   CT    84.04      78.57  269127  231029     1654               73    29034             1475
+33  CT-3-2-1-1_S49   CT    84.59      82.14  314353  252341    14028              216    47832            10124
+34  CT-3-2-1-2_S53   CT    91.69      85.71  349210  280719    14930              258    53224            11741
+35  CT-3-2-2-1_S50   CT    94.60      85.71  344914  290958     8976               99    38548             7438
+36  CT-3-2-2-2_S54   CT    94.48      85.71  301965  256435     7983              132    31122             6101
+37  CT-3-2-3-1_S51   CT    89.14      85.71  266557  231332     1987               57    24704             1705
+38  CT-3-2-3-2_S55   CT    90.05      85.71  277030  240010     2182               72    26385             1897
+39  CT-3-2-4-1_S52   CT    79.73      71.43  268848  230959     1498              173    29068             1323
+40  CT-3-2-4-2_S56   CT    88.35      82.14  330223  281693     1954              220    37717             2175
+41   E-1-1-1-1_S49 Even    70.18      82.14 1704240 1580491     3236               41    64437             7738
+42   E-1-1-1-2_S53 Even    73.37      85.71 1910782 1765672     3369               35    78855             9792
+43   E-1-1-2-1_S50 Even    60.84      71.43 1269295 1187631     2187                0    39531             5791
+44   E-1-1-2-2_S54 Even    84.58      85.71 3012565 2736539     4673               22   169453            26109
+45   E-1-1-3-1_S51 Even    67.65      75.00 1354133 1270303     1531                0    41127             5374
+46   E-1-1-3-2_S55 Even    82.09      82.14 2274999 2093650     2643               15   104426            14277
+47   E-1-1-4-1_S52 Even    48.75      67.86  876715  830700      945                0    20305             1855
+48   E-1-1-4-2_S56 Even    74.95      75.00 1901139 1761465     2165               16    79396             8540
+49   E-1-2-1-1_S57 Even    75.77      85.71 2097613 1919345     3889               11   100229            13382
+50   E-1-2-1-2_S61 Even    67.40      85.71 1629281 1510104     2958                0    63208             7900
+51   E-1-2-2-1_S58 Even    77.59      82.14 2033818 1871705     3329                5    89906            14718
+52   E-1-2-2-2_S62 Even    78.65      85.71 2064071 1901976     3349               16    89528            13988
+53   E-1-2-3-1_S59 Even    84.83      85.71 2461411 2258770     2688               27   116609            15959
+54   E-1-2-3-2_S63 Even    78.30      78.57 1970421 1819994     2241                5    82724            11346
+55   E-1-2-4-1_S60 Even    73.92      75.00 1891293 1747851     1810               16    80699             8316
+56   E-1-2-4-2_S64 Even    76.83      82.14 2188716 2008052     2149               10   105957            11795
+57   E-2-1-1-1_S65 Even    73.26      82.14 2392251 2156053     4376               28   138796            19170
+58   E-2-1-1-2_S69 Even    72.72      82.14 2560825 2281861     5264               56   171226            28176
+59   E-2-1-2-1_S66 Even    76.34      82.14 2333375 2115903     3640                5   123880            21528
+60   E-2-1-2-2_S70 Even    70.29      75.00 2004864 1819149     3382               44   102599            19952
+61   E-2-1-3-1_S67 Even    77.63      85.71 2035744 1868161     1947               26    91529            13396
+62   E-2-1-3-2_S71 Even    72.76      75.00 1811890 1664995     1708               54    78884            11498
+63   E-2-1-4-1_S68 Even    72.19      75.00 2393094 2159939     1785               65   143947            16984
+64   E-2-1-4-2_S72 Even    72.35      78.57 2218126 2013213     1882               38   123006            13749
+65   E-2-2-1-1_S73 Even    73.17      82.14 3011091 2655324     5777              127   234284            38774
+66   E-2-2-1-2_S77 Even    64.00      78.57 2014270 1811169     3839               72   117151            17463
+67   E-2-2-2-1_S74 Even    79.48      85.71 3093249 2734139     5126              126   226101            48759
+68   E-2-2-2-2_S78 Even    74.83      82.14 2264216 2045038     3404               65   125824            23586
+69   E-2-2-3-1_S75 Even    81.73      78.57 2545247 2303161     2279              269   140877            22774
+70   E-2-2-3-2_S79 Even    83.51      82.14 2657535 2408511     2425               36   146829            22919
+71   E-2-2-4-1_S76 Even    76.93      78.57 2921937 2611307     2068              127   201282            25208
+72   E-2-2-4-2_S80 Even    80.48      78.57 3003606 2693337     2107              109   198810            23217
+73    E-3-1-1-1_S1 Even    94.06      85.71 4908826 4362393     7854              361   364917            50544
+74    E-3-1-1-2_S5 Even    94.79      85.71 5179811 4606885     8248              111   383455            53674
+75    E-3-1-2-1_S2 Even    94.80      85.71 5355524 4779935     7261              112   382339            55302
+76    E-3-1-2-2_S6 Even    95.33      85.71 5479795 4895154     6890              148   387091            54894
+77    E-3-1-3-1_S3 Even    94.88      85.71 5036777 4541779     4908              103   324149            37099
+78    E-3-1-3-2_S7 Even    94.00      85.71 3884663 3531082     3666               56   217477            23820
+79    E-3-1-4-1_S4 Even    94.46      85.71 5271324 4738351     4786              103   362587            33601
+80    E-3-1-4-2_S8 Even    95.21      85.71 5824993 5215841     4864              149   417775            39017
+81    E-3-2-1-1_S9 Even    94.54      85.71 5496400 4826017     9418              252   466466            72067
+82   E-3-2-1-2_S13 Even    94.64      85.71 5612281 4934840     9500              228   471446            71735
+83   E-3-2-2-1_S10 Even    94.72      85.71 5774644 5102328     7348              277   455870            72890
+84   E-3-2-2-2_S14 Even    94.30      85.71 5027428 4455627     6413              133   377797            61664
+85   E-3-2-3-1_S11 Even    94.48      85.71 4736453 4248642     4257              176   316661            37310
+86   E-3-2-3-2_S15 Even    94.99      85.71 5308249 4752233     4867              170   366678            42917
+87   E-3-2-4-1_S12 Even    94.76      85.71 6411043 5677217     4883              466   527352            53079
+88   E-3-2-4-2_S16 Even    94.14      85.71 4935915 4414317     3736              265   353395            32899
+89    O-1-1-1-1_S1  Odd    62.87      85.71 2266061 1960560     7084               80   202441            29402
+90    O-1-1-1-2_S5  Odd    68.85      85.71 2669277 2291632     7908              114   258071            38216
+91    O-1-1-2-1_S2  Odd    46.95      82.14 1063890  961071     3098               38    60328            10412
+92    O-1-1-2-2_S6  Odd    70.25      85.71 2241360 1964884     6059               71   183948            31395
+93    O-1-1-3-1_S3  Odd    74.87      85.71 2398143 2114054     2543               17   188713            22539
+94    O-1-1-3-2_S7  Odd    76.23      85.71 2542263 2233040     2872               24   208311            25677
+95    O-1-1-4-1_S4  Odd    65.64      82.14 2292755 2005937     2096                5   198244            15992
+96    O-1-1-4-2_S8  Odd    72.96      85.71 3077109 2659374     2798                5   299550            28609
+97    O-1-2-1-1_S9  Odd    61.25      85.71 2374151 2032223     7334                0   230751            34142
+98   O-1-2-1-2_S13  Odd    68.12      85.71 3425778 2884078    10876                0   391249            59571
+99   O-1-2-2-1_S10  Odd    58.21      78.57 1558141 1381958     4702                0   110122            19549
+100  O-1-2-2-2_S14  Odd    75.10      85.71 3041990 2618001     8287                0   294327            51993
+101  O-1-2-3-1_S11  Odd    67.50      85.71 1905068 1688656     1791                0   137390            15965
+102  O-1-2-3-2_S15  Odd    69.58      82.14 2059646 1820009     1967                0   156048            18209
+103  O-1-2-4-1_S12  Odd    52.86      78.57 1608404 1420365     1283                0   125158             8982
+104  O-1-2-4-2_S16  Odd    57.79      82.14 1908255 1675601     1540               12   158171            11861
+105  O-2-1-1-1_S17  Odd    60.31      82.14 2039950 1771281     6554                0   176056            25466
+106  O-2-1-1-2_S21  Odd    64.90      85.71 2260683 1958995     7420                0   200381            28893
+107  O-2-1-2-1_S18  Odd    68.25      85.71 2095438 1836156     5610               62   170541            29949
+108  O-2-1-2-2_S22  Odd    75.67      85.71 2519889 2196749     6223               79   216305            36946
+109  O-2-1-3-1_S19  Odd    74.10      85.71 2246878 1978276     2658              124   176558            21459
+110  O-2-1-3-2_S23  Odd    69.85      85.71 1930415 1707609     2289              164   144337            18268
+111  O-2-1-4-1_S20  Odd    66.84      78.57 2412075 2100834     2082              251   216576            18102
+112  O-2-1-4-2_S24  Odd    69.00      78.57 2283667 2000499     2330              336   193247            16275
+113  O-2-2-1-1_S25  Odd    48.57      78.57 1563626 1368619     5344                0   121941            17637
+114  O-2-2-1-2_S29  Odd    62.02      82.14 2342617 2017868     7432                0   218922            32036
+115  O-2-2-2-1_S26  Odd    65.38      82.14 2214369 1924125     5837                0   193055            35583
+116  O-2-2-2-2_S30  Odd    64.01      82.14 2003591 1752881     5282                0   164691            29274
+117  O-2-2-3-1_S27  Odd    65.64      85.71 1893448 1673001     1702                0   141392            17098
+118  O-2-2-3-2_S31  Odd    59.36      82.14 1541170 1373405     1581                0   103759            12312
+119  O-2-2-4-1_S28  Odd    65.71      82.14 2075903 1823725     1807               63   169713            13451
+120  O-2-2-4-2_S32  Odd    69.89      85.71 2513148 2184404     2148               75   227373            19299
+121  O-3-1-1-1_S33  Odd    58.21      82.14 1753969 1532012     5018                0   139592            20538
+122  O-3-1-1-2_S37  Odd    44.71      75.00 1174571 1045871     3875                0    75459            10245
+123  O-3-1-2-1_S34  Odd    52.42      82.14 1197625 1073986     3420                0    73291            11999
+124  O-3-1-2-2_S38  Odd    72.01      85.71 2170043 1903465     5322                0   174046            28156
+125  O-3-1-3-1_S35  Odd    73.28      85.71 2008356 1775837     2128                0   147663            15845
+126  O-3-1-3-2_S39  Odd    72.96      82.14 2106775 1863206     2383                0   159479            18254
+127  O-3-1-4-1_S36  Odd    63.54      75.00 2158933 1883156     1732                0   189609            16334
+128  O-3-1-4-2_S40  Odd    64.07      82.14 1982916 1745424     1890               28   159466            12906
+129  O-3-2-1-1_S41  Odd    55.92      82.14 1570385 1391490     4591              472   110955            15121
+130  O-3-2-1-2_S45  Odd    60.18      85.71 1754940 1542411     5088              620   134327            18620
+131  O-3-2-2-1_S42  Odd    72.99      85.71 2118802 1872960     5134                0   162187            25363
+132  O-3-2-2-2_S46  Odd    68.85      82.14 1814809 1613300     4879              219   127309            19897
+133  O-3-2-3-1_S43  Odd    70.22      85.71 1810055 1614679     1991               67   123707            12976
+134  O-3-2-3-2_S47  Odd    75.22      85.71 2089016 1854992     2401               62   152467            16513
+135  O-3-2-4-1_S44  Odd    57.08      78.57 1623592 1436877     1545               59   124023             8782
+136  O-3-2-4-2_S48  Odd    65.38      85.71 2099433 1842705     2057               28   175427            14292
+[1] ""
+[1] "Read percent summary"
+            sample  lib coverage ctrl_cover all mapped controls mapped_other_lib unmapped unmapped_bad_len
+1   CT-1-1-1-1_S17   CT    92.48      85.71 100  82.02  4.05853        0.0671609   13.607           2.9726
+2   CT-1-1-1-2_S21   CT    90.78      85.71 100  82.46  4.15651        0.0508632   12.739           2.6745
+3   CT-1-1-2-1_S18   CT    94.96      85.71 100  83.71  2.44396        0.0393473   11.905           2.2735
+4   CT-1-1-2-2_S22   CT    85.07      85.71 100  85.69  2.64342        0.0190349    9.639           1.7917
+5   CT-1-1-3-1_S19   CT    93.26      85.71 100  86.58  0.71704        0.0297812    9.712           0.7426
+6   CT-1-1-3-2_S23   CT    91.63      85.71 100  87.45  0.73067        0.0303487    8.700           0.5697
+7   CT-1-1-4-1_S20   CT    89.93      85.71 100  86.99  0.70702        0.0122103    9.722           0.3486
+8   CT-1-1-4-2_S24   CT    95.87      85.71 100  85.79  0.72697        0.0216390   11.191           0.7100
+9   CT-1-2-1-1_S25   CT    76.21      85.71 100  82.09  4.26669        0.0423515   12.726           2.4406
+10  CT-1-2-1-2_S29   CT    82.10      85.71 100  82.13  4.32850        0.0593530   12.752           2.4617
+11  CT-1-2-2-1_S26   CT    84.59      85.71 100  85.70  2.58042        0.0304167    9.347           1.6458
+12  CT-1-2-2-2_S30   CT    89.62      85.71 100  85.72  2.52485        0.0201017    9.624           1.7936
+13  CT-1-2-3-1_S27   CT    91.93      82.14 100  86.97  0.70182        0.0197902    9.277           0.5204
+14  CT-1-2-3-2_S31   CT    89.87      82.14 100  88.05  0.71612        0.0149092    8.180           0.4372
+15  CT-1-2-4-1_S28   CT    84.65      85.71 100  86.41  0.58795        0.0501008   10.166           0.5183
+16  CT-1-2-4-2_S32   CT    85.98      78.57 100  86.55  0.59342        0.0280050   10.110           0.4896
+17  CT-2-2-1-1_S33   CT    89.93      85.71 100  81.04  3.82181        0.1722316   15.561           4.1298
+18  CT-2-2-1-2_S37   CT    93.08      85.71 100  80.74  3.96670        0.1657803   16.358           4.3694
+19  CT-2-2-2-1_S34   CT    95.51      85.71 100  85.09  2.41915        0.0692929   10.547           2.1359
+20  CT-2-2-2-2_S38   CT    94.66      85.71 100  85.47  2.42342        0.0584843   10.011           2.0202
+21  CT-2-2-3-1_S35   CT    93.14      85.71 100  85.72  0.78790        0.0605460   10.280           0.9254
+22  CT-2-2-3-2_S39   CT    92.35      85.71 100  86.53  0.79420        0.0377069    9.469           0.8343
+23  CT-2-2-4-1_S36   CT    91.32      85.71 100  84.62  0.64809        0.1569264   12.451           1.0364
+24  CT-2-2-4-2_S40   CT    89.50      85.71 100  85.42  0.68291        0.1238836   11.446           0.7588
+25  CT-3-1-1-1_S41   CT    93.45      85.71 100  80.35  4.10714        0.1176084   15.475           3.3590
+26  CT-3-1-1-2_S45   CT    86.65      85.71 100  82.52  4.04258        0.0295379   12.558           2.5595
+27  CT-3-1-2-1_S42   CT    89.50      85.71 100  84.22  2.48133        0.0423121   11.061           2.4042
+28  CT-3-1-2-2_S46   CT    94.54      85.71 100  84.07  2.46143        0.0655276   11.417           2.3258
+29  CT-3-1-3-1_S43   CT    88.71      82.14 100  85.68  0.66460        0.0582756   10.522           0.8263
+30  CT-3-1-3-2_S47   CT    91.57      85.71 100  85.91  0.71655        0.0706809   10.337           0.8353
+31  CT-3-1-4-1_S44   CT    85.01      78.57 100  85.39  0.55321        0.0718284   11.449           0.7058
+32  CT-3-1-4-2_S48   CT    84.04      78.57 100  85.84  0.61458        0.0271247   10.788           0.5481
+33  CT-3-2-1-1_S49   CT    84.59      82.14 100  80.27  4.46250        0.0687126   15.216           3.2206
+34  CT-3-2-1-2_S53   CT    91.69      85.71 100  80.39  4.27536        0.0738810   15.241           3.3622
+35  CT-3-2-2-1_S50   CT    94.60      85.71 100  84.36  2.60239        0.0287028   11.176           2.1565
+36  CT-3-2-2-2_S54   CT    94.48      85.71 100  84.92  2.64368        0.0437137   10.306           2.0204
+37  CT-3-2-3-1_S51   CT    89.14      85.71 100  86.79  0.74543        0.0213838    9.268           0.6396
+38  CT-3-2-3-2_S55   CT    90.05      85.71 100  86.64  0.78764        0.0259900    9.524           0.6848
+39  CT-3-2-4-1_S52   CT    79.73      71.43 100  85.91  0.55719        0.0643486   10.812           0.4921
+40  CT-3-2-4-2_S56   CT    88.35      82.14 100  85.30  0.59172        0.0666216   11.422           0.6586
+41   E-1-1-1-1_S49 Even    70.18      82.14 100  92.74  0.18988        0.0024058    3.781           0.4540
+42   E-1-1-1-2_S53 Even    73.37      85.71 100  92.41  0.17632        0.0018317    4.127           0.5125
+43   E-1-1-2-1_S50 Even    60.84      71.43 100  93.57  0.17230        0.0000000    3.114           0.4562
+44   E-1-1-2-2_S54 Even    84.58      85.71 100  90.84  0.15512        0.0007303    5.625           0.8667
+45   E-1-1-3-1_S51 Even    67.65      75.00 100  93.81  0.11306        0.0000000    3.037           0.3969
+46   E-1-1-3-2_S55 Even    82.09      82.14 100  92.03  0.11618        0.0006593    4.590           0.6276
+47   E-1-1-4-1_S52 Even    48.75      67.86 100  94.75  0.10779        0.0000000    2.316           0.2116
+48   E-1-1-4-2_S56 Even    74.95      75.00 100  92.65  0.11388        0.0008416    4.176           0.4492
+49   E-1-2-1-1_S57 Even    75.77      85.71 100  91.50  0.18540        0.0005244    4.778           0.6380
+50   E-1-2-1-2_S61 Even    67.40      85.71 100  92.69  0.18155        0.0000000    3.880           0.4849
+51   E-1-2-2-1_S58 Even    77.59      82.14 100  92.03  0.16368        0.0002458    4.421           0.7237
+52   E-1-2-2-2_S62 Even    78.65      85.71 100  92.15  0.16225        0.0007752    4.337           0.6777
+53   E-1-2-3-1_S59 Even    84.83      85.71 100  91.77  0.10921        0.0010969    4.737           0.6484
+54   E-1-2-3-2_S63 Even    78.30      78.57 100  92.37  0.11373        0.0002538    4.198           0.5758
+55   E-1-2-4-1_S60 Even    73.92      75.00 100  92.42  0.09570        0.0008460    4.267           0.4397
+56   E-1-2-4-2_S64 Even    76.83      82.14 100  91.75  0.09819        0.0004569    4.841           0.5389
+57   E-2-1-1-1_S65 Even    73.26      82.14 100  90.13  0.18292        0.0011704    5.802           0.8013
+58   E-2-1-1-2_S69 Even    72.72      82.14 100  89.11  0.20556        0.0021868    6.686           1.1003
+59   E-2-1-2-1_S66 Even    76.34      82.14 100  90.68  0.15600        0.0002143    5.309           0.9226
+60   E-2-1-2-2_S70 Even    70.29      75.00 100  90.74  0.16869        0.0021947    5.118           0.9952
+61   E-2-1-3-1_S67 Even    77.63      85.71 100  91.77  0.09564        0.0012772    4.496           0.6580
+62   E-2-1-3-2_S71 Even    72.76      75.00 100  91.89  0.09427        0.0029803    4.354           0.6346
+63   E-2-1-4-1_S68 Even    72.19      75.00 100  90.26  0.07459        0.0027161    6.015           0.7097
+64   E-2-1-4-2_S72 Even    72.35      78.57 100  90.76  0.08485        0.0017132    5.545           0.6198
+65   E-2-2-1-1_S73 Even    73.17      82.14 100  88.18  0.19186        0.0042177    7.781           1.2877
+66   E-2-2-1-2_S77 Even    64.00      78.57 100  89.92  0.19059        0.0035745    5.816           0.8670
+67   E-2-2-2-1_S74 Even    79.48      85.71 100  88.39  0.16572        0.0040734    7.309           1.5763
+68   E-2-2-2-2_S78 Even    74.83      82.14 100  90.32  0.15034        0.0028708    5.557           1.0417
+69   E-2-2-3-1_S75 Even    81.73      78.57 100  90.49  0.08954        0.0105687    5.535           0.8948
+70   E-2-2-3-2_S79 Even    83.51      82.14 100  90.63  0.09125        0.0013546    5.525           0.8624
+71   E-2-2-4-1_S76 Even    76.93      78.57 100  89.37  0.07077        0.0043464    6.889           0.8627
+72   E-2-2-4-2_S80 Even    80.48      78.57 100  89.67  0.07015        0.0036290    6.619           0.7730
+73    E-3-1-1-1_S1 Even    94.06      85.71 100  88.87  0.16000        0.0073541    7.434           1.0297
+74    E-3-1-1-2_S5 Even    94.79      85.71 100  88.94  0.15923        0.0021429    7.403           1.0362
+75    E-3-1-2-1_S2 Even    94.80      85.71 100  89.25  0.13558        0.0020913    7.139           1.0326
+76    E-3-1-2-2_S6 Even    95.33      85.71 100  89.33  0.12573        0.0027008    7.064           1.0018
+77    E-3-1-3-1_S3 Even    94.88      85.71 100  90.17  0.09744        0.0020450    6.436           0.7366
+78    E-3-1-3-2_S7 Even    94.00      85.71 100  90.90  0.09437        0.0014416    5.598           0.6132
+79    E-3-1-4-1_S4 Even    94.46      85.71 100  89.89  0.09079        0.0019540    6.878           0.6374
+80    E-3-1-4-2_S8 Even    95.21      85.71 100  89.54  0.08350        0.0025579    7.172           0.6698
+81    E-3-2-1-1_S9 Even    94.54      85.71 100  87.80  0.17135        0.0045848    8.487           1.3112
+82   E-3-2-1-2_S13 Even    94.64      85.71 100  87.93  0.16927        0.0040625    8.400           1.2782
+83   E-3-2-2-1_S10 Even    94.72      85.71 100  88.36  0.12725        0.0047968    7.894           1.2622
+84   E-3-2-2-2_S14 Even    94.30      85.71 100  88.63  0.12756        0.0026455    7.515           1.2266
+85   E-3-2-3-1_S11 Even    94.48      85.71 100  89.70  0.08988        0.0037159    6.686           0.7877
+86   E-3-2-3-2_S15 Even    94.99      85.71 100  89.53  0.09169        0.0032026    6.908           0.8085
+87   E-3-2-4-1_S12 Even    94.76      85.71 100  88.55  0.07617        0.0072687    8.226           0.8279
+88   E-3-2-4-2_S16 Even    94.14      85.71 100  89.43  0.07569        0.0053688    7.160           0.6665
+89    O-1-1-1-1_S1  Odd    62.87      85.71 100  86.52  0.31261        0.0035304    8.934           1.2975
+90    O-1-1-1-2_S5  Odd    68.85      85.71 100  85.85  0.29626        0.0042708    9.668           1.4317
+91    O-1-1-2-1_S2  Odd    46.95      82.14 100  90.34  0.29120        0.0035718    5.671           0.9787
+92    O-1-1-2-2_S6  Odd    70.25      85.71 100  87.66  0.27033        0.0031677    8.207           1.4007
+93    O-1-1-3-1_S3  Odd    74.87      85.71 100  88.15  0.10604        0.0007089    7.869           0.9399
+94    O-1-1-3-2_S7  Odd    76.23      85.71 100  87.84  0.11297        0.0009440    8.194           1.0100
+95    O-1-1-4-1_S4  Odd    65.64      82.14 100  87.49  0.09142        0.0002181    8.647           0.6975
+96    O-1-1-4-2_S8  Odd    72.96      85.71 100  86.42  0.09093        0.0001625    9.735           0.9297
+97    O-1-2-1-1_S9  Odd    61.25      85.71 100  85.60  0.30891        0.0000000    9.719           1.4381
+98   O-1-2-1-2_S13  Odd    68.12      85.71 100  84.19  0.31748        0.0000000   11.421           1.7389
+99   O-1-2-2-1_S10  Odd    58.21      78.57 100  88.69  0.30177        0.0000000    7.068           1.2546
+100  O-1-2-2-2_S14  Odd    75.10      85.71 100  86.06  0.27242        0.0000000    9.675           1.7092
+101  O-1-2-3-1_S11  Odd    67.50      85.71 100  88.64  0.09401        0.0000000    7.212           0.8380
+102  O-1-2-3-2_S15  Odd    69.58      82.14 100  88.37  0.09550        0.0000000    7.576           0.8841
+103  O-1-2-4-1_S12  Odd    52.86      78.57 100  88.31  0.07977        0.0000000    7.782           0.5584
+104  O-1-2-4-2_S16  Odd    57.79      82.14 100  87.81  0.08070        0.0006288    8.289           0.6216
+105  O-2-1-1-1_S17  Odd    60.31      82.14 100  86.83  0.32128        0.0000000    8.630           1.2484
+106  O-2-1-1-2_S21  Odd    64.90      85.71 100  86.66  0.32822        0.0000000    8.864           1.2781
+107  O-2-1-2-1_S18  Odd    68.25      85.71 100  87.63  0.26772        0.0029588    8.139           1.4292
+108  O-2-1-2-2_S22  Odd    75.67      85.71 100  87.18  0.24696        0.0031351    8.584           1.4662
+109  O-2-1-3-1_S19  Odd    74.10      85.71 100  88.05  0.11830        0.0055188    7.858           0.9551
+110  O-2-1-3-2_S23  Odd    69.85      85.71 100  88.46  0.11858        0.0084956    7.477           0.9463
+111  O-2-1-4-1_S20  Odd    66.84      78.57 100  87.10  0.08632        0.0104060    8.979           0.7505
+112  O-2-1-4-2_S24  Odd    69.00      78.57 100  87.60  0.10203        0.0147132    8.462           0.7127
+113  O-2-2-1-1_S25  Odd    48.57      78.57 100  87.53  0.34177        0.0000000    7.799           1.1280
+114  O-2-2-1-2_S29  Odd    62.02      82.14 100  86.14  0.31725        0.0000000    9.345           1.3675
+115  O-2-2-2-1_S26  Odd    65.38      82.14 100  86.89  0.26360        0.0000000    8.718           1.6069
+116  O-2-2-2-2_S30  Odd    64.01      82.14 100  87.49  0.26363        0.0000000    8.220           1.4611
+117  O-2-2-3-1_S27  Odd    65.64      85.71 100  88.36  0.08989        0.0000000    7.467           0.9030
+118  O-2-2-3-2_S31  Odd    59.36      82.14 100  89.11  0.10258        0.0000000    6.732           0.7989
+119  O-2-2-4-1_S28  Odd    65.71      82.14 100  87.85  0.08705        0.0030348    8.175           0.6480
+120  O-2-2-4-2_S32  Odd    69.89      85.71 100  86.92  0.08547        0.0029843    9.047           0.7679
+121  O-3-1-1-1_S33  Odd    58.21      82.14 100  87.35  0.28609        0.0000000    7.959           1.1709
+122  O-3-1-1-2_S37  Odd    44.71      75.00 100  89.04  0.32991        0.0000000    6.424           0.8722
+123  O-3-1-2-1_S34  Odd    52.42      82.14 100  89.68  0.28557        0.0000000    6.120           1.0019
+124  O-3-1-2-2_S38  Odd    72.01      85.71 100  87.72  0.24525        0.0000000    8.020           1.2975
+125  O-3-1-3-1_S35  Odd    73.28      85.71 100  88.42  0.10596        0.0000000    7.352           0.7890
+126  O-3-1-3-2_S39  Odd    72.96      82.14 100  88.44  0.11311        0.0000000    7.570           0.8664
+127  O-3-1-4-1_S36  Odd    63.54      75.00 100  87.23  0.08022        0.0000000    8.783           0.7566
+128  O-3-1-4-2_S40  Odd    64.07      82.14 100  88.02  0.09531        0.0014121    8.042           0.6509
+129  O-3-2-1-1_S41  Odd    55.92      82.14 100  88.61  0.29235        0.0300563    7.065           0.9629
+130  O-3-2-1-2_S45  Odd    60.18      85.71 100  87.89  0.28992        0.0353288    7.654           1.0610
+131  O-3-2-2-1_S42  Odd    72.99      85.71 100  88.40  0.24231        0.0000000    7.655           1.1970
+132  O-3-2-2-2_S46  Odd    68.85      82.14 100  88.90  0.26884        0.0120674    7.015           1.0964
+133  O-3-2-3-1_S43  Odd    70.22      85.71 100  89.21  0.11000        0.0037015    6.834           0.7169
+134  O-3-2-3-2_S47  Odd    75.22      85.71 100  88.80  0.11493        0.0029679    7.299           0.7905
+135  O-3-2-4-1_S44  Odd    57.08      78.57 100  88.50  0.09516        0.0036339    7.639           0.5409
+136  O-3-2-4-2_S48  Odd    65.38      85.71 100  87.77  0.09798        0.0013337    8.356           0.6808

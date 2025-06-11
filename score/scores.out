@@ -1,0 +1,618 @@
+[1] "Args: counts.rda"
+[1] "Loading file with raw counts counts.rda"
+[1] "Pearson between technical replica CT-1-1-1-1_S17 and CT-1-1-1-2_S21 of 1648 lib CT members 0.99 (log 0.98, spearman 0.94). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    34.0    51.0   153.4    91.0  1779.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    30.0    48.0   136.7    81.0  1573.0 
+[1] "Number of reads for technical replica: 252794, 225344"
+[1] "Pearson between technical replica CT-1-1-2-1_S18 and CT-1-1-2-2_S22 of 1648 lib CT members 0.99 (log 0.97, spearman 0.98). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    47.0    89.0   194.9   272.8  1406.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    27.0    58.5   128.4   180.0   862.0 
+[1] "Number of reads for technical replica: 321264, 211583"
+[1] "Pearson between technical replica CT-1-1-3-1_S19 and CT-1-1-3-2_S23 of 1648 lib CT members 0.98 (log 0.98, spearman 0.98). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    49.0   108.5   160.5   228.0   960.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    43.0    94.5   138.1   193.0   716.0 
+[1] "Number of reads for technical replica: 264553, 227628"
+[1] "Pearson between technical replica CT-1-1-4-1_S20 and CT-1-1-4-2_S24 of 1648 lib CT members 0.99 (log 0.98, spearman 0.97). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+      0      32      59     134     192    1231 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    53.0    96.0   214.1   310.0  1838.0 
+[1] "Number of reads for technical replica: 220850, 352865"
+[1] "Pearson between technical replica CT-1-2-1-1_S25 and CT-1-2-1-2_S29 of 1648 lib CT members 0.99 (log 0.96, spearman 0.92). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   20.00   31.00  110.55   56.25 1444.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    23.0    36.0   116.7    61.0  1445.0 
+[1] "Number of reads for technical replica: 182190, 192333"
+[1] "Pearson between technical replica CT-1-2-2-1_S26 and CT-1-2-2-2_S30 of 1648 lib CT members 0.99 (log 0.98, spearman 0.97). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    27.0    56.0   124.8   177.2   891.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    32.0    65.0   137.1   195.0  1031.0 
+[1] "Number of reads for technical replica: 205691, 226009"
+[1] "Pearson between technical replica CT-1-2-3-1_S27 and CT-1-2-3-2_S31 of 1648 lib CT members 0.98 (log 0.98, spearman 0.98). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+      0      43      96     144     206     998 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    36.0    76.0   111.1   158.2   701.0 
+[1] "Number of reads for technical replica: 237307, 183074"
+[1] "Pearson between technical replica CT-1-2-4-1_S28 and CT-1-2-4-2_S32 of 1648 lib CT members 0.99 (log 0.97, spearman 0.97). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    26.0    49.0   142.3   211.2  1358.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    28.0    52.0   148.2   224.5  1448.0 
+[1] "Number of reads for technical replica: 234564, 244154"
+[1] "Pearson between technical replica CT-2-2-1-1_S33 and CT-2-2-1-2_S37 of 1648 lib CT members 0.99 (log 0.98, spearman 0.94). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   29.00   45.00  130.77   80.25 1415.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    36.0    53.5   154.9    97.0  1686.0 
+[1] "Number of reads for technical replica: 215512, 255211"
+[1] "Pearson between technical replica CT-2-2-2-1_S34 and CT-2-2-2-2_S38 of 1648 lib CT members 0.99 (log 0.98, spearman 0.97). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    45.0    78.5   143.8   193.0  1006.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    43.0    72.0   133.9   179.0   901.0 
+[1] "Number of reads for technical replica: 236987, 220677"
+[1] "Pearson between technical replica CT-2-2-3-1_S35 and CT-2-2-3-2_S39 of 1648 lib CT members 0.98 (log 0.98, spearman 0.97). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    43.0    82.0   129.7   179.0   791.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    38.0    73.0   111.4   153.2   632.0 
+[1] "Number of reads for technical replica: 213789, 183582"
+[1] "Pearson between technical replica CT-2-2-4-1_S36 and CT-2-2-4-2_S40 of 1648 lib CT members 0.99 (log 0.97, spearman 0.97). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    36.0    64.0   158.7   221.0  1402.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    33.0    59.0   133.9   185.0  1334.0 
+[1] "Number of reads for technical replica: 261525, 220650"
+[1] "Pearson between technical replica CT-3-1-1-1_S41 and CT-3-1-1-2_S45 of 1648 lib CT members 0.99 (log 0.97, spearman 0.93). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    36.0    54.0   181.2    94.0  2393.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    26.0    41.5   122.1    68.0  1522.0 
+[1] "Number of reads for technical replica: 298575, 201156"
+[1] "Pearson between technical replica CT-3-1-2-1_S42 and CT-3-1-2-2_S46 of 1648 lib CT members 0.99 (log 0.98, spearman 0.97). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   32.75   63.50  155.81  208.00 1218.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   43.75   81.00  178.27  236.25 1336.00 
+[1] "Number of reads for technical replica: 256773, 293793"
+[1] "Pearson between technical replica CT-3-1-3-1_S43 and CT-3-1-3-2_S47 of 1648 lib CT members 0.99 (log 0.97, spearman 0.98). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    34.0    84.5   158.8   234.0  1235.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    41.0    89.0   166.0   238.2  1185.0 
+[1] "Number of reads for technical replica: 261696, 273493"
+[1] "Pearson between technical replica CT-3-1-4-1_S44 and CT-3-1-4-2_S48 of 1648 lib CT members 0.99 (log 0.97, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    27.0    50.0   157.3   233.2  1443.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    26.0    48.0   140.2   201.2  1254.0 
+[1] "Number of reads for technical replica: 259161, 231029"
+[1] "Pearson between technical replica CT-3-2-1-1_S49 and CT-3-2-1-2_S53 of 1648 lib CT members 1.00 (log 0.97, spearman 0.94). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    25.0    41.0   153.1    75.0  2107.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    34.0    52.0   170.3    90.0  2203.0 
+[1] "Number of reads for technical replica: 252341, 280719"
+[1] "Pearson between technical replica CT-3-2-2-1_S50 and CT-3-2-2-2_S54 of 1648 lib CT members 0.99 (log 0.98, spearman 0.98). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    44.0    82.0   176.6   237.0  1457.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    41.0    75.0   155.6   212.0  1136.0 
+[1] "Number of reads for technical replica: 290958, 256435"
+[1] "Pearson between technical replica CT-3-2-3-1_S51 and CT-3-2-3-2_S55 of 1648 lib CT members 0.98 (log 0.97, spearman 0.98). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    35.0    80.5   140.4   205.0   927.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    38.0    86.0   145.6   215.0  1020.0 
+[1] "Number of reads for technical replica: 231332, 240010"
+[1] "Pearson between technical replica CT-3-2-4-1_S52 and CT-3-2-4-2_S56 of 1648 lib CT members 0.99 (log 0.97, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    23.0    44.0   140.1   212.5  1387.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    30.0    54.0   170.9   252.2  1634.0 
+[1] "Number of reads for technical replica: 230959, 281693"
+[1] "Pearson between technical replica E-1-1-1-1_S49 and E-1-1-1-2_S53 of 30316 lib Even members 0.98 (log 0.94, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   16.00   35.00   52.13   68.00  860.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   18.00   39.00   58.24   77.00  901.00 
+[1] "Number of reads for technical replica: 1580491, 1765672"
+[1] "Pearson between technical replica E-1-1-2-1_S50 and E-1-1-2-2_S54 of 30316 lib Even members 0.96 (log 0.92, spearman 0.95). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   11.00   27.00   39.18   52.00  639.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   30.00   63.00   90.27  121.00 1177.00 
+[1] "Number of reads for technical replica: 1187631, 2736539"
+[1] "Pearson between technical replica E-1-1-3-1_S51 and E-1-1-3-2_S55 of 30316 lib Even members 0.97 (log 0.93, spearman 0.95). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    15.0    31.0    41.9    56.0   483.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   26.00   51.00   69.06   91.25  770.00 
+[1] "Number of reads for technical replica: 1270303, 2093650"
+[1] "Pearson between technical replica E-1-1-4-1_S52 and E-1-1-4-2_S56 of 30316 lib Even members 0.96 (log 0.89, spearman 0.94). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0     7.0    19.0    27.4    38.0   358.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    19.0    41.0    58.1    78.0   756.0 
+[1] "Number of reads for technical replica: 830700, 1761465"
+[1] "Pearson between technical replica E-1-2-1-1_S57 and E-1-2-1-2_S61 of 30316 lib Even members 0.97 (log 0.93, spearman 0.95). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   20.00   40.00   63.31   78.00 1046.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   15.00   33.00   49.81   65.00  698.00 
+[1] "Number of reads for technical replica: 1919345, 1510104"
+[1] "Pearson between technical replica E-1-2-2-1_S58 and E-1-2-2-2_S62 of 30316 lib Even members 0.97 (log 0.95, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   22.00   44.00   61.74   81.00  859.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   23.00   45.00   62.74   83.00  888.00 
+[1] "Number of reads for technical replica: 1871705, 1901976"
+[1] "Pearson between technical replica E-1-2-3-1_S59 and E-1-2-3-2_S63 of 30316 lib Even members 0.97 (log 0.95, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   29.00   55.00   74.51   97.00  791.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   22.00   44.00   60.03   79.00  641.00 
+[1] "Number of reads for technical replica: 2258770, 1819994"
+[1] "Pearson between technical replica E-1-2-4-1_S60 and E-1-2-4-2_S64 of 30316 lib Even members 0.98 (log 0.94, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   19.00   41.00   57.65   77.00  815.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   21.00   46.00   66.24   88.00  956.00 
+[1] "Number of reads for technical replica: 1747851, 2008052"
+[1] "Pearson between technical replica E-2-1-1-1_S65 and E-2-1-1-2_S69 of 30316 lib Even members 0.98 (log 0.95, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   18.00   40.00   71.12   85.00 1196.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   18.00   39.00   75.27   83.00 1308.00 
+[1] "Number of reads for technical replica: 2156053, 2281861"
+[1] "Pearson between technical replica E-2-1-2-1_S66 and E-2-1-2-2_S70 of 30316 lib Even members 0.98 (log 0.94, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   21.00   46.00   69.79   90.00 1042.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   16.00   36.00   60.01   75.00 1047.00 
+[1] "Number of reads for technical replica: 2115903, 1819149"
+[1] "Pearson between technical replica E-2-1-3-1_S67 and E-2-1-3-2_S71 of 30316 lib Even members 0.97 (log 0.93, spearman 0.95). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   22.00   44.00   61.62   80.00  845.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   18.00   38.00   54.92   71.00  756.00 
+[1] "Number of reads for technical replica: 1868161, 1664995"
+[1] "Pearson between technical replica E-2-1-4-1_S68 and E-2-1-4-2_S72 of 30316 lib Even members 0.98 (log 0.94, spearman 0.97). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   17.00   42.00   71.25   90.00 1231.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   17.00   41.00   66.41   84.00 1008.00 
+[1] "Number of reads for technical replica: 2159939, 2013213"
+[1] "Pearson between technical replica E-2-2-1-1_S73 and E-2-2-1-2_S77 of 30316 lib Even members 0.98 (log 0.94, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   18.00   41.00   87.59   95.00 2110.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   13.00   30.00   59.74   65.00 1236.00 
+[1] "Number of reads for technical replica: 2655324, 1811169"
+[1] "Pearson between technical replica E-2-2-2-1_S74 and E-2-2-2-2_S78 of 30316 lib Even members 0.98 (log 0.95, spearman 0.97). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   23.00   51.00   90.19  111.00 1604.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   19.00   41.00   67.46   85.00 1133.00 
+[1] "Number of reads for technical replica: 2734139, 2045038"
+[1] "Pearson between technical replica E-2-2-3-1_S75 and E-2-2-3-2_S79 of 30316 lib Even members 0.98 (log 0.96, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   26.00   52.00   75.97   98.00  937.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   28.00   55.50   79.45  102.00 1082.00 
+[1] "Number of reads for technical replica: 2303161, 2408511"
+[1] "Pearson between technical replica E-2-2-4-1_S76 and E-2-2-4-2_S80 of 30316 lib Even members 0.98 (log 0.96, spearman 0.97). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   21.00   48.00   86.14  106.00 1457.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   24.00   53.00   88.84  111.00 1464.00 
+[1] "Number of reads for technical replica: 2611307, 2693337"
+[1] "Pearson between technical replica E-3-1-1-1_S1 and E-3-1-1-2_S5 of 30316 lib Even members 0.99 (log 0.98, spearman 0.97). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    53.0    94.0   143.9   177.0  1677.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+      0      60     105     152     190    1757 
+[1] "Number of reads for technical replica: 4362393, 4606885"
+[1] "Pearson between technical replica E-3-1-2-1_S2 and E-3-1-2-2_S6 of 30316 lib Even members 0.98 (log 0.98, spearman 0.97). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    65.0   117.0   157.7   205.0  1692.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    74.0   125.0   161.5   210.0  1603.0 
+[1] "Number of reads for technical replica: 4779935, 4895154"
+[1] "Pearson between technical replica E-3-1-3-1_S3 and E-3-1-3-2_S7 of 30316 lib Even members 0.98 (log 0.98, spearman 0.97). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    69.0   119.0   149.8   195.0  1277.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    55.0    93.0   116.5   151.0  1036.0 
+[1] "Number of reads for technical replica: 4541779, 3531082"
+[1] "Pearson between technical replica E-3-1-4-1_S4 and E-3-1-4-2_S8 of 30316 lib Even members 0.98 (log 0.98, spearman 0.98). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    64.0   118.0   156.3   209.0  1424.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+      0      74     131     172     226    1563 
+[1] "Number of reads for technical replica: 4738351, 5215841"
+[1] "Pearson between technical replica E-3-2-1-1_S9 and E-3-2-1-2_S13 of 30316 lib Even members 0.99 (log 0.98, spearman 0.97). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    56.0    97.0   159.2   182.0  1928.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    61.0   105.0   162.8   191.0  1888.0 
+[1] "Number of reads for technical replica: 4826017, 4934840"
+[1] "Pearson between technical replica E-3-2-2-1_S10 and E-3-2-2-2_S14 of 30316 lib Even members 0.98 (log 0.98, spearman 0.97). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    64.0   118.0   168.3   218.0  1744.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+      0      57     100     147     187    1617 
+[1] "Number of reads for technical replica: 5102328, 4455627"
+[1] "Pearson between technical replica E-3-2-3-1_S11 and E-3-2-3-2_S15 of 30316 lib Even members 0.98 (log 0.98, spearman 0.97). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    61.0   106.0   140.1   181.0  1222.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    71.0   121.0   156.8   204.0  1408.0 
+[1] "Number of reads for technical replica: 4248642, 4752233"
+[1] "Pearson between technical replica E-3-2-4-1_S12 and E-3-2-4-2_S16 of 30316 lib Even members 0.98 (log 0.98, spearman 0.98). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    68.0   127.0   187.3   244.0  1926.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    56.0   101.0   145.6   189.0  1416.0 
+[1] "Number of reads for technical replica: 5677217, 4414317"
+[1] "Pearson between technical replica O-1-1-1-1_S1 and O-1-1-1-2_S5 of 31103 lib Odd members 0.98 (log 0.93, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   11.00   30.00   63.03   70.00 1504.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   15.00   37.00   73.68   83.00 1755.00 
+[1] "Number of reads for technical replica: 1960560, 2291632"
+[1] "Pearson between technical replica O-1-1-2-1_S2 and O-1-1-2-2_S6 of 31103 lib Odd members 0.97 (log 0.89, spearman 0.94). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0     6.0    18.0    30.9    40.0   563.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   15.00   38.00   63.17   80.00 1093.00 
+[1] "Number of reads for technical replica: 961071, 1964884"
+[1] "Pearson between technical replica O-1-1-3-1_S3 and O-1-1-3-2_S7 of 31103 lib Odd members 0.98 (log 0.94, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   19.00   44.00   67.97   86.00  849.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    21.0    46.0    71.8    91.0   892.0 
+[1] "Number of reads for technical replica: 2114054, 2233040"
+[1] "Pearson between technical replica O-1-1-4-1_S4 and O-1-1-4-2_S8 of 31103 lib Odd members 0.98 (log 0.94, spearman 0.97). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   12.00   34.00   64.49   79.00 1259.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    18.0    45.0    85.5   103.0  1941.0 
+[1] "Number of reads for technical replica: 2005937, 2659374"
+[1] "Pearson between technical replica O-1-2-1-1_S9 and O-1-2-1-2_S13 of 31103 lib Odd members 0.99 (log 0.94, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   11.00   28.00   65.34   64.00 1803.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   14.00   37.00   92.73   90.00 2573.00 
+[1] "Number of reads for technical replica: 2032223, 2884078"
+[1] "Pearson between technical replica O-1-2-2-1_S10 and O-1-2-2-2_S14 of 31103 lib Odd members 0.98 (log 0.92, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00    9.00   26.00   44.43   56.00  697.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   20.00   48.00   84.17  104.00 1461.00 
+[1] "Number of reads for technical replica: 1381958, 2618001"
+[1] "Pearson between technical replica O-1-2-3-1_S11 and O-1-2-3-2_S15 of 31103 lib Odd members 0.97 (log 0.93, spearman 0.95). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   14.00   33.00   54.29   67.00  721.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   15.00   37.00   58.52   73.00  765.00 
+[1] "Number of reads for technical replica: 1688656, 1820009"
+[1] "Pearson between technical replica O-1-2-4-1_S12 and O-1-2-4-2_S16 of 31103 lib Odd members 0.98 (log 0.92, spearman 0.95). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00    6.00   22.00   45.67   53.00 1031.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00    8.00   26.00   53.87   63.00 1136.00 
+[1] "Number of reads for technical replica: 1420365, 1675601"
+[1] "Pearson between technical replica O-2-1-1-1_S17 and O-2-1-1-2_S21 of 31103 lib Odd members 0.98 (log 0.93, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   10.00   27.00   56.95   61.00 1402.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   13.00   31.00   62.98   69.00 1326.00 
+[1] "Number of reads for technical replica: 1771281, 1958995"
+[1] "Pearson between technical replica O-2-1-2-1_S18 and O-2-1-2-2_S22 of 31103 lib Odd members 0.98 (log 0.94, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   15.00   35.00   59.03   74.00 1039.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   20.00   44.00   70.63   89.00 1286.00 
+[1] "Number of reads for technical replica: 1836156, 2196749"
+[1] "Pearson between technical replica O-2-1-3-1_S19 and O-2-1-3-2_S23 of 31103 lib Odd members 0.97 (log 0.93, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    19.0    42.0    63.6    80.0   745.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    16.0    36.0    54.9    70.0   653.0 
+[1] "Number of reads for technical replica: 1978276, 1707609"
+[1] "Pearson between technical replica O-2-1-4-1_S20 and O-2-1-4-2_S24 of 31103 lib Odd members 0.98 (log 0.93, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   14.00   35.00   67.54   81.00 1416.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   15.00   37.00   64.32   80.00 1259.00 
+[1] "Number of reads for technical replica: 2100834, 2000499"
+[1] "Pearson between technical replica O-2-2-1-1_S25 and O-2-2-1-2_S29 of 31103 lib Odd members 0.98 (log 0.91, spearman 0.95). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+      0       6      19      44      46    1147 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   11.00   29.00   64.88   68.00 1681.00 
+[1] "Number of reads for technical replica: 1368619, 2017868"
+[1] "Pearson between technical replica O-2-2-2-1_S26 and O-2-2-2-2_S30 of 31103 lib Odd members 0.98 (log 0.93, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   12.00   33.00   61.86   73.00 1226.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   12.00   31.00   56.36   67.00 1087.00 
+[1] "Number of reads for technical replica: 1924125, 1752881"
+[1] "Pearson between technical replica O-2-2-3-1_S27 and O-2-2-3-2_S31 of 31103 lib Odd members 0.97 (log 0.92, spearman 0.95). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   13.00   32.00   53.79   67.00  682.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   10.00   26.00   44.16   55.00  594.00 
+[1] "Number of reads for technical replica: 1673001, 1373405"
+[1] "Pearson between technical replica O-2-2-4-1_S28 and O-2-2-4-2_S32 of 31103 lib Odd members 0.98 (log 0.93, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   13.00   33.00   58.63   72.50 1306.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   15.00   38.00   70.23   85.00 1315.00 
+[1] "Number of reads for technical replica: 1823725, 2184404"
+[1] "Pearson between technical replica O-3-1-1-1_S33 and O-3-1-1-2_S37 of 31103 lib Odd members 0.98 (log 0.90, spearman 0.94). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   10.00   25.00   49.26   54.00 1114.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00    5.00   16.00   33.63   38.00  858.00 
+[1] "Number of reads for technical replica: 1532012, 1045871"
+[1] "Pearson between technical replica O-3-1-2-1_S34 and O-3-1-2-2_S38 of 31103 lib Odd members 0.97 (log 0.91, spearman 0.95). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00    7.00   21.00   34.53   46.00  512.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    17.0    40.0    61.2    81.0   853.0 
+[1] "Number of reads for technical replica: 1073986, 1903465"
+[1] "Pearson between technical replica O-3-1-3-1_S35 and O-3-1-3-2_S39 of 31103 lib Odd members 0.96 (log 0.93, spearman 0.94). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    18.0    40.0    57.1    75.0   655.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    18.0    41.0    59.9    79.0   712.0 
+[1] "Number of reads for technical replica: 1775837, 1863206"
+[1] "Pearson between technical replica O-3-1-4-1_S36 and O-3-1-4-2_S40 of 31103 lib Odd members 0.98 (log 0.93, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   12.00   31.00   60.55   72.00 1456.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   11.00   32.00   56.12   70.00 1238.00 
+[1] "Number of reads for technical replica: 1883156, 1745424"
+[1] "Pearson between technical replica O-3-2-1-1_S41 and O-3-2-1-2_S45 of 31103 lib Odd members 0.98 (log 0.92, spearman 0.95). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00    8.00   24.00   44.74   54.00  961.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   10.00   27.00   49.59   57.00 1108.00 
+[1] "Number of reads for technical replica: 1391490, 1542411"
+[1] "Pearson between technical replica O-3-2-2-1_S42 and O-3-2-2-2_S46 of 31103 lib Odd members 0.97 (log 0.93, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   18.00   41.00   60.22   81.00  931.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   15.00   35.00   51.87   69.00  760.00 
+[1] "Number of reads for technical replica: 1872960, 1613300"
+[1] "Pearson between technical replica O-3-2-3-1_S43 and O-3-2-3-2_S47 of 31103 lib Odd members 0.97 (log 0.93, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   16.00   36.00   51.91   69.00  591.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   20.00   42.00   59.64   79.00  593.00 
+[1] "Number of reads for technical replica: 1614679, 1854992"
+[1] "Pearson between technical replica O-3-2-4-1_S44 and O-3-2-4-2_S48 of 31103 lib Odd members 0.98 (log 0.92, spearman 0.96). Counts summaries:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0     8.0    25.0    46.2    57.0  1029.0 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   12.00   33.00   59.25   73.00 1193.00 
+[1] "Number of reads for technical replica: 1436877, 1842705"
+[1] "Tech replica correlations"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.9585  0.9758  0.9813  0.9806  0.9868  0.9954 
+[1] "Reads per tech replica"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 182190  281450 1768476 1733755 2125940 5677217 
+[1] "Distribution of raw read counts per tile across all libraries and replicates (technical replicates merged)"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    0.0    37.0    89.0   156.5   192.0  4376.0 
+[1] "PSI calculated for 29247 of 30316 (96.47%) tiles of lib Even replica bio1_facs1_psi"
+[1] "PSI calculated for 29250 of 30316 (96.48%) tiles of lib Even replica bio1_facs2_psi"
+[1] "PSI calculated for 29285 of 30316 (96.60%) tiles of lib Even replica bio2_facs1_psi"
+[1] "PSI calculated for 29322 of 30316 (96.72%) tiles of lib Even replica bio2_facs2_psi"
+[1] "PSI calculated for 29503 of 30316 (97.32%) tiles of lib Even replica bio3_facs1_psi"
+[1] "PSI calculated for 29530 of 30316 (97.41%) tiles of lib Even replica bio3_facs2_psi"
+[1] "Lib Even PSI Pearson of 15 replica pairs: mean 0.9442 range 0.9115 - 0.9737"
+[1] "PSI calculated for 30010 of 31103 (96.49%) tiles of lib Odd replica bio1_facs1_psi"
+[1] "PSI calculated for 29997 of 31103 (96.44%) tiles of lib Odd replica bio1_facs2_psi"
+[1] "PSI calculated for 29989 of 31103 (96.42%) tiles of lib Odd replica bio2_facs1_psi"
+[1] "PSI calculated for 29992 of 31103 (96.43%) tiles of lib Odd replica bio2_facs2_psi"
+[1] "PSI calculated for 29970 of 31103 (96.36%) tiles of lib Odd replica bio3_facs1_psi"
+[1] "PSI calculated for 29944 of 31103 (96.27%) tiles of lib Odd replica bio3_facs2_psi"
+[1] "Lib Odd PSI Pearson of 15 replica pairs: mean 0.9764 range 0.9707 - 0.9819"
+[1] "PSI calculated for 1616 of 1648 (98.06%) tiles of lib CT replica bio1_facs1_psi"
+[1] "PSI calculated for 1614 of 1648 (97.94%) tiles of lib CT replica bio1_facs2_psi"
+[1] "PSI calculated for 1615 of 1648 (98.00%) tiles of lib CT replica bio2_facs2_psi"
+[1] "PSI calculated for 1614 of 1648 (97.94%) tiles of lib CT replica bio3_facs1_psi"
+[1] "PSI calculated for 1616 of 1648 (98.06%) tiles of lib CT replica bio3_facs2_psi"
+[1] "Lib CT PSI Pearson of 10 replica pairs: mean 0.9925 range 0.9895 - 0.9949"
+[1] "All lib PSI Pearson of 40 replica mean 0.9684 range 0.9115 - 0.9949"
+[1] "Of 376754 measurements, 364114 (96.65%) exists and 341113 (90.54%) are above read count threshold of 100.0"
+[1] "Removed 3573 (11.79%) PSI's resulting in a total 3573 (11.79%) NA values for lib Even replica bio1_facs1_psi. Read distribution of non-NA psi values:"
+[1] "Removed 2707 (8.93%) PSI's resulting in a total 2707 (8.93%) NA values for lib Even replica bio1_facs2_psi. Read distribution of non-NA psi values:"
+[1] "Removed 2425 (8.00%) PSI's resulting in a total 2425 (8.00%) NA values for lib Even replica bio2_facs1_psi. Read distribution of non-NA psi values:"
+[1] "Removed 1873 (6.18%) PSI's resulting in a total 1873 (6.18%) NA values for lib Even replica bio2_facs2_psi. Read distribution of non-NA psi values:"
+[1] "Removed 1243 (4.10%) PSI's resulting in a total 1243 (4.10%) NA values for lib Even replica bio3_facs1_psi. Read distribution of non-NA psi values:"
+[1] "Removed 1228 (4.05%) PSI's resulting in a total 1228 (4.05%) NA values for lib Even replica bio3_facs2_psi. Read distribution of non-NA psi values:"
+[1] "Removed 3200 (10.29%) PSI's resulting in a total 3200 (10.29%) NA values for lib Odd replica bio1_facs1_psi. Read distribution of non-NA psi values:"
+[1] "Removed 3412 (10.97%) PSI's resulting in a total 3412 (10.97%) NA values for lib Odd replica bio1_facs2_psi. Read distribution of non-NA psi values:"
+[1] "Removed 3312 (10.65%) PSI's resulting in a total 3312 (10.65%) NA values for lib Odd replica bio2_facs1_psi. Read distribution of non-NA psi values:"
+[1] "Removed 3659 (11.76%) PSI's resulting in a total 3659 (11.76%) NA values for lib Odd replica bio2_facs2_psi. Read distribution of non-NA psi values:"
+[1] "Removed 4194 (13.48%) PSI's resulting in a total 4194 (13.48%) NA values for lib Odd replica bio3_facs1_psi. Read distribution of non-NA psi values:"
+[1] "Removed 4246 (13.65%) PSI's resulting in a total 4246 (13.65%) NA values for lib Odd replica bio3_facs2_psi. Read distribution of non-NA psi values:"
+[1] "Removed 42 (2.55%) PSI's resulting in a total 42 (2.55%) NA values for lib CT replica bio1_facs1_psi. Read distribution of non-NA psi values:"
+[1] "Removed 42 (2.55%) PSI's resulting in a total 42 (2.55%) NA values for lib CT replica bio1_facs2_psi. Read distribution of non-NA psi values:"
+[1] "Removed 42 (2.55%) PSI's resulting in a total 42 (2.55%) NA values for lib CT replica bio2_facs2_psi. Read distribution of non-NA psi values:"
+[1] "Removed 42 (2.55%) PSI's resulting in a total 42 (2.55%) NA values for lib CT replica bio3_facs1_psi. Read distribution of non-NA psi values:"
+[1] "Removed 42 (2.55%) PSI's resulting in a total 42 (2.55%) NA values for lib CT replica bio3_facs2_psi. Read distribution of non-NA psi values:"
+[1] "Removed 35282 measurements with read count sum < 100.0"
+[1] "Lib Even replica bio1_facs1_psi read distribution of 26743 (88.21%) non-NA psi values:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  26.96   66.49  112.89  147.81  195.24 1242.29 
+[1] "Lib Even replica bio1_facs2_psi read distribution of 27609 (91.07%) non-NA psi values:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  25.42   66.25  111.24  143.90  188.92 1148.23 
+[1] "Lib Even replica bio2_facs1_psi read distribution of 27891 (92.00%) non-NA psi values:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  22.79   66.65  110.58  142.66  186.32 1083.39 
+[1] "Lib Even replica bio2_facs2_psi read distribution of 28443 (93.82%) non-NA psi values:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  19.21   64.71  107.34  140.28  182.36 1230.30 
+[1] "Lib Even replica bio3_facs1_psi read distribution of 29073 (95.90%) non-NA psi values:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  10.66   76.38  115.86  137.55  176.52  952.96 
+[1] "Lib Even replica bio3_facs2_psi read distribution of 29088 (95.95%) non-NA psi values:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  10.39   79.40  118.05  137.48  175.63  843.87 
+[1] "Lib Odd replica bio1_facs1_psi read distribution of 27903 (89.71%) non-NA psi values:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  21.65   66.58  115.15  142.19  190.54 1187.33 
+[1] "Lib Odd replica bio1_facs2_psi read distribution of 27691 (89.03%) non-NA psi values:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  20.34   68.18  116.55  143.10  191.80 1254.22 
+[1] "Lib Odd replica bio2_facs1_psi read distribution of 27791 (89.35%) non-NA psi values:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  24.48   67.90  116.10  142.73  190.21 1124.97 
+[1] "Lib Odd replica bio2_facs2_psi read distribution of 27444 (88.24%) non-NA psi values:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  25.59   70.03  118.43  144.18  192.38 1187.77 
+[1] "Lib Odd replica bio3_facs1_psi read distribution of 26909 (86.52%) non-NA psi values:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  27.54   70.58  119.09  146.58  194.37 1242.38 
+[1] "Lib Odd replica bio3_facs2_psi read distribution of 26857 (86.35%) non-NA psi values:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  28.97   70.12  119.32  146.92  195.47 1210.16 
+[1] "Lib CT replica bio1_facs1_psi read distribution of 1606 (97.45%) non-NA psi values:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  229.1  1592.9  2197.0  2490.6  3096.4  9697.1 
+[1] "Lib CT replica bio1_facs2_psi read distribution of 1606 (97.45%) non-NA psi values:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  233.4  1593.0  2199.7  2490.6  3063.1 10213.0 
+[1] "Lib CT replica bio2_facs2_psi read distribution of 1606 (97.45%) non-NA psi values:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  277.4  1600.8  2199.4  2490.5  3097.5  9166.8 
+[1] "Lib CT replica bio3_facs1_psi read distribution of 1606 (97.45%) non-NA psi values:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  272.8  1580.4  2200.9  2490.6  3123.9  9526.7 
+[1] "Lib CT replica bio3_facs2_psi read distribution of 1606 (97.45%) non-NA psi values:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  249.5  1615.9  2210.1  2490.6  3103.8  9863.6 
+[1] "cnorm control peptides measure in all replicates: pparg_1,pparg_4,pparg_8,pparg_11,pparg_19,pparg_25,pparg_27,pparg_30,pparg_32,RLLL_1,RLLL_2,RLLL_3,RLLL_4,RLLL_5,RAAA_1,RAAA_2,RAAA_3,RAAA_4,RAAA_5,DAAA_1,DAAA_2,DAAA_3,DAAA_4,DAAA_5"
+[1] "cnorm stable control peptides: pparg_1,pparg_8"
+[1] "cnorm degron control peptides: pparg_27,pparg_30,pparg_32"
+[1] "Summary of SD between psi values of biological replicates for Even library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0003  0.0673  0.1058  0.1121  0.1482  0.5448    1239 
+[1] "Summary of SD between cnorm values of biological replicates for Even library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.1390  0.1985  0.2174  0.2763  0.8499    1239 
+[1] "Summary of SD between pnorm values of biological replicates for Even library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0002  0.0421  0.0608  0.0691  0.0866  0.3822    1239 
+[1] "Summary of SD between fnorm values of biological replicates for Even library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0099  0.0206  0.0266  0.0366  0.4062    1239 
+[1] "Summary of SD between fwnorm values of biological replicates for Even library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0117  0.0226  0.0296  0.0386  0.4098    1239 
+[1] "Summary of SD between fcnorm values of biological replicates for Even library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0817  0.1791  0.2212  0.3083  2.3916    1239 
+[1] "Summary of SD between unorm values of biological replicates for Even library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0321  0.0463  0.0511  0.0648  0.3140    1239 
+[1] "Summary of SD between psi values of biological replicates for Odd library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0001  0.0574  0.0803  0.0867  0.1081  0.4335    2957 
+[1] "Summary of SD between cnorm values of biological replicates for Odd library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0001  0.1028  0.1636  0.1798  0.2438  0.9404    2957 
+[1] "Summary of SD between pnorm values of biological replicates for Odd library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0003  0.0297  0.0416  0.0464  0.0581  0.2404    2957 
+[1] "Summary of SD between fnorm values of biological replicates for Odd library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0083  0.0147  0.0196  0.0248  0.3246    2957 
+[1] "Summary of SD between fwnorm values of biological replicates for Odd library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0099  0.0160  0.0231  0.0276  0.3347    2957 
+[1] "Summary of SD between fcnorm values of biological replicates for Odd library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0721  0.1522  0.1947  0.2658  3.0829    2957 
+[1] "Summary of SD between unorm values of biological replicates for Odd library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0000  0.0238  0.0357  0.0390  0.0509  0.1810    2957 
+[1] "Summary of SD between psi values of biological replicates for CT library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00427 0.03987 0.05560 0.06189 0.07849 0.25022      42 
+[1] "Summary of SD between cnorm values of biological replicates for CT library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00419 0.03730 0.05133 0.05625 0.07027 0.22553      42 
+[1] "Summary of SD between pnorm values of biological replicates for CT library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00318 0.01723 0.02491 0.02758 0.03493 0.12215      42 
+[1] "Summary of SD between fnorm values of biological replicates for CT library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00039 0.00619 0.01090 0.01937 0.02102 0.21361      42 
+[1] "Summary of SD between fwnorm values of biological replicates for CT library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00138 0.00686 0.01182 0.02074 0.02111 0.23579      42 
+[1] "Summary of SD between fcnorm values of biological replicates for CT library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00216 0.04670 0.08389 0.13907 0.14897 1.45461      42 
+[1] "Summary of SD between unorm values of biological replicates for CT library"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00136 0.01707 0.02924 0.03317 0.04409 0.14336      42 
+[1] "Libraries Even and Odd have 28 tiles in common"
+[1] "Libraries Even and CT have 28 tiles in common"
+[1] "Libraries Odd and CT have 28 tiles in common"
+quartz 
+     2 
+[1] "Averaging psi scores over 17 replicates:  Even_bio1_facs1_psi, Even_bio1_facs2_psi, Even_bio2_facs1_psi, Even_bio2_facs2_psi, Even_bio3_facs1_psi, Even_bio3_facs2_psi, Odd_bio1_facs1_psi, Odd_bio1_facs2_psi, Odd_bio2_facs1_psi, Odd_bio2_facs2_psi, Odd_bio3_facs1_psi, Odd_bio3_facs2_psi, CT_bio1_facs1_psi, CT_bio1_facs2_psi, CT_bio2_facs2_psi, CT_bio3_facs1_psi, CT_bio3_facs2_psi"
+[1] "Degron psi score std. dev. summary:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   0.061   0.089   0.099   0.128   0.545    4230 
+[1] "Averaging cnorm scores over 17 replicates:  Even_bio1_facs1_cnorm, Even_bio1_facs2_cnorm, Even_bio2_facs1_cnorm, Even_bio2_facs2_cnorm, Even_bio3_facs1_cnorm, Even_bio3_facs2_cnorm, Odd_bio1_facs1_cnorm, Odd_bio1_facs2_cnorm, Odd_bio2_facs1_cnorm, Odd_bio2_facs2_cnorm, Odd_bio3_facs1_cnorm, Odd_bio3_facs2_cnorm, CT_bio1_facs1_cnorm, CT_bio1_facs2_cnorm, CT_bio2_facs2_cnorm, CT_bio3_facs1_cnorm, CT_bio3_facs2_cnorm"
+[1] "Degron cnorm score std. dev. summary:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   0.115   0.179   0.195   0.258   0.940    4230 
+[1] "Averaging pnorm scores over 17 replicates:  Even_bio1_facs1_pnorm, Even_bio1_facs2_pnorm, Even_bio2_facs1_pnorm, Even_bio2_facs2_pnorm, Even_bio3_facs1_pnorm, Even_bio3_facs2_pnorm, Odd_bio1_facs1_pnorm, Odd_bio1_facs2_pnorm, Odd_bio2_facs1_pnorm, Odd_bio2_facs2_pnorm, Odd_bio3_facs1_pnorm, Odd_bio3_facs2_pnorm, CT_bio1_facs1_pnorm, CT_bio1_facs2_pnorm, CT_bio2_facs2_pnorm, CT_bio3_facs1_pnorm, CT_bio3_facs2_pnorm"
+[1] "Degron pnorm score std. dev. summary:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   0.034   0.049   0.057   0.072   0.382    4230 
+[1] "Averaging fnorm scores over 17 replicates:  Even_bio1_facs1_fnorm, Even_bio1_facs2_fnorm, Even_bio2_facs1_fnorm, Even_bio2_facs2_fnorm, Even_bio3_facs1_fnorm, Even_bio3_facs2_fnorm, Odd_bio1_facs1_fnorm, Odd_bio1_facs2_fnorm, Odd_bio2_facs1_fnorm, Odd_bio2_facs2_fnorm, Odd_bio3_facs1_fnorm, Odd_bio3_facs2_fnorm, CT_bio1_facs1_fnorm, CT_bio1_facs2_fnorm, CT_bio2_facs2_fnorm, CT_bio3_facs1_fnorm, CT_bio3_facs2_fnorm"
+[1] "Degron fnorm score std. dev. summary:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   0.009   0.017   0.023   0.031   0.406    4230 
+[1] "Averaging fwnorm scores over 17 replicates:  Even_bio1_facs1_fwnorm, Even_bio1_facs2_fwnorm, Even_bio2_facs1_fwnorm, Even_bio2_facs2_fwnorm, Even_bio3_facs1_fwnorm, Even_bio3_facs2_fwnorm, Odd_bio1_facs1_fwnorm, Odd_bio1_facs2_fwnorm, Odd_bio2_facs1_fwnorm, Odd_bio2_facs2_fwnorm, Odd_bio3_facs1_fwnorm, Odd_bio3_facs2_fwnorm, CT_bio1_facs1_fwnorm, CT_bio1_facs2_fwnorm, CT_bio2_facs2_fwnorm, CT_bio3_facs1_fwnorm, CT_bio3_facs2_fwnorm"
+[1] "Degron fwnorm score std. dev. summary:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   0.010   0.019   0.026   0.033   0.410    4230 
+[1] "Averaging fcnorm scores over 17 replicates:  Even_bio1_facs1_fcnorm, Even_bio1_facs2_fcnorm, Even_bio2_facs1_fcnorm, Even_bio2_facs2_fcnorm, Even_bio3_facs1_fcnorm, Even_bio3_facs2_fcnorm, Odd_bio1_facs1_fcnorm, Odd_bio1_facs2_fcnorm, Odd_bio2_facs1_fcnorm, Odd_bio2_facs2_fcnorm, Odd_bio3_facs1_fcnorm, Odd_bio3_facs2_fcnorm, CT_bio1_facs1_fcnorm, CT_bio1_facs2_fcnorm, CT_bio2_facs2_fcnorm, CT_bio3_facs1_fcnorm, CT_bio3_facs2_fcnorm"
+[1] "Degron fcnorm score std. dev. summary:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   0.075   0.162   0.206   0.286   3.083    4230 
+[1] "Averaging unorm scores over 17 replicates:  Even_bio1_facs1_unorm, Even_bio1_facs2_unorm, Even_bio2_facs1_unorm, Even_bio2_facs2_unorm, Even_bio3_facs1_unorm, Even_bio3_facs2_unorm, Odd_bio1_facs1_unorm, Odd_bio1_facs2_unorm, Odd_bio2_facs1_unorm, Odd_bio2_facs2_unorm, Odd_bio3_facs1_unorm, Odd_bio3_facs2_unorm, CT_bio1_facs1_unorm, CT_bio1_facs2_unorm, CT_bio2_facs2_unorm, CT_bio3_facs1_unorm, CT_bio3_facs2_unorm"
+[1] "Degron unorm score std. dev. summary:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   0.027   0.041   0.045   0.058   0.314    4230 
+[1] "Distribution of number of replicate measurements before filtering"
+
+    0     1     2     3     4     5     6    17 
+ 3764   466   972   884  1122  3160 52619    24 
+[1] "Discarding 4230 tiles with fewer than 2 measurements"
+[1] "Final coverages is 58781 degron scores out of 63011 (93.29%)"
+quartz 
+     2 
+[1] "Mapping 58781 scores to 58992 library members (93.30%)"
