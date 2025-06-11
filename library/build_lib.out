@@ -1,0 +1,1949 @@
+[1] "Changing gene ENSG00000262156 index 1674 to ENSG00000128383 which should be the same protein but a more cannonical entry listed in MANE Select"
+[1] "WARNING: 3 entries are not Ensembl gene ID's:"
+              ID  Name         DBD   X                       TF.assessment
+873  ZNF73_HUMAN ZNF73     C2H2 ZF  No Unlikely to be sequence specific TF
+1307  DUX1_HUMAN  DUX1 Homeodomain Yes                         Known motif
+1308  DUX3_HUMAN  DUX3 Homeodomain Yes                         Known motif
+[1] "Proteins curated to be transcription factors:"
+
+  No  Yes 
+1126 1639 
+[1] "Found transcripts for 2712 of 2765 ensemle genes"
+[1] "Two transcripts in MANE list seems not to excist - update"
+[1] "Overwriting transcript of ENSG00000251369 from ENST00000699333.1 to ENST00000457177.5"
+[1] "Overwriting transcript of ENSG00000178928 from ENST00000698655.1 to ENST00000535759.1"
+[1] "Of 53 missing transcripts, 26 are annotated as transcription factors"
+[1] "Manually assigning transcript ENST00000344347.5 to gene ENSG00000100219"
+[1] "Manually assigning transcript ENST00000377669.7 to gene ENSG00000118922"
+[1] "Manually assigning transcript ENST00000282869.11 to gene ENSG00000152926"
+[1] "Manually assigning transcript ENST00000589262.5 to gene ENSG00000188629"
+[1] "Manually assigning transcript ENST00000562103.2 to gene ENSG00000167962"
+[1] "Manually assigning transcript ENST00000358582.9 to gene ENSG00000196381"
+[1] "Manually assigning transcript ENST00000597597.1 to gene ENSG00000167766"
+[1] "Manually assigning transcript ENST00000436261.6 to gene ENSG00000178917"
+[1] "Manually assigning transcript ENST00000641094.2 to gene ENSG00000204060"
+[1] "Manually assigning transcript ENST00000403903.7 to gene ENSG00000220201"
+[1] "Manually assigning transcript ENST00000344726.9 to gene ENSG00000118418"
+[1] "Manually assigning transcript ENST00000304449.8 to gene ENSG00000186416"
+[1] "Manually assigning transcript ENST00000219905.13 to gene ENSG00000174197"
+[1] "Manually assigning transcript ENST00000296302.11 to gene ENSG00000163939"
+[1] "Manually assigning transcript ENST00000551025.4 to gene ENSG00000118412"
+[1] "Manually assigning transcript ENST00000307137.11 to gene ENSG00000196101"
+[1] "Manually assigning transcript ENST00000637539.2 to gene ENSG00000211899"
+[1] "Manually assigning transcript ENST00000394008.1 to gene ENSG00000198083"
+[1] "Manually assigning transcript ENST00000606253.5 to gene ENSG00000167604"
+[1] "Manually assigning transcript ENST00000416283.6 to gene ENSG00000006576"
+[1] "Manually assigning transcript ENST00000241436.8 to gene ENSG00000122008"
+[1] "Manually assigning transcript ENST00000674977.2 to gene ENSG00000181222"
+[1] "Manually assigning transcript ENST00000436581.6 to gene ENSG00000079102"
+[1] "Manually assigning transcript ENST00000610401.5 to gene ENSG00000157216"
+[1] "Missing transcripts now 29 of 2765, 13 of 1639 curated to be TF"
+[1] "Found sequences for 2736 of 2736 transcripts"
+[1] "Of 29 missing transcripts/sequences, 13 are annotated as transcription factors:"
+                  ID           Name         DBD   X transcript.version  dna
+68   ENSG00000250709 CCDC169-SOHLH2        bHLH Yes               <NA> <NA>
+161  ENSG00000267281     AC023509.3        bZIP Yes               <NA> <NA>
+233  ENSG00000267179     AC008770.3     C2H2 ZF Yes               <NA> <NA>
+235  ENSG00000264668     AC138696.1     C2H2 ZF Yes               <NA> <NA>
+572  ENSG00000249459        ZNF286B     C2H2 ZF Yes               <NA> <NA>
+853  ENSG00000214534        ZNF705E     C2H2 ZF Yes               <NA> <NA>
+913  ENSG00000214189         ZNF788     C2H2 ZF Yes               <NA> <NA>
+959  ENSG00000228623         ZNF883     C2H2 ZF Yes               <NA> <NA>
+1051 ENSG00000177946        CENPBD1       CENPB Yes               <NA> <NA>
+1307      DUX1_HUMAN           DUX1 Homeodomain Yes               <NA> <NA>
+1308      DUX3_HUMAN           DUX3 Homeodomain Yes               <NA> <NA>
+1518 ENSG00000064489   BORCS8-MEF2B    MADS box Yes               <NA> <NA>
+2150 ENSG00000230257           NFE4     Unknown Yes               <NA> <NA>
+[1] "Manually assign DNA sequence to DUX1_HUMAN not listed in Ensembl"
+[1] "Manually assign DNA sequence to DUX3_HUMAN not listed in Ensembl"
+[1] "Missing sequences now 27 of 2765, 11 TF"
+[1] "Letters used in DNA sequences"
+
+      A       C       G       T 
+1445033 1423258 1403949 1115574 
+[1] "Amino acids used in library"
+
+     *      A      C      D      E      F      G      H      I      K      L      M      N      P      Q      R      S      T      V      W      Y 
+  2737 122948  48394  79954 133209  58662 119963  60074  65811 117256 154916  35789  63696 128450  94336 101634 161734  94088  90997  16194  45096 
+[1] "Length distribution in amino acids"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   46.0   361.0   518.5   655.9   758.8  8526.0 
+[1] "There are 4 fully redundant amino acid sequences where only the first will be used"
+                  ID  Name   X transcript.version dna_identical
+1503 ENSG00000172468 HSFY1 Yes  ENST00000307393.3          TRUE
+1504 ENSG00000169953 HSFY2 Yes  ENST00000304790.3          TRUE
+                  ID   Name  X transcript.version dna_identical
+1996 ENSG00000204389 HSPA1A No  ENST00000375651.7          TRUE
+1997 ENSG00000204388 HSPA1B No  ENST00000375650.5         FALSE
+                  ID  Name   X transcript.version dna_identical
+1501 ENSG00000171116 HSFX1 Yes  ENST00000370416.4          TRUE
+1502 ENSG00000268738 HSFX2 Yes  ENST00000598963.3         FALSE
+                  ID   Name  X transcript.version dna_identical
+1708 ENSG00000183336  BOLA2 No  ENST00000330978.4          TRUE
+1709 ENSG00000169627 BOLA2B No  ENST00000651894.2          TRUE
+[1] "Sliced 1626 sequences (1626 or 100% unique) into 63230 tiles (62992 or 100% unique)"
+[1] "There are 213 DNA redundant tiles"
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+25137 ENSG00000180855_tile0005 ENST00000301547 ZNF443            181           270       <NA>
+35494 ENSG00000196466_tile0005 ENST00000430385 ZNF799            181           270      25137
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+26633 ENSG00000229676_tile0035 ENST00000456783 ZNF492           1507          1596       <NA>
+37561 ENSG00000197360_tile0038 ENST00000357774  ZNF98           1630          1719      26633
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45830 ENSG00000196275_tile0057 ENST00000451013  GTF2IRD2           2521          2610       <NA>
+45893 ENSG00000174428_tile0057 ENST00000472837 GTF2IRD2B           2521          2610      45830
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24245 ENSG00000173480_tile0005 ENST00000312026 ZNF417            181           270       <NA>
+29600 ENSG00000198466_tile0005 ENST00000339656 ZNF587            181           270      24245
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45782 ENSG00000196275_tile0009 ENST00000451013  GTF2IRD2            361           450       <NA>
+45845 ENSG00000174428_tile0009 ENST00000472837 GTF2IRD2B            361           450      45782
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+33116 ENSG00000215356_tile0011 ENST00000400120 ZNF705B            451           540       <NA>
+33136 ENSG00000215343_tile0011 ENST00000400085 ZNF705D            451           540      33116
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24263 ENSG00000173480_tile0023 ENST00000312026 ZNF417            991          1080       <NA>
+29618 ENSG00000198466_tile0023 ENST00000339656 ZNF587            991          1080      24263
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+25136 ENSG00000180855_tile0004 ENST00000301547 ZNF443            136           225       <NA>
+35493 ENSG00000196466_tile0004 ENST00000430385 ZNF799            136           225      25136
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45785 ENSG00000196275_tile0012 ENST00000451013  GTF2IRD2            496           585       <NA>
+45848 ENSG00000174428_tile0012 ENST00000472837 GTF2IRD2B            496           585      45785
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+23116 ENSG00000169131_tile0025 ENST00000335815 ZNF354A           1081          1170       <NA>
+23156 ENSG00000178338_tile0025 ENST00000322434 ZNF354B           1081          1170      23116
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+52064 ENSG00000204531_tile0014 ENST00000259915  POU5F1            586           675       <NA>
+52088 ENSG00000212993_tile0014 ENST00000696633 POU5F1B            586           675      52064
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+38251 ENSG00000131848_tile0004 ENST00000683990 ZSCAN5A            136           225       <NA>
+38317 ENSG00000204532_tile0004 ENST00000534327 ZSCAN5C            136           225      38251
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45822 ENSG00000196275_tile0049 ENST00000451013  GTF2IRD2           2161          2250       <NA>
+45885 ENSG00000174428_tile0049 ENST00000472837 GTF2IRD2B           2161          2250      45822
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+22301 ENSG00000083812_tile0025 ENST00000196482  ZNF324           1081          1170       <NA>
+22337 ENSG00000249471_tile0025 ENST00000336614 ZNF324B           1081          1170      22301
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+61777 ENSG00000126561_tile0018 ENST00000590949 STAT5A            766           855       <NA>
+61829 ENSG00000173757_tile0018 ENST00000293328 STAT5B            766           855      61777
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50673 ENSG00000131721_tile0005 ENST00000371388  RHOXF2            181           270       <NA>
+50692 ENSG00000203989_tile0005 ENST00000371402 RHOXF2B            181           270      50673
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+20939 ENSG00000198538_tile0012 ENST00000457749  ZNF28            496           585       <NA>
+25770 ENSG00000204604_tile0012 ENST00000595646 ZNF468            496           585      20939
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24255 ENSG00000173480_tile0015 ENST00000312026 ZNF417            631           720       <NA>
+29610 ENSG00000198466_tile0015 ENST00000339656 ZNF587            631           720      24255
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+30056 ENSG00000189190_tile0017 ENST00000692063 ZNF600            721           810       <NA>
+30472 ENSG00000213020_tile0017 ENST00000652185 ZNF611            721           810      30056
+35858 ENSG00000198482_tile0017 ENST00000359798 ZNF808            721           810      30056
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45791 ENSG00000196275_tile0018 ENST00000451013  GTF2IRD2            766           855       <NA>
+45854 ENSG00000174428_tile0018 ENST00000472837 GTF2IRD2B            766           855      45791
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24242 ENSG00000173480_tile0002 ENST00000312026 ZNF417             46           135       <NA>
+29597 ENSG00000198466_tile0002 ENST00000339656 ZNF587             46           135      24242
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45831 ENSG00000196275_tile0058 ENST00000451013  GTF2IRD2           2566          2655       <NA>
+45894 ENSG00000174428_tile0058 ENST00000472837 GTF2IRD2B           2566          2655      45831
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+22297 ENSG00000083812_tile0021 ENST00000196482  ZNF324            901           990       <NA>
+22333 ENSG00000249471_tile0021 ENST00000336614 ZNF324B            901           990      22297
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45792 ENSG00000196275_tile0019 ENST00000451013  GTF2IRD2            811           900       <NA>
+45855 ENSG00000174428_tile0019 ENST00000472837 GTF2IRD2B            811           900      45792
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+35948 ENSG00000198346_tile0003 ENST00000396403 ZNF813             91           180       <NA>
+36734 ENSG00000213799_tile0003 ENST00000458035 ZNF845             91           180      35948
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+29508 ENSG00000196967_tile0041 ENST00000292841 ZNF585A           1801          1890       <NA>
+29559 ENSG00000245680_tile0041 ENST00000532828 ZNF585B           1801          1890      29508
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+30049 ENSG00000189190_tile0010 ENST00000692063 ZNF600            406           495       <NA>
+30465 ENSG00000213020_tile0010 ENST00000652185 ZNF611            406           495      30049
+35851 ENSG00000198482_tile0010 ENST00000359798 ZNF808            406           495      30049
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+33121 ENSG00000215356_tile0016 ENST00000400120 ZNF705B            676           765       <NA>
+33141 ENSG00000215343_tile0016 ENST00000400085 ZNF705D            676           765      33121
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45786 ENSG00000196275_tile0013 ENST00000451013  GTF2IRD2            541           630       <NA>
+45849 ENSG00000174428_tile0013 ENST00000472837 GTF2IRD2B            541           630      45786
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50975 ENSG00000153779_tile0008 ENST00000283891 TGIF2LX            316           405       <NA>
+50991 ENSG00000176679_tile0008 ENST00000321217 TGIF2LY            316           405      50975
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45778 ENSG00000196275_tile0005 ENST00000451013  GTF2IRD2            181           270       <NA>
+45841 ENSG00000174428_tile0005 ENST00000472837 GTF2IRD2B            181           270      45778
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43874 ENSG00000184659_tile0027 ENST00000377413 FOXD4L4           1162          1251       <NA>
+43901 ENSG00000204779_tile0027 ENST00000377420 FOXD4L5           1162          1251      43874
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43847 ENSG00000187559_tile0027 ENST00000342833 FOXD4L3           1165          1254       <NA>
+43928 ENSG00000273514_tile0027 ENST00000622588 FOXD4L6           1165          1254      43847
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50670 ENSG00000131721_tile0002 ENST00000371388  RHOXF2             46           135       <NA>
+50689 ENSG00000203989_tile0002 ENST00000371402 RHOXF2B             46           135      50670
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+49829 ENSG00000111704_tile0009 ENST00000229307   NANOG            361           450       <NA>
+49861 ENSG00000255192_tile0009 ENST00000528386 NANOGP8            361           450      49829
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43795 ENSG00000184492_tile0002 ENST00000306507 FOXD4L1             46           135       <NA>
+43849 ENSG00000184659_tile0002 ENST00000377413 FOXD4L4             46           135      43795
+43876 ENSG00000204779_tile0002 ENST00000377420 FOXD4L5             46           135      43795
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43822 ENSG00000187559_tile0002 ENST00000342833 FOXD4L3             46           135       <NA>
+43903 ENSG00000273514_tile0002 ENST00000622588 FOXD4L6             46           135      43822
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+61778 ENSG00000126561_tile0019 ENST00000590949 STAT5A            811           900       <NA>
+61830 ENSG00000173757_tile0019 ENST00000293328 STAT5B            811           900      61778
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50685 ENSG00000131721_tile0017 ENST00000371388  RHOXF2            721           810       <NA>
+50704 ENSG00000203989_tile0017 ENST00000371402 RHOXF2B            721           810      50685
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50684 ENSG00000131721_tile0016 ENST00000371388  RHOXF2            676           765       <NA>
+50703 ENSG00000203989_tile0016 ENST00000371402 RHOXF2B            676           765      50684
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43834 ENSG00000187559_tile0014 ENST00000342833 FOXD4L3            586           675       <NA>
+43861 ENSG00000184659_tile0014 ENST00000377413 FOXD4L4            586           675      43834
+43915 ENSG00000273514_tile0014 ENST00000622588 FOXD4L6            586           675      43834
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45800 ENSG00000196275_tile0027 ENST00000451013  GTF2IRD2           1171          1260       <NA>
+45863 ENSG00000174428_tile0027 ENST00000472837 GTF2IRD2B           1171          1260      45800
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24249 ENSG00000173480_tile0009 ENST00000312026 ZNF417            361           450       <NA>
+29604 ENSG00000198466_tile0009 ENST00000339656 ZNF587            361           450      24249
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24268 ENSG00000173480_tile0028 ENST00000312026 ZNF417           1216          1305       <NA>
+29623 ENSG00000198466_tile0028 ENST00000339656 ZNF587           1216          1305      24268
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45801 ENSG00000196275_tile0028 ENST00000451013  GTF2IRD2           1216          1305       <NA>
+45864 ENSG00000174428_tile0028 ENST00000472837 GTF2IRD2B           1216          1305      45801
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50680 ENSG00000131721_tile0012 ENST00000371388  RHOXF2            496           585       <NA>
+50699 ENSG00000203989_tile0012 ENST00000371402 RHOXF2B            496           585      50680
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43827 ENSG00000187559_tile0007 ENST00000342833 FOXD4L3            271           360       <NA>
+43854 ENSG00000184659_tile0007 ENST00000377413 FOXD4L4            271           360      43827
+43881 ENSG00000204779_tile0007 ENST00000377420 FOXD4L5            271           360      43827
+43908 ENSG00000273514_tile0007 ENST00000622588 FOXD4L6            271           360      43827
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+29511 ENSG00000196967_tile0044 ENST00000292841 ZNF585A           1936          2025       <NA>
+29562 ENSG00000245680_tile0044 ENST00000532828 ZNF585B           1936          2025      29511
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+29642 ENSG00000269343_tile0009 ENST00000594901 ZNF587B            361           450       <NA>
+35995 ENSG00000204514_tile0009 ENST00000435989  ZNF814            361           450      29642
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24258 ENSG00000173480_tile0018 ENST00000312026 ZNF417            766           855       <NA>
+29613 ENSG00000198466_tile0018 ENST00000339656 ZNF587            766           855      24258
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24251 ENSG00000173480_tile0011 ENST00000312026 ZNF417            451           540       <NA>
+29606 ENSG00000198466_tile0011 ENST00000339656 ZNF587            451           540      24251
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+49840 ENSG00000111704_tile0020 ENST00000229307   NANOG            829           918       <NA>
+49872 ENSG00000255192_tile0020 ENST00000528386 NANOGP8            829           918      49840
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45781 ENSG00000196275_tile0008 ENST00000451013  GTF2IRD2            316           405       <NA>
+45844 ENSG00000174428_tile0008 ENST00000472837 GTF2IRD2B            316           405      45781
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45802 ENSG00000196275_tile0029 ENST00000451013  GTF2IRD2           1261          1350       <NA>
+45865 ENSG00000174428_tile0029 ENST00000472837 GTF2IRD2B           1261          1350      45802
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45798 ENSG00000196275_tile0025 ENST00000451013  GTF2IRD2           1081          1170       <NA>
+45861 ENSG00000174428_tile0025 ENST00000472837 GTF2IRD2B           1081          1170      45798
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45810 ENSG00000196275_tile0037 ENST00000451013  GTF2IRD2           1621          1710       <NA>
+45873 ENSG00000174428_tile0037 ENST00000472837 GTF2IRD2B           1621          1710      45810
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43856 ENSG00000184659_tile0009 ENST00000377413 FOXD4L4            361           450       <NA>
+43883 ENSG00000204779_tile0009 ENST00000377420 FOXD4L5            361           450      43856
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43829 ENSG00000187559_tile0009 ENST00000342833 FOXD4L3            361           450       <NA>
+43910 ENSG00000273514_tile0009 ENST00000622588 FOXD4L6            361           450      43829
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+61779 ENSG00000126561_tile0020 ENST00000590949 STAT5A            856           945       <NA>
+61831 ENSG00000173757_tile0020 ENST00000293328 STAT5B            856           945      61779
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43794 ENSG00000184492_tile0001 ENST00000306507 FOXD4L1              1            90       <NA>
+43848 ENSG00000184659_tile0001 ENST00000377413 FOXD4L4              1            90      43794
+43875 ENSG00000204779_tile0001 ENST00000377420 FOXD4L5              1            90      43794
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43821 ENSG00000187559_tile0001 ENST00000342833 FOXD4L3              1            90       <NA>
+43902 ENSG00000273514_tile0001 ENST00000622588 FOXD4L6              1            90      43821
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45783 ENSG00000196275_tile0010 ENST00000451013  GTF2IRD2            406           495       <NA>
+45846 ENSG00000174428_tile0010 ENST00000472837 GTF2IRD2B            406           495      45783
+                          name      transcript gene first_resi_dna last_resi_dna copyof_dna
+38411 ENSG00000198205_tile0001 ENST00000358697 ZXDA              1            90       <NA>
+38464 ENSG00000198455_tile0001 ENST00000374888 ZXDB              1            90      38411
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+28431 ENSG00000186300_tile0001 ENST00000334241 ZNF555              1            90       <NA>
+28960 ENSG00000171970_tile0001 ENST00000306908  ZNF57              1            90      28431
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+33113 ENSG00000215356_tile0008 ENST00000400120 ZNF705B            316           405       <NA>
+33133 ENSG00000215343_tile0008 ENST00000400085 ZNF705D            316           405      33113
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50669 ENSG00000131721_tile0001 ENST00000371388  RHOXF2              1            90       <NA>
+50688 ENSG00000203989_tile0001 ENST00000371402 RHOXF2B              1            90      50669
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45774 ENSG00000196275_tile0001 ENST00000451013  GTF2IRD2              1            90       <NA>
+45837 ENSG00000174428_tile0001 ENST00000472837 GTF2IRD2B              1            90      45774
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+25133 ENSG00000180855_tile0001 ENST00000301547 ZNF443              1            90       <NA>
+35490 ENSG00000196466_tile0001 ENST00000430385 ZNF799              1            90      25133
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+20928 ENSG00000198538_tile0001 ENST00000457749  ZNF28              1            90       <NA>
+25759 ENSG00000204604_tile0001 ENST00000595646 ZNF468              1            90      20928
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+27561 ENSG00000203326_tile0001 ENST00000474037 ZNF525              1            90       <NA>
+34487 ENSG00000196417_tile0001 ENST00000396408 ZNF765              1            90      27561
+35946 ENSG00000198346_tile0001 ENST00000396403 ZNF813              1            90      27561
+37242 ENSG00000213793_tile0001 ENST00000638862 ZNF888              1            90      27561
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+20325 ENSG00000256771_tile0001 ENST00000589717 ZNF253              1            90       <NA>
+30956 ENSG00000188171_tile0001 ENST00000601440 ZNF626              1            90      20325
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+34955 ENSG00000197782_tile0001 ENST00000683561 ZNF780A              1            90       <NA>
+34997 ENSG00000128000_tile0001 ENST00000434248 ZNF780B              1            90      34955
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50671 ENSG00000131721_tile0003 ENST00000371388  RHOXF2             91           180       <NA>
+50690 ENSG00000203989_tile0003 ENST00000371402 RHOXF2B             91           180      50671
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+29506 ENSG00000196967_tile0039 ENST00000292841 ZNF585A           1711          1800       <NA>
+29557 ENSG00000245680_tile0039 ENST00000532828 ZNF585B           1711          1800      29506
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+23117 ENSG00000169131_tile0026 ENST00000335815 ZNF354A           1126          1215       <NA>
+23157 ENSG00000178338_tile0026 ENST00000322434 ZNF354B           1126          1215      23117
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24264 ENSG00000173480_tile0024 ENST00000312026 ZNF417           1036          1125       <NA>
+29619 ENSG00000198466_tile0024 ENST00000339656 ZNF587           1036          1125      24264
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+22299 ENSG00000083812_tile0023 ENST00000196482  ZNF324            991          1080       <NA>
+22335 ENSG00000249471_tile0023 ENST00000336614 ZNF324B            991          1080      22299
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24248 ENSG00000173480_tile0008 ENST00000312026 ZNF417            316           405       <NA>
+29603 ENSG00000198466_tile0008 ENST00000339656 ZNF587            316           405      24248
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+29504 ENSG00000196967_tile0037 ENST00000292841 ZNF585A           1621          1710       <NA>
+29555 ENSG00000245680_tile0037 ENST00000532828 ZNF585B           1621          1710      29504
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+49835 ENSG00000111704_tile0015 ENST00000229307   NANOG            631           720       <NA>
+49867 ENSG00000255192_tile0015 ENST00000528386 NANOGP8            631           720      49835
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+61780 ENSG00000126561_tile0021 ENST00000590949 STAT5A            901           990       <NA>
+61832 ENSG00000173757_tile0021 ENST00000293328 STAT5B            901           990      61780
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45796 ENSG00000196275_tile0023 ENST00000451013  GTF2IRD2            991          1080       <NA>
+45859 ENSG00000174428_tile0023 ENST00000472837 GTF2IRD2B            991          1080      45796
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+49828 ENSG00000111704_tile0008 ENST00000229307   NANOG            316           405       <NA>
+49860 ENSG00000255192_tile0008 ENST00000528386 NANOGP8            316           405      49828
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+33100 ENSG00000196946_tile0015 ENST00000396570 ZNF705A            631           720       <NA>
+33120 ENSG00000215356_tile0015 ENST00000400120 ZNF705B            631           720      33100
+33140 ENSG00000215343_tile0015 ENST00000400085 ZNF705D            631           720      33100
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+38254 ENSG00000131848_tile0007 ENST00000683990 ZSCAN5A            271           360       <NA>
+38320 ENSG00000204532_tile0007 ENST00000534327 ZSCAN5C            271           360      38254
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+33117 ENSG00000215356_tile0012 ENST00000400120 ZNF705B            496           585       <NA>
+33137 ENSG00000215343_tile0012 ENST00000400085 ZNF705D            496           585      33117
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24250 ENSG00000173480_tile0010 ENST00000312026 ZNF417            406           495       <NA>
+29605 ENSG00000198466_tile0010 ENST00000339656 ZNF587            406           495      24250
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+29641 ENSG00000269343_tile0008 ENST00000594901 ZNF587B            316           405       <NA>
+35994 ENSG00000204514_tile0008 ENST00000435989  ZNF814            316           405      29641
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+49838 ENSG00000111704_tile0018 ENST00000229307   NANOG            766           855       <NA>
+49870 ENSG00000255192_tile0018 ENST00000528386 NANOGP8            766           855      49838
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50677 ENSG00000131721_tile0009 ENST00000371388  RHOXF2            361           450       <NA>
+50696 ENSG00000203989_tile0009 ENST00000371402 RHOXF2B            361           450      50677
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+29469 ENSG00000196967_tile0002 ENST00000292841 ZNF585A             46           135       <NA>
+29520 ENSG00000245680_tile0002 ENST00000532828 ZNF585B             46           135      29469
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45795 ENSG00000196275_tile0022 ENST00000451013  GTF2IRD2            946          1035       <NA>
+45858 ENSG00000174428_tile0022 ENST00000472837 GTF2IRD2B            946          1035      45795
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43871 ENSG00000184659_tile0024 ENST00000377413 FOXD4L4           1036          1125       <NA>
+43898 ENSG00000204779_tile0024 ENST00000377420 FOXD4L5           1036          1125      43871
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43844 ENSG00000187559_tile0024 ENST00000342833 FOXD4L3           1036          1125       <NA>
+43925 ENSG00000273514_tile0024 ENST00000622588 FOXD4L6           1036          1125      43844
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+22298 ENSG00000083812_tile0022 ENST00000196482  ZNF324            946          1035       <NA>
+22334 ENSG00000249471_tile0022 ENST00000336614 ZNF324B            946          1035      22298
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+29512 ENSG00000196967_tile0045 ENST00000292841 ZNF585A           1981          2070       <NA>
+29563 ENSG00000245680_tile0045 ENST00000532828 ZNF585B           1981          2070      29512
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43846 ENSG00000187559_tile0026 ENST00000342833 FOXD4L3           1126          1215       <NA>
+43927 ENSG00000273514_tile0026 ENST00000622588 FOXD4L6           1126          1215      43846
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43873 ENSG00000184659_tile0026 ENST00000377413 FOXD4L4           1126          1215       <NA>
+43900 ENSG00000204779_tile0026 ENST00000377420 FOXD4L5           1126          1215      43873
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43828 ENSG00000187559_tile0008 ENST00000342833 FOXD4L3            316           405       <NA>
+43855 ENSG00000184659_tile0008 ENST00000377413 FOXD4L4            316           405      43828
+43882 ENSG00000204779_tile0008 ENST00000377420 FOXD4L5            316           405      43828
+43909 ENSG00000273514_tile0008 ENST00000622588 FOXD4L6            316           405      43828
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43862 ENSG00000184659_tile0015 ENST00000377413 FOXD4L4            631           720       <NA>
+43916 ENSG00000273514_tile0015 ENST00000622588 FOXD4L6            631           720      43862
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45790 ENSG00000196275_tile0017 ENST00000451013  GTF2IRD2            721           810       <NA>
+45853 ENSG00000174428_tile0017 ENST00000472837 GTF2IRD2B            721           810      45790
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43841 ENSG00000187559_tile0021 ENST00000342833 FOXD4L3            901           990       <NA>
+43895 ENSG00000204779_tile0021 ENST00000377420 FOXD4L5            901           990      43841
+43922 ENSG00000273514_tile0021 ENST00000622588 FOXD4L6            901           990      43841
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45824 ENSG00000196275_tile0051 ENST00000451013  GTF2IRD2           2251          2340       <NA>
+45887 ENSG00000174428_tile0051 ENST00000472837 GTF2IRD2B           2251          2340      45824
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43896 ENSG00000204779_tile0022 ENST00000377420 FOXD4L5            946          1035       <NA>
+43923 ENSG00000273514_tile0022 ENST00000622588 FOXD4L6            946          1035      43896
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+31034 ENSG00000197483_tile0014 ENST00000598519 ZNF628            586           675       <NA>
+31060 ENSG00000197483_tile0040 ENST00000598519 ZNF628           1756          1845      31034
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+61775 ENSG00000126561_tile0016 ENST00000590949 STAT5A            676           765       <NA>
+61827 ENSG00000173757_tile0016 ENST00000293328 STAT5B            676           765      61775
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+61776 ENSG00000126561_tile0017 ENST00000590949 STAT5A            721           810       <NA>
+61828 ENSG00000173757_tile0017 ENST00000293328 STAT5B            721           810      61776
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43839 ENSG00000187559_tile0019 ENST00000342833 FOXD4L3            811           900       <NA>
+43920 ENSG00000273514_tile0019 ENST00000622588 FOXD4L6            811           900      43839
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+61794 ENSG00000126561_tile0035 ENST00000590949 STAT5A           1531          1620       <NA>
+61846 ENSG00000173757_tile0035 ENST00000293328 STAT5B           1531          1620      61794
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+29500 ENSG00000196967_tile0033 ENST00000292841 ZNF585A           1441          1530       <NA>
+29551 ENSG00000245680_tile0033 ENST00000532828 ZNF585B           1441          1530      29500
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+61774 ENSG00000126561_tile0015 ENST00000590949 STAT5A            631           720       <NA>
+61826 ENSG00000173757_tile0015 ENST00000293328 STAT5B            631           720      61774
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+33088 ENSG00000196946_tile0003 ENST00000396570 ZNF705A             91           180       <NA>
+33108 ENSG00000215356_tile0003 ENST00000400120 ZNF705B             91           180      33088
+33128 ENSG00000215343_tile0003 ENST00000400085 ZNF705D             91           180      33088
+33148 ENSG00000215372_tile0003 ENST00000400156 ZNF705G             91           180      33088
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45821 ENSG00000196275_tile0048 ENST00000451013  GTF2IRD2           2116          2205       <NA>
+45884 ENSG00000174428_tile0048 ENST00000472837 GTF2IRD2B           2116          2205      45821
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45836 ENSG00000196275_tile0063 ENST00000451013  GTF2IRD2           2761          2850       <NA>
+45899 ENSG00000174428_tile0063 ENST00000472837 GTF2IRD2B           2761          2850      45836
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50686 ENSG00000131721_tile0018 ENST00000371388  RHOXF2            766           855       <NA>
+50705 ENSG00000203989_tile0018 ENST00000371402 RHOXF2B            766           855      50686
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24243 ENSG00000173480_tile0003 ENST00000312026 ZNF417             91           180       <NA>
+29598 ENSG00000198466_tile0003 ENST00000339656 ZNF587             91           180      24243
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50687 ENSG00000131721_tile0019 ENST00000371388  RHOXF2            778           867       <NA>
+50706 ENSG00000203989_tile0019 ENST00000371402 RHOXF2B            778           867      50687
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45816 ENSG00000196275_tile0043 ENST00000451013  GTF2IRD2           1891          1980       <NA>
+45879 ENSG00000174428_tile0043 ENST00000472837 GTF2IRD2B           1891          1980      45816
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50969 ENSG00000153779_tile0002 ENST00000283891 TGIF2LX             46           135       <NA>
+50985 ENSG00000176679_tile0002 ENST00000321217 TGIF2LY             46           135      50969
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45797 ENSG00000196275_tile0024 ENST00000451013  GTF2IRD2           1036          1125       <NA>
+45860 ENSG00000174428_tile0024 ENST00000472837 GTF2IRD2B           1036          1125      45797
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43867 ENSG00000184659_tile0020 ENST00000377413 FOXD4L4            856           945       <NA>
+43894 ENSG00000204779_tile0020 ENST00000377420 FOXD4L5            856           945      43867
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43840 ENSG00000187559_tile0020 ENST00000342833 FOXD4L3            856           945       <NA>
+43921 ENSG00000273514_tile0020 ENST00000622588 FOXD4L6            856           945      43840
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45776 ENSG00000196275_tile0003 ENST00000451013  GTF2IRD2             91           180       <NA>
+45839 ENSG00000174428_tile0003 ENST00000472837 GTF2IRD2B             91           180      45776
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24274 ENSG00000173480_tile0034 ENST00000312026 ZNF417           1486          1575       <NA>
+29629 ENSG00000198466_tile0034 ENST00000339656 ZNF587           1486          1575      24274
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+22219 ENSG00000182986_tile0002 ENST00000682928 ZNF320             46           135       <NA>
+32990 ENSG00000167562_tile0002 ENST00000391785 ZNF701             46           135      22219
+37243 ENSG00000213793_tile0002 ENST00000638862 ZNF888             46           135      22219
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+27562 ENSG00000203326_tile0002 ENST00000474037 ZNF525             46           135       <NA>
+34386 ENSG00000160336_tile0002 ENST00000684525 ZNF761             46           135      27562
+34488 ENSG00000196417_tile0002 ENST00000396408 ZNF765             46           135      27562
+35947 ENSG00000198346_tile0002 ENST00000396403 ZNF813             46           135      27562
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50676 ENSG00000131721_tile0008 ENST00000371388  RHOXF2            316           405       <NA>
+50695 ENSG00000203989_tile0008 ENST00000371402 RHOXF2B            316           405      50676
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24254 ENSG00000173480_tile0014 ENST00000312026 ZNF417            586           675       <NA>
+29609 ENSG00000198466_tile0014 ENST00000339656 ZNF587            586           675      24254
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+38253 ENSG00000131848_tile0006 ENST00000683990 ZSCAN5A            226           315       <NA>
+38319 ENSG00000204532_tile0006 ENST00000534327 ZSCAN5C            226           315      38253
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45832 ENSG00000196275_tile0059 ENST00000451013  GTF2IRD2           2611          2700       <NA>
+45895 ENSG00000174428_tile0059 ENST00000472837 GTF2IRD2B           2611          2700      45832
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24244 ENSG00000173480_tile0004 ENST00000312026 ZNF417            136           225       <NA>
+29599 ENSG00000198466_tile0004 ENST00000339656 ZNF587            136           225      24244
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+61773 ENSG00000126561_tile0014 ENST00000590949 STAT5A            586           675       <NA>
+61825 ENSG00000173757_tile0014 ENST00000293328 STAT5B            586           675      61773
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45793 ENSG00000196275_tile0020 ENST00000451013  GTF2IRD2            856           945       <NA>
+45856 ENSG00000174428_tile0020 ENST00000472837 GTF2IRD2B            856           945      45793
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24246 ENSG00000173480_tile0006 ENST00000312026 ZNF417            226           315       <NA>
+29601 ENSG00000198466_tile0006 ENST00000339656 ZNF587            226           315      24246
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+29514 ENSG00000196967_tile0047 ENST00000292841 ZNF585A           2071          2160       <NA>
+29565 ENSG00000245680_tile0047 ENST00000532828 ZNF585B           2071          2160      29514
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+29513 ENSG00000196967_tile0046 ENST00000292841 ZNF585A           2026          2115       <NA>
+29564 ENSG00000245680_tile0046 ENST00000532828 ZNF585B           2026          2115      29513
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45811 ENSG00000196275_tile0038 ENST00000451013  GTF2IRD2           1666          1755       <NA>
+45874 ENSG00000174428_tile0038 ENST00000472837 GTF2IRD2B           1666          1755      45811
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+22682 ENSG00000189180_tile0002 ENST00000432900 ZNF33A             46           135       <NA>
+22736 ENSG00000196693_tile0002 ENST00000359467 ZNF33B             46           135      22682
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50672 ENSG00000131721_tile0004 ENST00000371388  RHOXF2            136           225       <NA>
+50691 ENSG00000203989_tile0004 ENST00000371402 RHOXF2B            136           225      50672
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+29640 ENSG00000269343_tile0007 ENST00000594901 ZNF587B            271           360       <NA>
+35993 ENSG00000204514_tile0007 ENST00000435989  ZNF814            271           360      29640
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43837 ENSG00000187559_tile0017 ENST00000342833 FOXD4L3            721           810       <NA>
+43864 ENSG00000184659_tile0017 ENST00000377413 FOXD4L4            721           810      43837
+43918 ENSG00000273514_tile0017 ENST00000622588 FOXD4L6            721           810      43837
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43863 ENSG00000184659_tile0016 ENST00000377413 FOXD4L4            676           765       <NA>
+43890 ENSG00000204779_tile0016 ENST00000377420 FOXD4L5            676           765      43863
+43917 ENSG00000273514_tile0016 ENST00000622588 FOXD4L6            676           765      43863
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43831 ENSG00000187559_tile0011 ENST00000342833 FOXD4L3            451           540       <NA>
+43858 ENSG00000184659_tile0011 ENST00000377413 FOXD4L4            451           540      43831
+43885 ENSG00000204779_tile0011 ENST00000377420 FOXD4L5            451           540      43831
+43912 ENSG00000273514_tile0011 ENST00000622588 FOXD4L6            451           540      43831
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43872 ENSG00000184659_tile0025 ENST00000377413 FOXD4L4           1081          1170       <NA>
+43899 ENSG00000204779_tile0025 ENST00000377420 FOXD4L5           1081          1170      43872
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43845 ENSG00000187559_tile0025 ENST00000342833 FOXD4L3           1081          1170       <NA>
+43926 ENSG00000273514_tile0025 ENST00000622588 FOXD4L6           1081          1170      43845
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43857 ENSG00000184659_tile0010 ENST00000377413 FOXD4L4            406           495       <NA>
+43884 ENSG00000204779_tile0010 ENST00000377420 FOXD4L5            406           495      43857
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43830 ENSG00000187559_tile0010 ENST00000342833 FOXD4L3            406           495       <NA>
+43911 ENSG00000273514_tile0010 ENST00000622588 FOXD4L6            406           495      43830
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43824 ENSG00000187559_tile0004 ENST00000342833 FOXD4L3            136           225       <NA>
+43905 ENSG00000273514_tile0004 ENST00000622588 FOXD4L6            136           225      43824
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45817 ENSG00000196275_tile0044 ENST00000451013  GTF2IRD2           1936          2025       <NA>
+45880 ENSG00000174428_tile0044 ENST00000472837 GTF2IRD2B           1936          2025      45817
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24247 ENSG00000173480_tile0007 ENST00000312026 ZNF417            271           360       <NA>
+29602 ENSG00000198466_tile0007 ENST00000339656 ZNF587            271           360      24247
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+38252 ENSG00000131848_tile0005 ENST00000683990 ZSCAN5A            181           270       <NA>
+38285 ENSG00000197213_tile0005 ENST00000586855 ZSCAN5B            181           270      38252
+38318 ENSG00000204532_tile0005 ENST00000534327 ZSCAN5C            181           270      38252
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+29507 ENSG00000196967_tile0040 ENST00000292841 ZNF585A           1756          1845       <NA>
+29558 ENSG00000245680_tile0040 ENST00000532828 ZNF585B           1756          1845      29507
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45833 ENSG00000196275_tile0060 ENST00000451013  GTF2IRD2           2656          2745       <NA>
+45896 ENSG00000174428_tile0060 ENST00000472837 GTF2IRD2B           2656          2745      45833
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+33099 ENSG00000196946_tile0014 ENST00000396570 ZNF705A            586           675       <NA>
+33119 ENSG00000215356_tile0014 ENST00000400120 ZNF705B            586           675      33099
+33139 ENSG00000215343_tile0014 ENST00000400085 ZNF705D            586           675      33099
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43823 ENSG00000187559_tile0003 ENST00000342833 FOXD4L3             91           180       <NA>
+43904 ENSG00000273514_tile0003 ENST00000622588 FOXD4L6             91           180      43823
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45788 ENSG00000196275_tile0015 ENST00000451013  GTF2IRD2            631           720       <NA>
+45851 ENSG00000174428_tile0015 ENST00000472837 GTF2IRD2B            631           720      45788
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43826 ENSG00000187559_tile0006 ENST00000342833 FOXD4L3            226           315       <NA>
+43907 ENSG00000273514_tile0006 ENST00000622588 FOXD4L6            226           315      43826
+                          name      transcript gene first_resi_dna last_resi_dna copyof_dna
+38412 ENSG00000198205_tile0002 ENST00000358697 ZXDA             46           135       <NA>
+38465 ENSG00000198455_tile0002 ENST00000374888 ZXDB             46           135      38412
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45784 ENSG00000196275_tile0011 ENST00000451013  GTF2IRD2            451           540       <NA>
+45847 ENSG00000174428_tile0011 ENST00000472837 GTF2IRD2B            451           540      45784
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+29505 ENSG00000196967_tile0038 ENST00000292841 ZNF585A           1666          1755       <NA>
+29556 ENSG00000245680_tile0038 ENST00000532828 ZNF585B           1666          1755      29505
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43838 ENSG00000187559_tile0018 ENST00000342833 FOXD4L3            766           855       <NA>
+43919 ENSG00000273514_tile0018 ENST00000622588 FOXD4L6            766           855      43838
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+49839 ENSG00000111704_tile0019 ENST00000229307   NANOG            811           900       <NA>
+49871 ENSG00000255192_tile0019 ENST00000528386 NANOGP8            811           900      49839
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45799 ENSG00000196275_tile0026 ENST00000451013  GTF2IRD2           1126          1215       <NA>
+45862 ENSG00000174428_tile0026 ENST00000472837 GTF2IRD2B           1126          1215      45799
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45787 ENSG00000196275_tile0014 ENST00000451013  GTF2IRD2            586           675       <NA>
+45850 ENSG00000174428_tile0014 ENST00000472837 GTF2IRD2B            586           675      45787
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45809 ENSG00000196275_tile0036 ENST00000451013  GTF2IRD2           1576          1665       <NA>
+45872 ENSG00000174428_tile0036 ENST00000472837 GTF2IRD2B           1576          1665      45809
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50683 ENSG00000131721_tile0015 ENST00000371388  RHOXF2            631           720       <NA>
+50702 ENSG00000203989_tile0015 ENST00000371402 RHOXF2B            631           720      50683
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+49827 ENSG00000111704_tile0007 ENST00000229307   NANOG            271           360       <NA>
+49859 ENSG00000255192_tile0007 ENST00000528386 NANOGP8            271           360      49827
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43825 ENSG00000187559_tile0005 ENST00000342833 FOXD4L3            181           270       <NA>
+43906 ENSG00000273514_tile0005 ENST00000622588 FOXD4L6            181           270      43825
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45815 ENSG00000196275_tile0042 ENST00000451013  GTF2IRD2           1846          1935       <NA>
+45878 ENSG00000174428_tile0042 ENST00000472837 GTF2IRD2B           1846          1935      45815
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24257 ENSG00000173480_tile0017 ENST00000312026 ZNF417            721           810       <NA>
+29612 ENSG00000198466_tile0017 ENST00000339656 ZNF587            721           810      24257
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45808 ENSG00000196275_tile0035 ENST00000451013  GTF2IRD2           1531          1620       <NA>
+45871 ENSG00000174428_tile0035 ENST00000472837 GTF2IRD2B           1531          1620      45808
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+49830 ENSG00000111704_tile0010 ENST00000229307   NANOG            406           495       <NA>
+49862 ENSG00000255192_tile0010 ENST00000528386 NANOGP8            406           495      49830
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45834 ENSG00000196275_tile0061 ENST00000451013  GTF2IRD2           2701          2790       <NA>
+45897 ENSG00000174428_tile0061 ENST00000472837 GTF2IRD2B           2701          2790      45834
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45835 ENSG00000196275_tile0062 ENST00000451013  GTF2IRD2           2746          2835       <NA>
+45898 ENSG00000174428_tile0062 ENST00000472837 GTF2IRD2B           2746          2835      45835
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+49833 ENSG00000111704_tile0013 ENST00000229307   NANOG            541           630       <NA>
+49865 ENSG00000255192_tile0013 ENST00000528386 NANOGP8            541           630      49833
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43833 ENSG00000187559_tile0013 ENST00000342833 FOXD4L3            541           630       <NA>
+43914 ENSG00000273514_tile0013 ENST00000622588 FOXD4L6            541           630      43833
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43860 ENSG00000184659_tile0013 ENST00000377413 FOXD4L4            541           630       <NA>
+43887 ENSG00000204779_tile0013 ENST00000377420 FOXD4L5            541           630      43860
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+33118 ENSG00000215356_tile0013 ENST00000400120 ZNF705B            541           630       <NA>
+33138 ENSG00000215343_tile0013 ENST00000400085 ZNF705D            541           630      33118
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+33103 ENSG00000196946_tile0018 ENST00000396570 ZNF705A            766           855       <NA>
+33163 ENSG00000215372_tile0018 ENST00000400156 ZNF705G            766           855      33103
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45826 ENSG00000196275_tile0053 ENST00000451013  GTF2IRD2           2341          2430       <NA>
+45889 ENSG00000174428_tile0053 ENST00000472837 GTF2IRD2B           2341          2430      45826
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45803 ENSG00000196275_tile0030 ENST00000451013  GTF2IRD2           1306          1395       <NA>
+45866 ENSG00000174428_tile0030 ENST00000472837 GTF2IRD2B           1306          1395      45803
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50970 ENSG00000153779_tile0003 ENST00000283891 TGIF2LX             91           180       <NA>
+50986 ENSG00000176679_tile0003 ENST00000321217 TGIF2LY             91           180      50970
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45789 ENSG00000196275_tile0016 ENST00000451013  GTF2IRD2            676           765       <NA>
+45852 ENSG00000174428_tile0016 ENST00000472837 GTF2IRD2B            676           765      45789
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+29645 ENSG00000269343_tile0012 ENST00000594901 ZNF587B            496           585       <NA>
+35998 ENSG00000204514_tile0012 ENST00000435989  ZNF814            496           585      29645
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24256 ENSG00000173480_tile0016 ENST00000312026 ZNF417            676           765       <NA>
+29611 ENSG00000198466_tile0016 ENST00000339656 ZNF587            676           765      24256
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45823 ENSG00000196275_tile0050 ENST00000451013  GTF2IRD2           2206          2295       <NA>
+45886 ENSG00000174428_tile0050 ENST00000472837 GTF2IRD2B           2206          2295      45823
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+33092 ENSG00000196946_tile0007 ENST00000396570 ZNF705A            271           360       <NA>
+33152 ENSG00000215372_tile0007 ENST00000400156 ZNF705G            271           360      33092
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+24269 ENSG00000173480_tile0029 ENST00000312026 ZNF417           1261          1350       <NA>
+29624 ENSG00000198466_tile0029 ENST00000339656 ZNF587           1261          1350      24269
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+52060 ENSG00000204531_tile0010 ENST00000259915  POU5F1            406           495       <NA>
+52084 ENSG00000212993_tile0010 ENST00000696633 POU5F1B            406           495      52060
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50972 ENSG00000153779_tile0005 ENST00000283891 TGIF2LX            181           270       <NA>
+50988 ENSG00000176679_tile0005 ENST00000321217 TGIF2LY            181           270      50972
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45775 ENSG00000196275_tile0002 ENST00000451013  GTF2IRD2             46           135       <NA>
+45838 ENSG00000174428_tile0002 ENST00000472837 GTF2IRD2B             46           135      45775
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+22294 ENSG00000083812_tile0018 ENST00000196482  ZNF324            766           855       <NA>
+22330 ENSG00000249471_tile0018 ENST00000336614 ZNF324B            766           855      22294
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+22293 ENSG00000083812_tile0017 ENST00000196482  ZNF324            721           810       <NA>
+22329 ENSG00000249471_tile0017 ENST00000336614 ZNF324B            721           810      22293
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+33114 ENSG00000215356_tile0009 ENST00000400120 ZNF705B            361           450       <NA>
+33134 ENSG00000215343_tile0009 ENST00000400085 ZNF705D            361           450      33114
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45794 ENSG00000196275_tile0021 ENST00000451013  GTF2IRD2            901           990       <NA>
+45857 ENSG00000174428_tile0021 ENST00000472837 GTF2IRD2B            901           990      45794
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43870 ENSG00000184659_tile0023 ENST00000377413 FOXD4L4            991          1080       <NA>
+43897 ENSG00000204779_tile0023 ENST00000377420 FOXD4L5            991          1080      43870
+43924 ENSG00000273514_tile0023 ENST00000622588 FOXD4L6            991          1080      43870
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45777 ENSG00000196275_tile0004 ENST00000451013  GTF2IRD2            136           225       <NA>
+45840 ENSG00000174428_tile0004 ENST00000472837 GTF2IRD2B            136           225      45777
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+22300 ENSG00000083812_tile0024 ENST00000196482  ZNF324           1036          1125       <NA>
+22336 ENSG00000249471_tile0024 ENST00000336614 ZNF324B           1036          1125      22300
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+49834 ENSG00000111704_tile0014 ENST00000229307   NANOG            586           675       <NA>
+49866 ENSG00000255192_tile0014 ENST00000528386 NANOGP8            586           675      49834
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50681 ENSG00000131721_tile0013 ENST00000371388  RHOXF2            541           630       <NA>
+50700 ENSG00000203989_tile0013 ENST00000371402 RHOXF2B            541           630      50681
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+29501 ENSG00000196967_tile0034 ENST00000292841 ZNF585A           1486          1575       <NA>
+29552 ENSG00000245680_tile0034 ENST00000532828 ZNF585B           1486          1575      29501
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+33115 ENSG00000215356_tile0010 ENST00000400120 ZNF705B            406           495       <NA>
+33135 ENSG00000215343_tile0010 ENST00000400085 ZNF705D            406           495      33115
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50682 ENSG00000131721_tile0014 ENST00000371388  RHOXF2            586           675       <NA>
+50701 ENSG00000203989_tile0014 ENST00000371402 RHOXF2B            586           675      50682
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+50971 ENSG00000153779_tile0004 ENST00000283891 TGIF2LX            136           225       <NA>
+50987 ENSG00000176679_tile0004 ENST00000321217 TGIF2LY            136           225      50971
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45820 ENSG00000196275_tile0047 ENST00000451013  GTF2IRD2           2071          2160       <NA>
+45883 ENSG00000174428_tile0047 ENST00000472837 GTF2IRD2B           2071          2160      45820
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+38276 ENSG00000131848_tile0029 ENST00000683990 ZSCAN5A           1261          1350       <NA>
+38342 ENSG00000204532_tile0029 ENST00000534327 ZSCAN5C           1261          1350      38276
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+33087 ENSG00000196946_tile0002 ENST00000396570 ZNF705A             46           135       <NA>
+33147 ENSG00000215372_tile0002 ENST00000400156 ZNF705G             46           135      33087
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+23118 ENSG00000169131_tile0027 ENST00000335815 ZNF354A           1171          1260       <NA>
+23158 ENSG00000178338_tile0027 ENST00000322434 ZNF354B           1171          1260      23118
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43832 ENSG00000187559_tile0012 ENST00000342833 FOXD4L3            496           585       <NA>
+43913 ENSG00000273514_tile0012 ENST00000622588 FOXD4L6            496           585      43832
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+43859 ENSG00000184659_tile0012 ENST00000377413 FOXD4L4            496           585       <NA>
+43886 ENSG00000204779_tile0012 ENST00000377420 FOXD4L5            496           585      43859
+                          name      transcript      gene first_resi_dna last_resi_dna copyof_dna
+45825 ENSG00000196275_tile0052 ENST00000451013  GTF2IRD2           2296          2385       <NA>
+45888 ENSG00000174428_tile0052 ENST00000472837 GTF2IRD2B           2296          2385      45825
+                          name      transcript   gene first_resi_dna last_resi_dna copyof_dna
+25145 ENSG00000180855_tile0013 ENST00000301547 ZNF443            541           630       <NA>
+35502 ENSG00000196466_tile0013 ENST00000430385 ZNF799            541           630      25145
+                          name      transcript    gene first_resi_dna last_resi_dna copyof_dna
+33122 ENSG00000215356_tile0017 ENST00000400120 ZNF705B            721           810       <NA>
+33142 ENSG00000215343_tile0017 ENST00000400085 ZNF705D            721           810      33122
+[1] "How many copied tiles per protein:"
+             ensembl tile_copies n_tiles
+458  ENSG00000128000           1      55
+761  ENSG00000160336           1      49
+880  ENSG00000167562           1      31
+990  ENSG00000171970           1      37
+1284 ENSG00000188171           1      35
+1351 ENSG00000196693           1      51
+1380 ENSG00000197213           1      33
+1383 ENSG00000197360           1      38
+1389 ENSG00000197483           1      70
+1507 ENSG00000213799           1      64
+1335 ENSG00000196417           2      34
+1433 ENSG00000198346           2      41
+1439 ENSG00000198455           2      53
+1442 ENSG00000198482           2      60
+1480 ENSG00000204604           2      34
+1498 ENSG00000212993           2      23
+1500 ENSG00000213020           2      47
+1506 ENSG00000213793           2      47
+1106 ENSG00000178338           3      40
+1523 ENSG00000215356           3      20
+1342 ENSG00000196466           4      42
+1474 ENSG00000204514           4      57
+1524 ENSG00000215372           4      20
+1073 ENSG00000176679           5      12
+1478 ENSG00000204532           5      33
+1207 ENSG00000184659           7      27
+1568 ENSG00000249471           7      36
+1021 ENSG00000173757           9      52
+1580 ENSG00000255192          10      20
+1522 ENSG00000215343          11      20
+1565 ENSG00000245680          12      51
+1467 ENSG00000203989          15      19
+1484 ENSG00000204779          17      27
+1441 ENSG00000198466          20      38
+1614 ENSG00000273514          27      27
+1033 ENSG00000174428          49      63
+[1] "Split library into 3"
+[1] "Library size 63230 split into lib1_even (30405), lib2_odd (31199), and lib3_ct (1626)"
+
+    1     2     3 
+30405 31199  1626 
+[1] "Append adapters and on sequences"
+[1] "tile amino acid lengths:"
+
+   30 
+63230 
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43863 ENSG00000184659_tile0016 ENST00000377413 FOXD4L4        226       255       <NA>      <NA>
+43890 ENSG00000204779_tile0016 ENST00000377420 FOXD4L5        226       255      43863     43863
+43917 ENSG00000273514_tile0016 ENST00000622588 FOXD4L6        226       255      43863     43863
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43872 ENSG00000184659_tile0025 ENST00000377413 FOXD4L4        361       390       <NA>      <NA>
+43899 ENSG00000204779_tile0025 ENST00000377420 FOXD4L5        361       390      43872     43872
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43845 ENSG00000187559_tile0025 ENST00000342833 FOXD4L3        361       390       <NA>      <NA>
+43926 ENSG00000273514_tile0025 ENST00000622588 FOXD4L6        361       390      43845     43845
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+62811 ENSG00000187079_tile0003 ENST00000527636 TEAD1         31        60       <NA>      <NA>
+62869 ENSG00000007866_tile0003 ENST00000338863 TEAD3         31        60       <NA>     62811
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45817 ENSG00000196275_tile0044 ENST00000451013  GTF2IRD2        646       675       <NA>      <NA>
+45880 ENSG00000174428_tile0044 ENST00000472837 GTF2IRD2B        646       675      45817     45817
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29507 ENSG00000196967_tile0040 ENST00000292841 ZNF585A        586       615       <NA>      <NA>
+29558 ENSG00000245680_tile0040 ENST00000532828 ZNF585B        586       615      29507     29507
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43830 ENSG00000187559_tile0010 ENST00000342833 FOXD4L3        136       165       <NA>      <NA>
+43857 ENSG00000184659_tile0010 ENST00000377413 FOXD4L4        136       165       <NA>     43830
+43884 ENSG00000204779_tile0010 ENST00000377420 FOXD4L5        136       165      43857     43830
+43911 ENSG00000273514_tile0010 ENST00000622588 FOXD4L6        136       165      43830     43830
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24247 ENSG00000173480_tile0007 ENST00000312026 ZNF417         91       120       <NA>      <NA>
+29602 ENSG00000198466_tile0007 ENST00000339656 ZNF587         91       120      24247     24247
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29640 ENSG00000269343_tile0007 ENST00000594901 ZNF587B         91       120       <NA>      <NA>
+35993 ENSG00000204514_tile0007 ENST00000435989  ZNF814         91       120      29640     29640
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+46236 ENSG00000138795_tile0024 ENST00000265165 LEF1        346       375       <NA>      <NA>
+46845 ENSG00000081059_tile0022 ENST00000342854 TCF7        316       345       <NA>     46236
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+62812 ENSG00000187079_tile0004 ENST00000527636 TEAD1         46        75       <NA>      <NA>
+62870 ENSG00000007866_tile0004 ENST00000338863 TEAD3         46        75       <NA>     62812
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+47478 ENSG00000115844_tile0012 ENST00000234198 DLX2        166       195       <NA>      <NA>
+47533 ENSG00000105880_tile0011 ENST00000648378 DLX5        151       180       <NA>     47478
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+38252 ENSG00000131848_tile0005 ENST00000683990 ZSCAN5A         61        90       <NA>      <NA>
+38285 ENSG00000197213_tile0005 ENST00000586855 ZSCAN5B         61        90      38252     38252
+38318 ENSG00000204532_tile0005 ENST00000534327 ZSCAN5C         61        90      38252     38252
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61769 ENSG00000126561_tile0010 ENST00000590949 STAT5A        136       165       <NA>      <NA>
+61821 ENSG00000173757_tile0010 ENST00000293328 STAT5B        136       165       <NA>     61769
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43837 ENSG00000187559_tile0017 ENST00000342833 FOXD4L3        241       270       <NA>      <NA>
+43864 ENSG00000184659_tile0017 ENST00000377413 FOXD4L4        241       270      43837     43837
+43918 ENSG00000273514_tile0017 ENST00000622588 FOXD4L6        241       270      43837     43837
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50672 ENSG00000131721_tile0004 ENST00000371388  RHOXF2         46        75       <NA>      <NA>
+50691 ENSG00000203989_tile0004 ENST00000371402 RHOXF2B         46        75      50672     50672
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43851 ENSG00000184659_tile0004 ENST00000377413 FOXD4L4         46        75       <NA>      <NA>
+43878 ENSG00000204779_tile0004 ENST00000377420 FOXD4L5         46        75       <NA>     43851
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43824 ENSG00000187559_tile0004 ENST00000342833 FOXD4L3         46        75       <NA>      <NA>
+43905 ENSG00000273514_tile0004 ENST00000622588 FOXD4L6         46        75      43824     43824
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+22308 ENSG00000083812_tile0032 ENST00000196482  ZNF324        466       495       <NA>      <NA>
+22344 ENSG00000249471_tile0032 ENST00000336614 ZNF324B        466       495       <NA>     22308
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+60419 ENSG00000087903_tile0036 ENST00000303657 RFX2        526       555       <NA>      <NA>
+60466 ENSG00000080298_tile0035 ENST00000617270 RFX3        511       540       <NA>     60419
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43831 ENSG00000187559_tile0011 ENST00000342833 FOXD4L3        151       180       <NA>      <NA>
+43858 ENSG00000184659_tile0011 ENST00000377413 FOXD4L4        151       180      43831     43831
+43885 ENSG00000204779_tile0011 ENST00000377420 FOXD4L5        151       180      43831     43831
+43912 ENSG00000273514_tile0011 ENST00000622588 FOXD4L6        151       180      43831     43831
+                         name      transcript gene first_resi last_resi copyof_dna copyof_aa
+8429 ENSG00000074047_tile0034 ENST00000361492 GLI2        496       525       <NA>      <NA>
+8537 ENSG00000106571_tile0038 ENST00000395925 GLI3        556       585       <NA>      8429
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45818 ENSG00000196275_tile0045 ENST00000451013  GTF2IRD2        661       690       <NA>      <NA>
+45881 ENSG00000174428_tile0045 ENST00000472837 GTF2IRD2B        661       690       <NA>     45818
+                         name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+9273 ENSG00000010818_tile0121 ENST00000367603 HIVEP2       1801      1830       <NA>      <NA>
+9433 ENSG00000127124_tile0118 ENST00000372583 HIVEP3       1756      1785       <NA>      9273
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+22300 ENSG00000083812_tile0024 ENST00000196482  ZNF324        346       375       <NA>      <NA>
+22336 ENSG00000249471_tile0024 ENST00000336614 ZNF324B        346       375      22300     22300
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+22720 ENSG00000189180_tile0040 ENST00000432900 ZNF33A        586       615       <NA>      <NA>
+22774 ENSG00000196693_tile0040 ENST00000359467 ZNF33B        586       615       <NA>     22720
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45777 ENSG00000196275_tile0004 ENST00000451013  GTF2IRD2         46        75       <NA>      <NA>
+45840 ENSG00000174428_tile0004 ENST00000472837 GTF2IRD2B         46        75      45777     45777
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+23123 ENSG00000169131_tile0032 ENST00000335815 ZNF354A        466       495       <NA>      <NA>
+23163 ENSG00000178338_tile0032 ENST00000322434 ZNF354B        466       495       <NA>     23123
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43870 ENSG00000184659_tile0023 ENST00000377413 FOXD4L4        331       360       <NA>      <NA>
+43897 ENSG00000204779_tile0023 ENST00000377420 FOXD4L5        331       360      43870     43870
+43924 ENSG00000273514_tile0023 ENST00000622588 FOXD4L6        331       360      43870     43870
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+42498 ENSG00000164330_tile0011 ENST00000313708 EBF1        151       180       <NA>      <NA>
+42575 ENSG00000108001_tile0011 ENST00000440978 EBF3        151       180       <NA>     42498
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29501 ENSG00000196967_tile0034 ENST00000292841 ZNF585A        496       525       <NA>      <NA>
+29552 ENSG00000245680_tile0034 ENST00000532828 ZNF585B        496       525      29501     29501
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+30584 ENSG00000197619_tile0002 ENST00000598071 ZNF615         16        45       <NA>      <NA>
+31527 ENSG00000198093_tile0002 ENST00000354957 ZNF649         16        45       <NA>     30584
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45811 ENSG00000196275_tile0038 ENST00000451013  GTF2IRD2        556       585       <NA>      <NA>
+45874 ENSG00000174428_tile0038 ENST00000472837 GTF2IRD2B        556       585      45811     45811
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+42499 ENSG00000164330_tile0012 ENST00000313708 EBF1        166       195       <NA>      <NA>
+42576 ENSG00000108001_tile0012 ENST00000440978 EBF3        166       195       <NA>     42499
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+38253 ENSG00000131848_tile0006 ENST00000683990 ZSCAN5A         76       105       <NA>      <NA>
+38319 ENSG00000204532_tile0006 ENST00000534327 ZSCAN5C         76       105      38253     38253
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45832 ENSG00000196275_tile0059 ENST00000451013  GTF2IRD2        871       900       <NA>      <NA>
+45895 ENSG00000174428_tile0059 ENST00000472837 GTF2IRD2B        871       900      45832     45832
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+52717 ENSG00000068305_tile0005 ENST00000557942 MEF2A         61        90       <NA>      <NA>
+52774 ENSG00000081189_tile0005 ENST00000504921 MEF2C         61        90       <NA>     52717
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50676 ENSG00000131721_tile0008 ENST00000371388  RHOXF2        106       135       <NA>      <NA>
+50695 ENSG00000203989_tile0008 ENST00000371402 RHOXF2B        106       135      50676     50676
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24254 ENSG00000173480_tile0014 ENST00000312026 ZNF417        196       225       <NA>      <NA>
+29609 ENSG00000198466_tile0014 ENST00000339656 ZNF587        196       225      24254     24254
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+51760 ENSG00000143190_tile0023 ENST00000367866 POU2F1        331       360       <NA>      <NA>
+51844 ENSG00000137709_tile0015 ENST00000543440 POU2F3        211       240       <NA>     51760
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+22682 ENSG00000189180_tile0002 ENST00000432900 ZNF33A         16        45       <NA>      <NA>
+22736 ENSG00000196693_tile0002 ENST00000359467 ZNF33B         16        45      22682     22682
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45797 ENSG00000196275_tile0024 ENST00000451013  GTF2IRD2        346       375       <NA>      <NA>
+45860 ENSG00000174428_tile0024 ENST00000472837 GTF2IRD2B        346       375      45797     45797
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24274 ENSG00000173480_tile0034 ENST00000312026 ZNF417        496       525       <NA>      <NA>
+29629 ENSG00000198466_tile0034 ENST00000339656 ZNF587        496       525      24274     24274
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29514 ENSG00000196967_tile0047 ENST00000292841 ZNF585A        691       720       <NA>      <NA>
+29565 ENSG00000245680_tile0047 ENST00000532828 ZNF585B        691       720      29514     29514
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+28505 ENSG00000130544_tile0004 ENST00000252840 ZNF557         46        75       <NA>      <NA>
+28533 ENSG00000167785_tile0004 ENST00000601372 ZNF558         46        75       <NA>     28505
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+30957 ENSG00000188171_tile0002 ENST00000601440 ZNF626         16        45       <NA>      <NA>
+37484 ENSG00000184635_tile0002 ENST00000343769  ZNF93         16        45       <NA>     30957
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+19005 ENSG00000160321_tile0002 ENST00000397126 ZNF208         16        45       <NA>      <NA>
+24588 ENSG00000197013_tile0002 ENST00000358491 ZNF429         16        45       <NA>     19005
+33196 ENSG00000182141_tile0002 ENST00000356929 ZNF708         16        45       <NA>     19005
+33659 ENSG00000196081_tile0002 ENST00000418100 ZNF724         16        45       <NA>     19005
+33774 ENSG00000269067_tile0002 ENST00000594710 ZNF728         16        45       <NA>     19005
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+22686 ENSG00000189180_tile0006 ENST00000432900 ZNF33A         76       105       <NA>      <NA>
+22740 ENSG00000196693_tile0006 ENST00000359467 ZNF33B         76       105       <NA>     22686
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+20929 ENSG00000198538_tile0002 ENST00000457749  ZNF28         16        45       <NA>      <NA>
+22219 ENSG00000182986_tile0002 ENST00000682928 ZNF320         16        45       <NA>     20929
+25760 ENSG00000204604_tile0002 ENST00000595646 ZNF468         16        45       <NA>     20929
+27562 ENSG00000203326_tile0002 ENST00000474037 ZNF525         16        45       <NA>     20929
+27677 ENSG00000167555_tile0002 ENST00000360465 ZNF528         16        45       <NA>     20929
+32990 ENSG00000167562_tile0002 ENST00000391785 ZNF701         16        45      22219     20929
+34386 ENSG00000160336_tile0002 ENST00000684525 ZNF761         16        45      27562     20929
+34488 ENSG00000196417_tile0002 ENST00000396408 ZNF765         16        45      27562     20929
+35947 ENSG00000198346_tile0002 ENST00000396403 ZNF813         16        45      27562     20929
+36733 ENSG00000213799_tile0002 ENST00000458035 ZNF845         16        45       <NA>     20929
+37243 ENSG00000213793_tile0002 ENST00000638862 ZNF888         16        45      22219     20929
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43840 ENSG00000187559_tile0020 ENST00000342833 FOXD4L3        286       315       <NA>      <NA>
+43921 ENSG00000273514_tile0020 ENST00000622588 FOXD4L6        286       315      43840     43840
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43867 ENSG00000184659_tile0020 ENST00000377413 FOXD4L4        286       315       <NA>      <NA>
+43894 ENSG00000204779_tile0020 ENST00000377420 FOXD4L5        286       315      43867     43867
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+19133 ENSG00000170260_tile0007 ENST00000335870 ZNF212         91       120       <NA>      <NA>
+34117 ENSG00000181220_tile0005 ENST00000458143 ZNF746         61        90       <NA>     19133
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+61427 ENSG00000170365_tile0031 ENST00000302085 SMAD1        437       466       <NA>      <NA>
+61553 ENSG00000120693_tile0031 ENST00000379826 SMAD9        439       468       <NA>     61427
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50969 ENSG00000153779_tile0002 ENST00000283891 TGIF2LX         16        45       <NA>      <NA>
+50985 ENSG00000176679_tile0002 ENST00000321217 TGIF2LY         16        45      50969     50969
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24754 ENSG00000196705_tile0033 ENST00000311048 ZNF431        481       510       <NA>      <NA>
+37459 ENSG00000146757_tile0016 ENST00000328747  ZNF92        226       255       <NA>     24754
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29510 ENSG00000196967_tile0043 ENST00000292841 ZNF585A        631       660       <NA>      <NA>
+29561 ENSG00000245680_tile0043 ENST00000532828 ZNF585B        631       660       <NA>     29510
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+50481 ENSG00000164093_tile0008 ENST00000644743 PITX2        106       135       <NA>      <NA>
+50500 ENSG00000107859_tile0006 ENST00000370002 PITX3         76       105       <NA>     50481
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29513 ENSG00000196967_tile0046 ENST00000292841 ZNF585A        676       705       <NA>      <NA>
+29564 ENSG00000245680_tile0046 ENST00000532828 ZNF585B        676       705      29513     29513
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+51606 ENSG00000135903_tile0005 ENST00000392070 PAX3         61        90       <NA>      <NA>
+51690 ENSG00000009709_tile0005 ENST00000420770 PAX7         61        90       <NA>     51606
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24244 ENSG00000173480_tile0004 ENST00000312026 ZNF417         46        75       <NA>      <NA>
+29599 ENSG00000198466_tile0004 ENST00000339656 ZNF587         46        75      24244     24244
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+51876 ENSG00000185668_tile0018 ENST00000373012 POU3F1        256       285       <NA>      <NA>
+51907 ENSG00000184486_tile0019 ENST00000328345 POU3F2        271       300       <NA>     51876
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+49358 ENSG00000273706_tile0015 ENST00000614239 LHX1        211       240       <NA>      <NA>
+49464 ENSG00000089116_tile0015 ENST00000261731 LHX5        211       240       <NA>     49358
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+10515 ENSG00000085276_tile0064 ENST00000651503  MECOM        946       975       <NA>      <NA>
+11492 ENSG00000142611_tile0066 ENST00000270722 PRDM16        976      1005       <NA>     10515
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61773 ENSG00000126561_tile0014 ENST00000590949 STAT5A        196       225       <NA>      <NA>
+61825 ENSG00000173757_tile0014 ENST00000293328 STAT5B        196       225      61773     61773
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45648 ENSG00000263001_tile0003 ENST00000573035     GTF2I         31        60       <NA>      <NA>
+45776 ENSG00000196275_tile0003 ENST00000451013  GTF2IRD2         31        60       <NA>     45648
+45839 ENSG00000174428_tile0003 ENST00000472837 GTF2IRD2B         31        60      45776     45648
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24246 ENSG00000173480_tile0006 ENST00000312026 ZNF417         76       105       <NA>      <NA>
+29601 ENSG00000198466_tile0006 ENST00000339656 ZNF587         76       105      24246     24246
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+42949 ENSG00000157554_tile0024 ENST00000288319  ERG        346       375       <NA>      <NA>
+43285 ENSG00000151702_tile0022 ENST00000527786 FLI1        316       345       <NA>     42949
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45793 ENSG00000196275_tile0020 ENST00000451013  GTF2IRD2        286       315       <NA>      <NA>
+45856 ENSG00000174428_tile0020 ENST00000472837 GTF2IRD2B        286       315      45793     45793
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45779 ENSG00000196275_tile0006 ENST00000451013  GTF2IRD2         76       105       <NA>      <NA>
+45842 ENSG00000174428_tile0006 ENST00000472837 GTF2IRD2B         76       105       <NA>     45779
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61793 ENSG00000126561_tile0034 ENST00000590949 STAT5A        496       525       <NA>      <NA>
+61845 ENSG00000173757_tile0034 ENST00000293328 STAT5B        496       525       <NA>     61793
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+22724 ENSG00000189180_tile0044 ENST00000432900 ZNF33A        646       675       <NA>      <NA>
+22778 ENSG00000196693_tile0044 ENST00000359467 ZNF33B        646       675       <NA>     22724
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+34979 ENSG00000197782_tile0025 ENST00000683561 ZNF780A        361       390       <NA>      <NA>
+35021 ENSG00000128000_tile0025 ENST00000434248 ZNF780B        361       390       <NA>     34979
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+33122 ENSG00000215356_tile0017 ENST00000400120 ZNF705B        241       270       <NA>      <NA>
+33142 ENSG00000215343_tile0017 ENST00000400085 ZNF705D        241       270      33122     33122
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+42502 ENSG00000164330_tile0015 ENST00000313708 EBF1        211       240       <NA>      <NA>
+42579 ENSG00000108001_tile0015 ENST00000440978 EBF3        211       240       <NA>     42502
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24265 ENSG00000173480_tile0025 ENST00000312026 ZNF417        361       390       <NA>      <NA>
+29620 ENSG00000198466_tile0025 ENST00000339656 ZNF587        361       390       <NA>     24265
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+23118 ENSG00000169131_tile0027 ENST00000335815 ZNF354A        391       420       <NA>      <NA>
+23158 ENSG00000178338_tile0027 ENST00000322434 ZNF354B        391       420      23118     23118
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+20615 ENSG00000083844_tile0030 ENST00000263095 ZNF264        436       465       <NA>      <NA>
+35830 ENSG00000204524_tile0030 ENST00000414468 ZNF805        436       465       <NA>     20615
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+51877 ENSG00000185668_tile0019 ENST00000373012 POU3F1        271       300       <NA>      <NA>
+51908 ENSG00000184486_tile0020 ENST00000328345 POU3F2        286       315       <NA>     51877
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+33087 ENSG00000196946_tile0002 ENST00000396570 ZNF705A         16        45       <NA>      <NA>
+33147 ENSG00000215372_tile0002 ENST00000400156 ZNF705G         16        45      33087     33087
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+33107 ENSG00000215356_tile0002 ENST00000400120 ZNF705B         16        45       <NA>      <NA>
+33127 ENSG00000215343_tile0002 ENST00000400085 ZNF705D         16        45       <NA>     33107
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29494 ENSG00000196967_tile0027 ENST00000292841 ZNF585A        391       420       <NA>      <NA>
+29545 ENSG00000245680_tile0027 ENST00000532828 ZNF585B        391       420       <NA>     29494
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+38276 ENSG00000131848_tile0029 ENST00000683990 ZSCAN5A        421       450       <NA>      <NA>
+38342 ENSG00000204532_tile0029 ENST00000534327 ZSCAN5C        421       450      38276     38276
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45820 ENSG00000196275_tile0047 ENST00000451013  GTF2IRD2        691       720       <NA>      <NA>
+45883 ENSG00000174428_tile0047 ENST00000472837 GTF2IRD2B        691       720      45820     45820
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43832 ENSG00000187559_tile0012 ENST00000342833 FOXD4L3        166       195       <NA>      <NA>
+43859 ENSG00000184659_tile0012 ENST00000377413 FOXD4L4        166       195       <NA>     43832
+43886 ENSG00000204779_tile0012 ENST00000377420 FOXD4L5        166       195      43859     43832
+43913 ENSG00000273514_tile0012 ENST00000622588 FOXD4L6        166       195      43832     43832
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+61425 ENSG00000170365_tile0029 ENST00000302085 SMAD1        421       450       <NA>      <NA>
+61520 ENSG00000113658_tile0029 ENST00000545279 SMAD5        421       450       <NA>     61425
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43823 ENSG00000187559_tile0003 ENST00000342833 FOXD4L3         31        60       <NA>      <NA>
+43904 ENSG00000273514_tile0003 ENST00000622588 FOXD4L6         31        60      43823     43823
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43850 ENSG00000184659_tile0003 ENST00000377413 FOXD4L4         31        60       <NA>      <NA>
+43877 ENSG00000204779_tile0003 ENST00000377420 FOXD4L5         31        60       <NA>     43850
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+49839 ENSG00000111704_tile0019 ENST00000229307   NANOG        271       300       <NA>      <NA>
+49871 ENSG00000255192_tile0019 ENST00000528386 NANOGP8        271       300      49839     49839
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+23119 ENSG00000169131_tile0028 ENST00000335815 ZNF354A        406       435       <NA>      <NA>
+23159 ENSG00000178338_tile0028 ENST00000322434 ZNF354B        406       435       <NA>     23119
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+33099 ENSG00000196946_tile0014 ENST00000396570 ZNF705A        196       225       <NA>      <NA>
+33119 ENSG00000215356_tile0014 ENST00000400120 ZNF705B        196       225      33099     33099
+33139 ENSG00000215343_tile0014 ENST00000400085 ZNF705D        196       225      33099     33099
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+38412 ENSG00000198205_tile0002 ENST00000358697 ZXDA         16        45       <NA>      <NA>
+38465 ENSG00000198455_tile0002 ENST00000374888 ZXDB         16        45      38412     38412
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43826 ENSG00000187559_tile0006 ENST00000342833 FOXD4L3         76       105       <NA>      <NA>
+43853 ENSG00000184659_tile0006 ENST00000377413 FOXD4L4         76       105       <NA>     43826
+43880 ENSG00000204779_tile0006 ENST00000377420 FOXD4L5         76       105       <NA>     43826
+43907 ENSG00000273514_tile0006 ENST00000622588 FOXD4L6         76       105      43826     43826
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+51577 ENSG00000075891_tile0002 ENST00000355243 PAX2         16        45       <NA>      <NA>
+59333 ENSG00000196092_tile0002 ENST00000358127 PAX5         16        45       <NA>     51577
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45833 ENSG00000196275_tile0060 ENST00000451013  GTF2IRD2        886       915       <NA>      <NA>
+45896 ENSG00000174428_tile0060 ENST00000472837 GTF2IRD2B        886       915      45833     45833
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29505 ENSG00000196967_tile0038 ENST00000292841 ZNF585A        556       585       <NA>      <NA>
+29556 ENSG00000245680_tile0038 ENST00000532828 ZNF585B        556       585      29505     29505
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+22707 ENSG00000189180_tile0027 ENST00000432900 ZNF33A        391       420       <NA>      <NA>
+22761 ENSG00000196693_tile0027 ENST00000359467 ZNF33B        391       420       <NA>     22707
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+61419 ENSG00000170365_tile0023 ENST00000302085 SMAD1        331       360       <NA>      <NA>
+61514 ENSG00000113658_tile0023 ENST00000545279 SMAD5        331       360       <NA>     61419
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+30041 ENSG00000189190_tile0002 ENST00000692063 ZNF600         16        45       <NA>      <NA>
+30457 ENSG00000213020_tile0002 ENST00000652185 ZNF611         16        45       <NA>     30041
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+29270 ENSG00000258405_tile0002 ENST00000421239 ZNF578         16        45       <NA>      <NA>
+35843 ENSG00000198482_tile0002 ENST00000359798 ZNF808         16        45       <NA>     29270
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45788 ENSG00000196275_tile0015 ENST00000451013  GTF2IRD2        211       240       <NA>      <NA>
+45851 ENSG00000174428_tile0015 ENST00000472837 GTF2IRD2B        211       240      45788     45788
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43838 ENSG00000187559_tile0018 ENST00000342833 FOXD4L3        256       285       <NA>      <NA>
+43919 ENSG00000273514_tile0018 ENST00000622588 FOXD4L6        256       285      43838     43838
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45784 ENSG00000196275_tile0011 ENST00000451013  GTF2IRD2        151       180       <NA>      <NA>
+45847 ENSG00000174428_tile0011 ENST00000472837 GTF2IRD2B        151       180      45784     45784
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+42491 ENSG00000164330_tile0004 ENST00000313708 EBF1         46        75       <NA>      <NA>
+42568 ENSG00000108001_tile0004 ENST00000440978 EBF3         46        75       <NA>     42491
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45799 ENSG00000196275_tile0026 ENST00000451013  GTF2IRD2        376       405       <NA>      <NA>
+45862 ENSG00000174428_tile0026 ENST00000472837 GTF2IRD2B        376       405      45799     45799
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24248 ENSG00000173480_tile0008 ENST00000312026 ZNF417        106       135       <NA>      <NA>
+29603 ENSG00000198466_tile0008 ENST00000339656 ZNF587        106       135      24248     24248
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+51579 ENSG00000075891_tile0004 ENST00000355243 PAX2         46        75       <NA>      <NA>
+59335 ENSG00000196092_tile0004 ENST00000358127 PAX5         46        75       <NA>     51579
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24250 ENSG00000173480_tile0010 ENST00000312026 ZNF417        136       165       <NA>      <NA>
+29605 ENSG00000198466_tile0010 ENST00000339656 ZNF587        136       165      24250     24250
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+22299 ENSG00000083812_tile0023 ENST00000196482  ZNF324        331       360       <NA>      <NA>
+22335 ENSG00000249471_tile0023 ENST00000336614 ZNF324B        331       360      22299     22299
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29517 ENSG00000196967_tile0050 ENST00000292841 ZNF585A        736       765       <NA>      <NA>
+29568 ENSG00000245680_tile0050 ENST00000532828 ZNF585B        736       765       <NA>     29517
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+23117 ENSG00000169131_tile0026 ENST00000335815 ZNF354A        376       405       <NA>      <NA>
+23157 ENSG00000178338_tile0026 ENST00000322434 ZNF354B        376       405      23117     23117
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24264 ENSG00000173480_tile0024 ENST00000312026 ZNF417        346       375       <NA>      <NA>
+29619 ENSG00000198466_tile0024 ENST00000339656 ZNF587        346       375      24264     24264
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+33117 ENSG00000215356_tile0012 ENST00000400120 ZNF705B        166       195       <NA>      <NA>
+33137 ENSG00000215343_tile0012 ENST00000400085 ZNF705D        166       195      33117     33117
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29641 ENSG00000269343_tile0008 ENST00000594901 ZNF587B        106       135       <NA>      <NA>
+35994 ENSG00000204514_tile0008 ENST00000435989  ZNF814        106       135      29641     29641
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+22719 ENSG00000189180_tile0039 ENST00000432900 ZNF33A        571       600       <NA>      <NA>
+22773 ENSG00000196693_tile0039 ENST00000359467 ZNF33B        571       600       <NA>     22719
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45802 ENSG00000196275_tile0029 ENST00000451013  GTF2IRD2        421       450       <NA>      <NA>
+45865 ENSG00000174428_tile0029 ENST00000472837 GTF2IRD2B        421       450      45802     45802
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+30042 ENSG00000189190_tile0003 ENST00000692063 ZNF600         31        60       <NA>      <NA>
+30458 ENSG00000213020_tile0003 ENST00000652185 ZNF611         31        60       <NA>     30042
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+29271 ENSG00000258405_tile0003 ENST00000421239 ZNF578         31        60       <NA>      <NA>
+35844 ENSG00000198482_tile0003 ENST00000359798 ZNF808         31        60       <NA>     29271
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29506 ENSG00000196967_tile0039 ENST00000292841 ZNF585A        571       600       <NA>      <NA>
+29557 ENSG00000245680_tile0039 ENST00000532828 ZNF585B        571       600      29506     29506
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24277 ENSG00000173480_tile0037 ENST00000312026 ZNF417        541       570       <NA>      <NA>
+29632 ENSG00000198466_tile0037 ENST00000339656 ZNF587        541       570       <NA>     24277
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43829 ENSG00000187559_tile0009 ENST00000342833 FOXD4L3        121       150       <NA>      <NA>
+43856 ENSG00000184659_tile0009 ENST00000377413 FOXD4L4        121       150       <NA>     43829
+43883 ENSG00000204779_tile0009 ENST00000377420 FOXD4L5        121       150      43856     43829
+43910 ENSG00000273514_tile0009 ENST00000622588 FOXD4L6        121       150      43829     43829
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45781 ENSG00000196275_tile0008 ENST00000451013  GTF2IRD2        106       135       <NA>      <NA>
+45844 ENSG00000174428_tile0008 ENST00000472837 GTF2IRD2B        106       135      45781     45781
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+51605 ENSG00000135903_tile0004 ENST00000392070 PAX3         46        75       <NA>      <NA>
+51689 ENSG00000009709_tile0004 ENST00000420770 PAX7         46        75       <NA>     51605
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+49840 ENSG00000111704_tile0020 ENST00000229307   NANOG        277       306       <NA>      <NA>
+49872 ENSG00000255192_tile0020 ENST00000528386 NANOGP8        277       306      49840     49840
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45810 ENSG00000196275_tile0037 ENST00000451013  GTF2IRD2        541       570       <NA>      <NA>
+45873 ENSG00000174428_tile0037 ENST00000472837 GTF2IRD2B        541       570      45810     45810
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45798 ENSG00000196275_tile0025 ENST00000451013  GTF2IRD2        361       390       <NA>      <NA>
+45861 ENSG00000174428_tile0025 ENST00000472837 GTF2IRD2B        361       390      45798     45798
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61779 ENSG00000126561_tile0020 ENST00000590949 STAT5A        286       315       <NA>      <NA>
+61831 ENSG00000173757_tile0020 ENST00000293328 STAT5B        286       315      61779     61779
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+49357 ENSG00000273706_tile0014 ENST00000614239 LHX1        196       225       <NA>      <NA>
+49463 ENSG00000089116_tile0014 ENST00000261731 LHX5        196       225       <NA>     49357
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45782 ENSG00000196275_tile0009 ENST00000451013  GTF2IRD2        121       150       <NA>      <NA>
+45845 ENSG00000174428_tile0009 ENST00000472837 GTF2IRD2B        121       150      45782     45782
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24245 ENSG00000173480_tile0005 ENST00000312026 ZNF417         61        90       <NA>      <NA>
+29600 ENSG00000198466_tile0005 ENST00000339656 ZNF587         61        90      24245     24245
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+10513 ENSG00000085276_tile0062 ENST00000651503  MECOM        916       945       <NA>      <NA>
+11490 ENSG00000142611_tile0064 ENST00000270722 PRDM16        946       975       <NA>     10513
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+22301 ENSG00000083812_tile0025 ENST00000196482  ZNF324        361       390       <NA>      <NA>
+22337 ENSG00000249471_tile0025 ENST00000336614 ZNF324B        361       390      22301     22301
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45830 ENSG00000196275_tile0057 ENST00000451013  GTF2IRD2        841       870       <NA>      <NA>
+45893 ENSG00000174428_tile0057 ENST00000472837 GTF2IRD2B        841       870      45830     45830
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+26633 ENSG00000229676_tile0035 ENST00000456783 ZNF492        503       532       <NA>      <NA>
+37561 ENSG00000197360_tile0038 ENST00000357774  ZNF98        544       573      26633     26633
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+25137 ENSG00000180855_tile0005 ENST00000301547 ZNF443         61        90       <NA>      <NA>
+35494 ENSG00000196466_tile0005 ENST00000430385 ZNF799         61        90      25137     25137
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+49057 ENSG00000170549_tile0011 ENST00000302006 IRX1        151       180       <NA>      <NA>
+49120 ENSG00000177508_tile0011 ENST00000329734 IRX3        151       180       <NA>     49057
+49154 ENSG00000113430_tile0012 ENST00000231357 IRX4        166       195       <NA>     49057
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+49410 ENSG00000107187_tile0013 ENST00000371748 LHX3        181       210       <NA>      <NA>
+49436 ENSG00000121454_tile0013 ENST00000263726 LHX4        181       210       <NA>     49410
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+42683 ENSG00000120690_tile0018 ENST00000239882 ELF1        256       285       <NA>      <NA>
+42724 ENSG00000109381_tile0018 ENST00000686138 ELF2        256       285       <NA>     42683
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61799 ENSG00000126561_tile0040 ENST00000590949 STAT5A        586       615       <NA>      <NA>
+61851 ENSG00000173757_tile0040 ENST00000293328 STAT5B        586       615       <NA>     61799
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+42497 ENSG00000164330_tile0010 ENST00000313708 EBF1        136       165       <NA>      <NA>
+42574 ENSG00000108001_tile0010 ENST00000440978 EBF3        136       165       <NA>     42497
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45822 ENSG00000196275_tile0049 ENST00000451013  GTF2IRD2        721       750       <NA>      <NA>
+45885 ENSG00000174428_tile0049 ENST00000472837 GTF2IRD2B        721       750      45822     45822
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61777 ENSG00000126561_tile0018 ENST00000590949 STAT5A        256       285       <NA>      <NA>
+61829 ENSG00000173757_tile0018 ENST00000293328 STAT5B        256       285      61777     61777
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+49831 ENSG00000111704_tile0011 ENST00000229307   NANOG        151       180       <NA>      <NA>
+49863 ENSG00000255192_tile0011 ENST00000528386 NANOGP8        151       180       <NA>     49831
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50673 ENSG00000131721_tile0005 ENST00000371388  RHOXF2         61        90       <NA>      <NA>
+50692 ENSG00000203989_tile0005 ENST00000371402 RHOXF2B         61        90      50673     50673
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24263 ENSG00000173480_tile0023 ENST00000312026 ZNF417        331       360       <NA>      <NA>
+29618 ENSG00000198466_tile0023 ENST00000339656 ZNF587        331       360      24263     24263
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+20939 ENSG00000198538_tile0012 ENST00000457749  ZNF28        166       195       <NA>      <NA>
+25770 ENSG00000204604_tile0012 ENST00000595646 ZNF468        166       195      20939     20939
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+33116 ENSG00000215356_tile0011 ENST00000400120 ZNF705B        151       180       <NA>      <NA>
+33136 ENSG00000215343_tile0011 ENST00000400085 ZNF705D        151       180      33116     33116
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45819 ENSG00000196275_tile0046 ENST00000451013  GTF2IRD2        676       705       <NA>      <NA>
+45882 ENSG00000174428_tile0046 ENST00000472837 GTF2IRD2B        676       705       <NA>     45819
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+51759 ENSG00000143190_tile0022 ENST00000367866 POU2F1        316       345       <NA>      <NA>
+51843 ENSG00000137709_tile0014 ENST00000543440 POU2F3        196       225       <NA>     51759
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+47477 ENSG00000115844_tile0011 ENST00000234198 DLX2        151       180       <NA>      <NA>
+47532 ENSG00000105880_tile0010 ENST00000648378 DLX5        136       165       <NA>     47477
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45785 ENSG00000196275_tile0012 ENST00000451013  GTF2IRD2        166       195       <NA>      <NA>
+45848 ENSG00000174428_tile0012 ENST00000472837 GTF2IRD2B        166       195      45785     45785
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+25136 ENSG00000180855_tile0004 ENST00000301547 ZNF443         46        75       <NA>      <NA>
+35493 ENSG00000196466_tile0004 ENST00000430385 ZNF799         46        75      25136     25136
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+48382 ENSG00000105996_tile0012 ENST00000222718 HOXA2        166       195       <NA>      <NA>
+48561 ENSG00000173917_tile0012 ENST00000330070 HOXB2        166       195       <NA>     48382
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61774 ENSG00000126561_tile0015 ENST00000590949 STAT5A        211       240       <NA>      <NA>
+61826 ENSG00000173757_tile0015 ENST00000293328 STAT5B        211       240      61774     61774
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61764 ENSG00000126561_tile0005 ENST00000590949 STAT5A         61        90       <NA>      <NA>
+61816 ENSG00000173757_tile0005 ENST00000293328 STAT5B         61        90       <NA>     61764
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45836 ENSG00000196275_tile0063 ENST00000451013  GTF2IRD2        921       950       <NA>      <NA>
+45899 ENSG00000174428_tile0063 ENST00000472837 GTF2IRD2B        921       950      45836     45836
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+55458 ENSG00000123358_tile0038 ENST00000394825 NR4A1        556       585       <NA>      <NA>
+55497 ENSG00000153234_tile0038 ENST00000339562 NR4A2        556       585       <NA>     55458
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+25145 ENSG00000180855_tile0013 ENST00000301547 ZNF443        181       210       <NA>      <NA>
+35502 ENSG00000196466_tile0013 ENST00000430385 ZNF799        181       210      25145     25145
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+33129 ENSG00000215343_tile0004 ENST00000400085 ZNF705D         46        75       <NA>      <NA>
+33149 ENSG00000215372_tile0004 ENST00000400156 ZNF705G         46        75       <NA>     33129
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29500 ENSG00000196967_tile0033 ENST00000292841 ZNF585A        481       510       <NA>      <NA>
+29551 ENSG00000245680_tile0033 ENST00000532828 ZNF585B        481       510      29500     29500
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+25147 ENSG00000180855_tile0015 ENST00000301547 ZNF443        211       240       <NA>      <NA>
+35504 ENSG00000196466_tile0015 ENST00000430385 ZNF799        211       240       <NA>     25147
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43839 ENSG00000187559_tile0019 ENST00000342833 FOXD4L3        271       300       <NA>      <NA>
+43920 ENSG00000273514_tile0019 ENST00000622588 FOXD4L6        271       300      43839     43839
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50687 ENSG00000131721_tile0019 ENST00000371388  RHOXF2        260       289       <NA>      <NA>
+50706 ENSG00000203989_tile0019 ENST00000371402 RHOXF2B        260       289      50687     50687
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+19134 ENSG00000170260_tile0008 ENST00000335870 ZNF212        106       135       <NA>      <NA>
+34118 ENSG00000181220_tile0006 ENST00000458143 ZNF746         76       105       <NA>     19134
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24243 ENSG00000173480_tile0003 ENST00000312026 ZNF417         31        60       <NA>      <NA>
+29598 ENSG00000198466_tile0003 ENST00000339656 ZNF587         31        60      24243     24243
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50682 ENSG00000131721_tile0014 ENST00000371388  RHOXF2        196       225       <NA>      <NA>
+50701 ENSG00000203989_tile0014 ENST00000371402 RHOXF2B        196       225      50682     50682
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45825 ENSG00000196275_tile0052 ENST00000451013  GTF2IRD2        766       795       <NA>      <NA>
+45888 ENSG00000174428_tile0052 ENST00000472837 GTF2IRD2B        766       795      45825     45825
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61794 ENSG00000126561_tile0035 ENST00000590949 STAT5A        511       540       <NA>      <NA>
+61846 ENSG00000173757_tile0035 ENST00000293328 STAT5B        511       540      61794     61794
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50971 ENSG00000153779_tile0004 ENST00000283891 TGIF2LX         46        75       <NA>      <NA>
+50987 ENSG00000176679_tile0004 ENST00000321217 TGIF2LY         46        75      50971     50971
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50686 ENSG00000131721_tile0018 ENST00000371388  RHOXF2        256       285       <NA>      <NA>
+50705 ENSG00000203989_tile0018 ENST00000371402 RHOXF2B        256       285      50686     50686
+                         name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+4370 ENSG00000171786_tile0008 ENST00000302101 NHLH1        105       134       <NA>      <NA>
+4379 ENSG00000177551_tile0009 ENST00000320238 NHLH2        107       136       <NA>      4370
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+43556 ENSG00000171956_tile0005 ENST00000396057 FOXB1         61        90       <NA>      <NA>
+43577 ENSG00000204612_tile0005 ENST00000376708 FOXB2         61        90       <NA>     43556
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61770 ENSG00000126561_tile0011 ENST00000590949 STAT5A        151       180       <NA>      <NA>
+61822 ENSG00000173757_tile0011 ENST00000293328 STAT5B        151       180       <NA>     61770
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+61307 ENSG00000147862_tile0009 ENST00000380953 NFIB        121       150       <NA>      <NA>
+61339 ENSG00000141905_tile0009 ENST00000443272 NFIC        121       150       <NA>     61307
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+60418 ENSG00000087903_tile0035 ENST00000303657 RFX2        511       540       <NA>      <NA>
+60465 ENSG00000080298_tile0034 ENST00000617270 RFX3        496       525       <NA>     60418
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+51607 ENSG00000135903_tile0006 ENST00000392070 PAX3         76       105       <NA>      <NA>
+51691 ENSG00000009709_tile0006 ENST00000420770 PAX7         76       105       <NA>     51607
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+49798 ENSG00000163132_tile0015 ENST00000382723 MSX1        211       240       <NA>      <NA>
+49816 ENSG00000120149_tile0013 ENST00000239243 MSX2        181       210       <NA>     49798
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+33474 ENSG00000182111_tile0002 ENST00000420713 ZNF716         16        45       <NA>      <NA>
+33970 ENSG00000223614_tile0002 ENST00000429565 ZNF735         16        45       <NA>     33474
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+33115 ENSG00000215356_tile0010 ENST00000400120 ZNF705B        136       165       <NA>      <NA>
+33135 ENSG00000215343_tile0010 ENST00000400085 ZNF705D        136       165      33115     33115
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+61424 ENSG00000170365_tile0028 ENST00000302085 SMAD1        406       435       <NA>      <NA>
+61519 ENSG00000113658_tile0028 ENST00000545279 SMAD5        406       435       <NA>     61424
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45816 ENSG00000196275_tile0043 ENST00000451013  GTF2IRD2        631       660       <NA>      <NA>
+45879 ENSG00000174428_tile0043 ENST00000472837 GTF2IRD2B        631       660      45816     45816
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+33088 ENSG00000196946_tile0003 ENST00000396570 ZNF705A         31        60       <NA>      <NA>
+33108 ENSG00000215356_tile0003 ENST00000400120 ZNF705B         31        60      33088     33088
+33128 ENSG00000215343_tile0003 ENST00000400085 ZNF705D         31        60      33088     33088
+33148 ENSG00000215372_tile0003 ENST00000400156 ZNF705G         31        60      33088     33088
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45821 ENSG00000196275_tile0048 ENST00000451013  GTF2IRD2        706       735       <NA>      <NA>
+45884 ENSG00000174428_tile0048 ENST00000472837 GTF2IRD2B        706       735      45821     45821
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+33473 ENSG00000182111_tile0001 ENST00000420713 ZNF716          1        30       <NA>      <NA>
+33969 ENSG00000223614_tile0001 ENST00000429565 ZNF735          1        30       <NA>     33473
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+20928 ENSG00000198538_tile0001 ENST00000457749  ZNF28          1        30       <NA>      <NA>
+25759 ENSG00000204604_tile0001 ENST00000595646 ZNF468          1        30      20928     20928
+27561 ENSG00000203326_tile0001 ENST00000474037 ZNF525          1        30       <NA>     20928
+34487 ENSG00000196417_tile0001 ENST00000396408 ZNF765          1        30      27561     20928
+35946 ENSG00000198346_tile0001 ENST00000396403 ZNF813          1        30      27561     20928
+37242 ENSG00000213793_tile0001 ENST00000638862 ZNF888          1        30      27561     20928
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+22218 ENSG00000182986_tile0001 ENST00000682928 ZNF320          1        30       <NA>      <NA>
+36732 ENSG00000213799_tile0001 ENST00000458035 ZNF845          1        30       <NA>     22218
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45774 ENSG00000196275_tile0001 ENST00000451013  GTF2IRD2          1        30       <NA>      <NA>
+45837 ENSG00000174428_tile0001 ENST00000472837 GTF2IRD2B          1        30      45774     45774
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+25133 ENSG00000180855_tile0001 ENST00000301547 ZNF443          1        30       <NA>      <NA>
+35490 ENSG00000196466_tile0001 ENST00000430385 ZNF799          1        30      25133     25133
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+28431 ENSG00000186300_tile0001 ENST00000334241 ZNF555          1        30       <NA>      <NA>
+28960 ENSG00000171970_tile0001 ENST00000306908  ZNF57          1        30      28431     28431
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50968 ENSG00000153779_tile0001 ENST00000283891 TGIF2LX          1        30       <NA>      <NA>
+50984 ENSG00000176679_tile0001 ENST00000321217 TGIF2LY          1        30       <NA>     50968
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+38411 ENSG00000198205_tile0001 ENST00000358697 ZXDA          1        30       <NA>      <NA>
+38464 ENSG00000198455_tile0001 ENST00000374888 ZXDB          1        30      38411     38411
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+27438 ENSG00000175322_tile0001 ENST00000590202 ZNF519          1        30       <NA>      <NA>
+33930 ENSG00000186777_tile0001 ENST00000419098 ZNF732          1        30       <NA>     27438
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+33113 ENSG00000215356_tile0008 ENST00000400120 ZNF705B        106       135       <NA>      <NA>
+33133 ENSG00000215343_tile0008 ENST00000400085 ZNF705D        106       135      33113     33113
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50669 ENSG00000131721_tile0001 ENST00000371388  RHOXF2          1        30       <NA>      <NA>
+50688 ENSG00000203989_tile0001 ENST00000371402 RHOXF2B          1        30      50669     50669
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+20325 ENSG00000256771_tile0001 ENST00000589717 ZNF253          1        30       <NA>      <NA>
+30956 ENSG00000188171_tile0001 ENST00000601440 ZNF626          1        30      20325     20325
+34024 ENSG00000237440_tile0001 ENST00000427401 ZNF737          1        30       <NA>     20325
+37483 ENSG00000184635_tile0001 ENST00000343769  ZNF93          1        30       <NA>     20325
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+52713 ENSG00000068305_tile0001 ENST00000557942 MEF2A          1        30       <NA>      <NA>
+52770 ENSG00000081189_tile0001 ENST00000504921 MEF2C          1        30       <NA>     52713
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+33106 ENSG00000215356_tile0001 ENST00000400120 ZNF705B          1        30       <NA>      <NA>
+33126 ENSG00000215343_tile0001 ENST00000400085 ZNF705D          1        30       <NA>     33106
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45783 ENSG00000196275_tile0010 ENST00000451013  GTF2IRD2        136       165       <NA>      <NA>
+45846 ENSG00000174428_tile0010 ENST00000472837 GTF2IRD2B        136       165      45783     45783
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43765 ENSG00000170122_tile0001 ENST00000382500   FOXD4          1        30       <NA>      <NA>
+43821 ENSG00000187559_tile0001 ENST00000342833 FOXD4L3          1        30       <NA>     43765
+43902 ENSG00000273514_tile0001 ENST00000622588 FOXD4L6          1        30      43821     43765
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43794 ENSG00000184492_tile0001 ENST00000306507 FOXD4L1          1        30       <NA>      <NA>
+43848 ENSG00000184659_tile0001 ENST00000377413 FOXD4L4          1        30      43794     43794
+43875 ENSG00000204779_tile0001 ENST00000377420 FOXD4L5          1        30      43794     43794
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45806 ENSG00000196275_tile0033 ENST00000451013  GTF2IRD2        481       510       <NA>      <NA>
+45869 ENSG00000174428_tile0033 ENST00000472837 GTF2IRD2B        481       510       <NA>     45806
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+34955 ENSG00000197782_tile0001 ENST00000683561 ZNF780A          1        30       <NA>      <NA>
+34997 ENSG00000128000_tile0001 ENST00000434248 ZNF780B          1        30      34955     34955
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50671 ENSG00000131721_tile0003 ENST00000371388  RHOXF2         31        60       <NA>      <NA>
+50690 ENSG00000203989_tile0003 ENST00000371402 RHOXF2B         31        60      50671     50671
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+30056 ENSG00000189190_tile0017 ENST00000692063 ZNF600        241       270       <NA>      <NA>
+30472 ENSG00000213020_tile0017 ENST00000652185 ZNF611        241       270      30056     30056
+35858 ENSG00000198482_tile0017 ENST00000359798 ZNF808        241       270      30056     30056
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+50762 ENSG00000126778_tile0004 ENST00000645694 SIX1         46        75       <NA>      <NA>
+50780 ENSG00000170577_tile0004 ENST00000303077 SIX2         46        75       <NA>     50762
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+38251 ENSG00000131848_tile0004 ENST00000683990 ZSCAN5A         46        75       <NA>      <NA>
+38317 ENSG00000204532_tile0004 ENST00000534327 ZSCAN5C         46        75      38251     38251
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+50317 ENSG00000185630_tile0028 ENST00000420696 PBX1        402       431       <NA>      <NA>
+50373 ENSG00000167081_tile0028 ENST00000373489 PBX3        406       435       <NA>     50317
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+42492 ENSG00000164330_tile0005 ENST00000313708 EBF1         61        90       <NA>      <NA>
+42569 ENSG00000108001_tile0005 ENST00000440978 EBF3         61        90       <NA>     42492
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+52064 ENSG00000204531_tile0014 ENST00000259915  POU5F1        196       225       <NA>      <NA>
+52088 ENSG00000212993_tile0014 ENST00000696633 POU5F1B        196       225      52064     52064
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+52714 ENSG00000068305_tile0002 ENST00000557942 MEF2A         16        45       <NA>      <NA>
+52747 ENSG00000213999_tile0002 ENST00000424583 MEF2B         16        45       <NA>     52714
+52771 ENSG00000081189_tile0002 ENST00000504921 MEF2C         16        45       <NA>     52714
+52802 ENSG00000116604_tile0002 ENST00000348159 MEF2D         16        45       <NA>     52714
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29483 ENSG00000196967_tile0016 ENST00000292841 ZNF585A        226       255       <NA>      <NA>
+29534 ENSG00000245680_tile0016 ENST00000532828 ZNF585B        226       255       <NA>     29483
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+23116 ENSG00000169131_tile0025 ENST00000335815 ZNF354A        361       390       <NA>      <NA>
+23156 ENSG00000178338_tile0025 ENST00000322434 ZNF354B        361       390      23116     23116
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+51878 ENSG00000185668_tile0020 ENST00000373012 POU3F1        286       315       <NA>      <NA>
+51909 ENSG00000184486_tile0021 ENST00000328345 POU3F2        301       330       <NA>     51878
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61784 ENSG00000126561_tile0025 ENST00000590949 STAT5A        361       390       <NA>      <NA>
+61836 ENSG00000173757_tile0025 ENST00000293328 STAT5B        361       390       <NA>     61784
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+61418 ENSG00000170365_tile0022 ENST00000302085 SMAD1        316       345       <NA>      <NA>
+61513 ENSG00000113658_tile0022 ENST00000545279 SMAD5        316       345       <NA>     61418
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+42950 ENSG00000157554_tile0025 ENST00000288319  ERG        361       390       <NA>      <NA>
+43286 ENSG00000151702_tile0023 ENST00000527786 FLI1        331       360       <NA>     42950
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24255 ENSG00000173480_tile0015 ENST00000312026 ZNF417        211       240       <NA>      <NA>
+29610 ENSG00000198466_tile0015 ENST00000339656 ZNF587        211       240      24255     24255
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43828 ENSG00000187559_tile0008 ENST00000342833 FOXD4L3        106       135       <NA>      <NA>
+43855 ENSG00000184659_tile0008 ENST00000377413 FOXD4L4        106       135      43828     43828
+43882 ENSG00000204779_tile0008 ENST00000377420 FOXD4L5        106       135      43828     43828
+43909 ENSG00000273514_tile0008 ENST00000622588 FOXD4L6        106       135      43828     43828
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45780 ENSG00000196275_tile0007 ENST00000451013  GTF2IRD2         91       120       <NA>      <NA>
+45843 ENSG00000174428_tile0007 ENST00000472837 GTF2IRD2B         91       120       <NA>     45780
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45795 ENSG00000196275_tile0022 ENST00000451013  GTF2IRD2        316       345       <NA>      <NA>
+45858 ENSG00000174428_tile0022 ENST00000472837 GTF2IRD2B        316       345      45795     45795
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+22718 ENSG00000189180_tile0038 ENST00000432900 ZNF33A        556       585       <NA>      <NA>
+22772 ENSG00000196693_tile0038 ENST00000359467 ZNF33B        556       585       <NA>     22718
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29469 ENSG00000196967_tile0002 ENST00000292841 ZNF585A         16        45       <NA>      <NA>
+29520 ENSG00000245680_tile0002 ENST00000532828 ZNF585B         16        45      29469     29469
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+49823 ENSG00000111704_tile0003 ENST00000229307   NANOG         31        60       <NA>      <NA>
+49855 ENSG00000255192_tile0003 ENST00000528386 NANOGP8         31        60       <NA>     49823
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+16409 ENSG00000152977_tile0021 ENST00000282928 ZIC1        301       330       <NA>      <NA>
+16537 ENSG00000139800_tile0032 ENST00000267294 ZIC5        466       495       <NA>     16409
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43862 ENSG00000184659_tile0015 ENST00000377413 FOXD4L4        211       240       <NA>      <NA>
+43889 ENSG00000204779_tile0015 ENST00000377420 FOXD4L5        211       240       <NA>     43862
+43916 ENSG00000273514_tile0015 ENST00000622588 FOXD4L6        211       240      43862     43862
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43841 ENSG00000187559_tile0021 ENST00000342833 FOXD4L3        301       330       <NA>      <NA>
+43868 ENSG00000184659_tile0021 ENST00000377413 FOXD4L4        301       330       <NA>     43841
+43895 ENSG00000204779_tile0021 ENST00000377420 FOXD4L5        301       330      43841     43841
+43922 ENSG00000273514_tile0021 ENST00000622588 FOXD4L6        301       330      43841     43841
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+49824 ENSG00000111704_tile0004 ENST00000229307   NANOG         46        75       <NA>      <NA>
+49856 ENSG00000255192_tile0004 ENST00000528386 NANOGP8         46        75       <NA>     49824
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+49838 ENSG00000111704_tile0018 ENST00000229307   NANOG        256       285       <NA>      <NA>
+49870 ENSG00000255192_tile0018 ENST00000528386 NANOGP8        256       285      49838     49838
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45790 ENSG00000196275_tile0017 ENST00000451013  GTF2IRD2        241       270       <NA>      <NA>
+45853 ENSG00000174428_tile0017 ENST00000472837 GTF2IRD2B        241       270      45790     45790
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43873 ENSG00000184659_tile0026 ENST00000377413 FOXD4L4        376       405       <NA>      <NA>
+43900 ENSG00000204779_tile0026 ENST00000377420 FOXD4L5        376       405      43873     43873
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43846 ENSG00000187559_tile0026 ENST00000342833 FOXD4L3        376       405       <NA>      <NA>
+43927 ENSG00000273514_tile0026 ENST00000622588 FOXD4L6        376       405      43846     43846
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50677 ENSG00000131721_tile0009 ENST00000371388  RHOXF2        121       150       <NA>      <NA>
+50696 ENSG00000203989_tile0009 ENST00000371402 RHOXF2B        121       150      50677     50677
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+50769 ENSG00000126778_tile0011 ENST00000645694 SIX1        151       180       <NA>      <NA>
+50787 ENSG00000170577_tile0011 ENST00000303077 SIX2        151       180       <NA>     50769
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43871 ENSG00000184659_tile0024 ENST00000377413 FOXD4L4        346       375       <NA>      <NA>
+43898 ENSG00000204779_tile0024 ENST00000377420 FOXD4L5        346       375      43871     43871
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43844 ENSG00000187559_tile0024 ENST00000342833 FOXD4L3        346       375       <NA>      <NA>
+43925 ENSG00000273514_tile0024 ENST00000622588 FOXD4L6        346       375      43844     43844
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+10514 ENSG00000085276_tile0063 ENST00000651503  MECOM        931       960       <NA>      <NA>
+11491 ENSG00000142611_tile0065 ENST00000270722 PRDM16        961       990       <NA>     10514
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+22298 ENSG00000083812_tile0022 ENST00000196482  ZNF324        316       345       <NA>      <NA>
+22334 ENSG00000249471_tile0022 ENST00000336614 ZNF324B        316       345      22298     22298
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24278 ENSG00000173480_tile0038 ENST00000312026 ZNF417        547       576       <NA>      <NA>
+29633 ENSG00000198466_tile0038 ENST00000339656 ZNF587        547       576       <NA>     24278
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29512 ENSG00000196967_tile0045 ENST00000292841 ZNF585A        661       690       <NA>      <NA>
+29563 ENSG00000245680_tile0045 ENST00000532828 ZNF585B        661       690      29512     29512
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+25146 ENSG00000180855_tile0014 ENST00000301547 ZNF443        196       225       <NA>      <NA>
+35503 ENSG00000196466_tile0014 ENST00000430385 ZNF799        196       225       <NA>     25146
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+32311 ENSG00000197123_tile0003 ENST00000421025 ZNF679         31        60       <NA>      <NA>
+33475 ENSG00000182111_tile0003 ENST00000420713 ZNF716         31        60       <NA>     32311
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+33100 ENSG00000196946_tile0015 ENST00000396570 ZNF705A        211       240       <NA>      <NA>
+33120 ENSG00000215356_tile0015 ENST00000400120 ZNF705B        211       240      33100     33100
+33140 ENSG00000215343_tile0015 ENST00000400085 ZNF705D        211       240      33100     33100
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+38254 ENSG00000131848_tile0007 ENST00000683990 ZSCAN5A         91       120       <NA>      <NA>
+38320 ENSG00000204532_tile0007 ENST00000534327 ZSCAN5C         91       120      38254     38254
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+46235 ENSG00000138795_tile0023 ENST00000265165 LEF1        331       360       <NA>      <NA>
+46844 ENSG00000081059_tile0021 ENST00000342854 TCF7        301       330       <NA>     46235
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29504 ENSG00000196967_tile0037 ENST00000292841 ZNF585A        541       570       <NA>      <NA>
+29555 ENSG00000245680_tile0037 ENST00000532828 ZNF585B        541       570      29504     29504
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+49828 ENSG00000111704_tile0008 ENST00000229307   NANOG        106       135       <NA>      <NA>
+49860 ENSG00000255192_tile0008 ENST00000528386 NANOGP8        106       135      49828     49828
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45796 ENSG00000196275_tile0023 ENST00000451013  GTF2IRD2        331       360       <NA>      <NA>
+45859 ENSG00000174428_tile0023 ENST00000472837 GTF2IRD2B        331       360      45796     45796
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+42501 ENSG00000164330_tile0014 ENST00000313708 EBF1        196       225       <NA>      <NA>
+42578 ENSG00000108001_tile0014 ENST00000440978 EBF3        196       225       <NA>     42501
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+49835 ENSG00000111704_tile0015 ENST00000229307   NANOG        211       240       <NA>      <NA>
+49867 ENSG00000255192_tile0015 ENST00000528386 NANOGP8        211       240      49835     49835
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61800 ENSG00000126561_tile0041 ENST00000590949 STAT5A        601       630       <NA>      <NA>
+61852 ENSG00000173757_tile0041 ENST00000293328 STAT5B        601       630       <NA>     61800
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61780 ENSG00000126561_tile0021 ENST00000590949 STAT5A        301       330       <NA>      <NA>
+61832 ENSG00000173757_tile0021 ENST00000293328 STAT5B        301       330      61780     61780
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+22706 ENSG00000189180_tile0026 ENST00000432900 ZNF33A        376       405       <NA>      <NA>
+22760 ENSG00000196693_tile0026 ENST00000359467 ZNF33B        376       405       <NA>     22706
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+51761 ENSG00000143190_tile0024 ENST00000367866 POU2F1        346       375       <NA>      <NA>
+51845 ENSG00000137709_tile0016 ENST00000543440 POU2F3        226       255       <NA>     51761
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+29272 ENSG00000258405_tile0004 ENST00000421239 ZNF578         46        75       <NA>      <NA>
+30043 ENSG00000189190_tile0004 ENST00000692063 ZNF600         46        75       <NA>     29272
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43827 ENSG00000187559_tile0007 ENST00000342833 FOXD4L3         91       120       <NA>      <NA>
+43854 ENSG00000184659_tile0007 ENST00000377413 FOXD4L4         91       120      43827     43827
+43881 ENSG00000204779_tile0007 ENST00000377420 FOXD4L5         91       120      43827     43827
+43908 ENSG00000273514_tile0007 ENST00000622588 FOXD4L6         91       120      43827     43827
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29642 ENSG00000269343_tile0009 ENST00000594901 ZNF587B        121       150       <NA>      <NA>
+35995 ENSG00000204514_tile0009 ENST00000435989  ZNF814        121       150      29642     29642
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+16335 ENSG00000005889_tile0053 ENST00000304543  ZFX        777       806       <NA>      <NA>
+16388 ENSG00000067646_tile0053 ENST00000155093  ZFY        773       802       <NA>     16335
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45824 ENSG00000196275_tile0051 ENST00000451013  GTF2IRD2        751       780       <NA>      <NA>
+45887 ENSG00000174428_tile0051 ENST00000472837 GTF2IRD2B        751       780      45824     45824
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+49056 ENSG00000170549_tile0010 ENST00000302006 IRX1        136       165       <NA>      <NA>
+49119 ENSG00000177508_tile0010 ENST00000329734 IRX3        136       165       <NA>     49056
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45778 ENSG00000196275_tile0005 ENST00000451013  GTF2IRD2         61        90       <NA>      <NA>
+45841 ENSG00000174428_tile0005 ENST00000472837 GTF2IRD2B         61        90      45778     45778
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+49356 ENSG00000273706_tile0013 ENST00000614239 LHX1        181       210       <NA>      <NA>
+49462 ENSG00000089116_tile0013 ENST00000261731 LHX5        181       210       <NA>     49356
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43869 ENSG00000184659_tile0022 ENST00000377413 FOXD4L4        316       345       <NA>      <NA>
+43896 ENSG00000204779_tile0022 ENST00000377420 FOXD4L5        316       345       <NA>     43869
+43923 ENSG00000273514_tile0022 ENST00000622588 FOXD4L6        316       345      43896     43869
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61776 ENSG00000126561_tile0017 ENST00000590949 STAT5A        241       270       <NA>      <NA>
+61828 ENSG00000173757_tile0017 ENST00000293328 STAT5B        241       270      61776     61776
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50680 ENSG00000131721_tile0012 ENST00000371388  RHOXF2        166       195       <NA>      <NA>
+50699 ENSG00000203989_tile0012 ENST00000371402 RHOXF2B        166       195      50680     50680
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45786 ENSG00000196275_tile0013 ENST00000451013  GTF2IRD2        181       210       <NA>      <NA>
+45849 ENSG00000174428_tile0013 ENST00000472837 GTF2IRD2B        181       210      45786     45786
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+51578 ENSG00000075891_tile0003 ENST00000355243 PAX2         31        60       <NA>      <NA>
+59334 ENSG00000196092_tile0003 ENST00000358127 PAX5         31        60       <NA>     51578
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45801 ENSG00000196275_tile0028 ENST00000451013  GTF2IRD2        406       435       <NA>      <NA>
+45864 ENSG00000174428_tile0028 ENST00000472837 GTF2IRD2B        406       435      45801     45801
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24268 ENSG00000173480_tile0028 ENST00000312026 ZNF417        406       435       <NA>      <NA>
+29623 ENSG00000198466_tile0028 ENST00000339656 ZNF587        406       435      24268     24268
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+33121 ENSG00000215356_tile0016 ENST00000400120 ZNF705B        226       255       <NA>      <NA>
+33141 ENSG00000215343_tile0016 ENST00000400085 ZNF705D        226       255      33121     33121
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+61274 ENSG00000162599_tile0009 ENST00000403491 NFIA        121       150       <NA>      <NA>
+61372 ENSG00000008441_tile0009 ENST00000592199 NFIX        121       150       <NA>     61274
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+22302 ENSG00000083812_tile0026 ENST00000196482  ZNF324        376       405       <NA>      <NA>
+22338 ENSG00000249471_tile0026 ENST00000336614 ZNF324B        376       405       <NA>     22302
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45800 ENSG00000196275_tile0027 ENST00000451013  GTF2IRD2        391       420       <NA>      <NA>
+45863 ENSG00000174428_tile0027 ENST00000472837 GTF2IRD2B        391       420      45800     45800
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50975 ENSG00000153779_tile0008 ENST00000283891 TGIF2LX        106       135       <NA>      <NA>
+50991 ENSG00000176679_tile0008 ENST00000321217 TGIF2LY        106       135      50975     50975
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+42416 ENSG00000198176_tile0012 ENST00000375370 TFDP1        166       195       <NA>      <NA>
+42444 ENSG00000114126_tile0013 ENST00000489671 TFDP2        181       210       <NA>     42416
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24249 ENSG00000173480_tile0009 ENST00000312026 ZNF417        121       150       <NA>      <NA>
+29604 ENSG00000198466_tile0009 ENST00000339656 ZNF587        121       150      24249     24249
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29511 ENSG00000196967_tile0044 ENST00000292841 ZNF585A        646       675       <NA>      <NA>
+29562 ENSG00000245680_tile0044 ENST00000532828 ZNF585B        646       675      29511     29511
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61775 ENSG00000126561_tile0016 ENST00000590949 STAT5A        226       255       <NA>      <NA>
+61827 ENSG00000173757_tile0016 ENST00000293328 STAT5B        226       255      61775     61775
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+19513 ENSG00000267680_tile0014 ENST00000693561 ZNF224        196       225       <NA>      <NA>
+19917 ENSG00000263002_tile0014 ENST00000426739 ZNF234        196       225       <NA>     19513
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+31034 ENSG00000197483_tile0014 ENST00000598519 ZNF628        196       225       <NA>      <NA>
+31060 ENSG00000197483_tile0040 ENST00000598519 ZNF628        586       615      31034     31034
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45794 ENSG00000196275_tile0021 ENST00000451013  GTF2IRD2        301       330       <NA>      <NA>
+45857 ENSG00000174428_tile0021 ENST00000472837 GTF2IRD2B        301       330      45794     45794
+                         name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+5350 ENSG00000122691_tile0013 ENST00000242261 TWIST1        174       203       <NA>      <NA>
+5360 ENSG00000233608_tile0010 ENST00000612363 TWIST2        132       161       <NA>      5350
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+62813 ENSG00000187079_tile0005 ENST00000527636 TEAD1         61        90       <NA>      <NA>
+62871 ENSG00000007866_tile0005 ENST00000338863 TEAD3         61        90       <NA>     62813
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+22294 ENSG00000083812_tile0018 ENST00000196482  ZNF324        256       285       <NA>      <NA>
+22330 ENSG00000249471_tile0018 ENST00000336614 ZNF324B        256       285      22294     22294
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43834 ENSG00000187559_tile0014 ENST00000342833 FOXD4L3        196       225       <NA>      <NA>
+43861 ENSG00000184659_tile0014 ENST00000377413 FOXD4L4        196       225      43834     43834
+43888 ENSG00000204779_tile0014 ENST00000377420 FOXD4L5        196       225       <NA>     43834
+43915 ENSG00000273514_tile0014 ENST00000622588 FOXD4L6        196       225      43834     43834
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+33114 ENSG00000215356_tile0009 ENST00000400120 ZNF705B        121       150       <NA>      <NA>
+33134 ENSG00000215343_tile0009 ENST00000400085 ZNF705D        121       150      33114     33114
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29645 ENSG00000269343_tile0012 ENST00000594901 ZNF587B        166       195       <NA>      <NA>
+35998 ENSG00000204514_tile0012 ENST00000435989  ZNF814        166       195      29645     29645
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50684 ENSG00000131721_tile0016 ENST00000371388  RHOXF2        226       255       <NA>      <NA>
+50703 ENSG00000203989_tile0016 ENST00000371402 RHOXF2B        226       255      50684     50684
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+51580 ENSG00000075891_tile0005 ENST00000355243 PAX2         61        90       <NA>      <NA>
+59336 ENSG00000196092_tile0005 ENST00000358127 PAX5         61        90       <NA>     51580
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24269 ENSG00000173480_tile0029 ENST00000312026 ZNF417        421       450       <NA>      <NA>
+29624 ENSG00000198466_tile0029 ENST00000339656 ZNF587        421       450      24269     24269
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50970 ENSG00000153779_tile0003 ENST00000283891 TGIF2LX         31        60       <NA>      <NA>
+50986 ENSG00000176679_tile0003 ENST00000321217 TGIF2LY         31        60      50970     50970
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43847 ENSG00000187559_tile0027 ENST00000342833 FOXD4L3        389       418       <NA>      <NA>
+43928 ENSG00000273514_tile0027 ENST00000622588 FOXD4L6        389       418      43847     43847
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50685 ENSG00000131721_tile0017 ENST00000371388  RHOXF2        241       270       <NA>      <NA>
+50704 ENSG00000203989_tile0017 ENST00000371402 RHOXF2B        241       270      50685     50685
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61778 ENSG00000126561_tile0019 ENST00000590949 STAT5A        271       300       <NA>      <NA>
+61830 ENSG00000173757_tile0019 ENST00000293328 STAT5B        271       300      61778     61778
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45789 ENSG00000196275_tile0016 ENST00000451013  GTF2IRD2        226       255       <NA>      <NA>
+45852 ENSG00000174428_tile0016 ENST00000472837 GTF2IRD2B        226       255      45789     45789
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+49829 ENSG00000111704_tile0009 ENST00000229307   NANOG        121       150       <NA>      <NA>
+49861 ENSG00000255192_tile0009 ENST00000528386 NANOGP8        121       150      49829     49829
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43822 ENSG00000187559_tile0002 ENST00000342833 FOXD4L3         16        45       <NA>      <NA>
+43903 ENSG00000273514_tile0002 ENST00000622588 FOXD4L6         16        45      43822     43822
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43795 ENSG00000184492_tile0002 ENST00000306507 FOXD4L1         16        45       <NA>      <NA>
+43849 ENSG00000184659_tile0002 ENST00000377413 FOXD4L4         16        45      43795     43795
+43876 ENSG00000204779_tile0002 ENST00000377420 FOXD4L5         16        45      43795     43795
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+33092 ENSG00000196946_tile0007 ENST00000396570 ZNF705A         91       120       <NA>      <NA>
+33152 ENSG00000215372_tile0007 ENST00000400156 ZNF705G         91       120      33092     33092
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24258 ENSG00000173480_tile0018 ENST00000312026 ZNF417        256       285       <NA>      <NA>
+29613 ENSG00000198466_tile0018 ENST00000339656 ZNF587        256       285      24258     24258
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50670 ENSG00000131721_tile0002 ENST00000371388  RHOXF2         16        45       <NA>      <NA>
+50689 ENSG00000203989_tile0002 ENST00000371402 RHOXF2B         16        45      50670     50670
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+52060 ENSG00000204531_tile0010 ENST00000259915  POU5F1        136       165       <NA>      <NA>
+52084 ENSG00000212993_tile0010 ENST00000696633 POU5F1B        136       165      52060     52060
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+34956 ENSG00000197782_tile0002 ENST00000683561 ZNF780A         16        45       <NA>      <NA>
+34998 ENSG00000128000_tile0002 ENST00000434248 ZNF780B         16        45       <NA>     34956
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45823 ENSG00000196275_tile0050 ENST00000451013  GTF2IRD2        736       765       <NA>      <NA>
+45886 ENSG00000174428_tile0050 ENST00000472837 GTF2IRD2B        736       765      45823     45823
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45775 ENSG00000196275_tile0002 ENST00000451013  GTF2IRD2         16        45       <NA>      <NA>
+45838 ENSG00000174428_tile0002 ENST00000472837 GTF2IRD2B         16        45      45775     45775
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43874 ENSG00000184659_tile0027 ENST00000377413 FOXD4L4        388       417       <NA>      <NA>
+43901 ENSG00000204779_tile0027 ENST00000377420 FOXD4L5        388       417      43874     43874
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+23122 ENSG00000169131_tile0031 ENST00000335815 ZNF354A        451       480       <NA>      <NA>
+23162 ENSG00000178338_tile0031 ENST00000322434 ZNF354B        451       480       <NA>     23122
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+22293 ENSG00000083812_tile0017 ENST00000196482  ZNF324        241       270       <NA>      <NA>
+22329 ENSG00000249471_tile0017 ENST00000336614 ZNF324B        241       270      22293     22293
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+54981 ENSG00000131408_tile0030 ENST00000253727 NR1H2        432       461       <NA>      <NA>
+55010 ENSG00000025434_tile0029 ENST00000441012 NR1H3        419       448       <NA>     54981
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24256 ENSG00000173480_tile0016 ENST00000312026 ZNF417        226       255       <NA>      <NA>
+29611 ENSG00000198466_tile0016 ENST00000339656 ZNF587        226       255      24256     24256
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50972 ENSG00000153779_tile0005 ENST00000283891 TGIF2LX         61        90       <NA>      <NA>
+50988 ENSG00000176679_tile0005 ENST00000321217 TGIF2LY         61        90      50972     50972
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24251 ENSG00000173480_tile0011 ENST00000312026 ZNF417        151       180       <NA>      <NA>
+29606 ENSG00000198466_tile0011 ENST00000339656 ZNF587        151       180      24251     24251
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+47622      DUX1_HUMAN_tile0008     manual_dux1 DUX1        106       135       <NA>      <NA>
+47646 ENSG00000260596_tile0008 ENST00000565211 DUX4        106       135       <NA>     47622
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24242 ENSG00000173480_tile0002 ENST00000312026 ZNF417         16        45       <NA>      <NA>
+29597 ENSG00000198466_tile0002 ENST00000339656 ZNF587         16        45      24242     24242
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61782 ENSG00000126561_tile0023 ENST00000590949 STAT5A        331       360       <NA>      <NA>
+61834 ENSG00000173757_tile0023 ENST00000293328 STAT5B        331       360       <NA>     61782
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29518 ENSG00000196967_tile0051 ENST00000292841 ZNF585A        741       770       <NA>      <NA>
+29569 ENSG00000245680_tile0051 ENST00000532828 ZNF585B        741       770       <NA>     29518
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29508 ENSG00000196967_tile0041 ENST00000292841 ZNF585A        601       630       <NA>      <NA>
+29559 ENSG00000245680_tile0041 ENST00000532828 ZNF585B        601       630      29508     29508
+                         name      transcript gene first_resi last_resi copyof_dna copyof_aa
+8430 ENSG00000074047_tile0035 ENST00000361492 GLI2        511       540       <NA>      <NA>
+8538 ENSG00000106571_tile0039 ENST00000395925 GLI3        571       600       <NA>      8430
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+30049 ENSG00000189190_tile0010 ENST00000692063 ZNF600        136       165       <NA>      <NA>
+30465 ENSG00000213020_tile0010 ENST00000652185 ZNF611        136       165      30049     30049
+35851 ENSG00000198482_tile0010 ENST00000359798 ZNF808        136       165      30049     30049
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61795 ENSG00000126561_tile0036 ENST00000590949 STAT5A        526       555       <NA>      <NA>
+61847 ENSG00000173757_tile0036 ENST00000293328 STAT5B        526       555       <NA>     61795
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61783 ENSG00000126561_tile0024 ENST00000590949 STAT5A        346       375       <NA>      <NA>
+61835 ENSG00000173757_tile0024 ENST00000293328 STAT5B        346       375       <NA>     61783
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45831 ENSG00000196275_tile0058 ENST00000451013  GTF2IRD2        856       885       <NA>      <NA>
+45894 ENSG00000174428_tile0058 ENST00000472837 GTF2IRD2B        856       885      45831     45831
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+34489 ENSG00000196417_tile0003 ENST00000396408 ZNF765         31        60       <NA>      <NA>
+35948 ENSG00000198346_tile0003 ENST00000396403 ZNF813         31        60       <NA>     34489
+36734 ENSG00000213799_tile0003 ENST00000458035 ZNF845         31        60      35948     34489
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+48381 ENSG00000105996_tile0011 ENST00000222718 HOXA2        151       180       <NA>      <NA>
+48560 ENSG00000173917_tile0011 ENST00000330070 HOXB2        151       180       <NA>     48381
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+51604 ENSG00000135903_tile0003 ENST00000392070 PAX3         31        60       <NA>      <NA>
+51688 ENSG00000009709_tile0003 ENST00000420770 PAX7         31        60       <NA>     51604
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45792 ENSG00000196275_tile0019 ENST00000451013  GTF2IRD2        271       300       <NA>      <NA>
+45855 ENSG00000174428_tile0019 ENST00000472837 GTF2IRD2B        271       300      45792     45792
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+22297 ENSG00000083812_tile0021 ENST00000196482  ZNF324        301       330       <NA>      <NA>
+22333 ENSG00000249471_tile0021 ENST00000336614 ZNF324B        301       330      22297     22297
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+49832 ENSG00000111704_tile0012 ENST00000229307   NANOG        166       195       <NA>      <NA>
+49864 ENSG00000255192_tile0012 ENST00000528386 NANOGP8        166       195       <NA>     49832
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+50482 ENSG00000164093_tile0009 ENST00000644743 PITX2        121       150       <NA>      <NA>
+50501 ENSG00000107859_tile0007 ENST00000370002 PITX3         91       120       <NA>     50482
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+29509 ENSG00000196967_tile0042 ENST00000292841 ZNF585A        616       645       <NA>      <NA>
+29560 ENSG00000245680_tile0042 ENST00000532828 ZNF585B        616       645       <NA>     29509
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45791 ENSG00000196275_tile0018 ENST00000451013  GTF2IRD2        256       285       <NA>      <NA>
+45854 ENSG00000174428_tile0018 ENST00000472837 GTF2IRD2B        256       285      45791     45791
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61792 ENSG00000126561_tile0033 ENST00000590949 STAT5A        481       510       <NA>      <NA>
+61844 ENSG00000173757_tile0033 ENST00000293328 STAT5B        481       510       <NA>     61792
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+22691 ENSG00000189180_tile0011 ENST00000432900 ZNF33A        151       180       <NA>      <NA>
+22745 ENSG00000196693_tile0011 ENST00000359467 ZNF33B        151       180       <NA>     22691
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+42948 ENSG00000157554_tile0023 ENST00000288319  ERG        331       360       <NA>      <NA>
+43284 ENSG00000151702_tile0021 ENST00000527786 FLI1        301       330       <NA>     42948
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43825 ENSG00000187559_tile0005 ENST00000342833 FOXD4L3         61        90       <NA>      <NA>
+43852 ENSG00000184659_tile0005 ENST00000377413 FOXD4L4         61        90       <NA>     43825
+43879 ENSG00000204779_tile0005 ENST00000377420 FOXD4L5         61        90       <NA>     43825
+43906 ENSG00000273514_tile0005 ENST00000622588 FOXD4L6         61        90      43825     43825
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45815 ENSG00000196275_tile0042 ENST00000451013  GTF2IRD2        616       645       <NA>      <NA>
+45878 ENSG00000174428_tile0042 ENST00000472837 GTF2IRD2B        616       645      45815     45815
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24257 ENSG00000173480_tile0017 ENST00000312026 ZNF417        241       270       <NA>      <NA>
+29612 ENSG00000198466_tile0017 ENST00000339656 ZNF587        241       270      24257     24257
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45809 ENSG00000196275_tile0036 ENST00000451013  GTF2IRD2        526       555       <NA>      <NA>
+45872 ENSG00000174428_tile0036 ENST00000472837 GTF2IRD2B        526       555      45809     45809
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45808 ENSG00000196275_tile0035 ENST00000451013  GTF2IRD2        511       540       <NA>      <NA>
+45871 ENSG00000174428_tile0035 ENST00000472837 GTF2IRD2B        511       540      45808     45808
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+19469 ENSG00000178386_tile0002 ENST00000434772 ZNF223         16        45       <NA>      <NA>
+19501 ENSG00000267680_tile0002 ENST00000693561 ZNF224         16        45       <NA>     19469
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+20612 ENSG00000083844_tile0027 ENST00000263095 ZNF264        391       420       <NA>      <NA>
+35827 ENSG00000204524_tile0027 ENST00000414468 ZNF805        391       420       <NA>     20612
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+42500 ENSG00000164330_tile0013 ENST00000313708 EBF1        181       210       <NA>      <NA>
+42577 ENSG00000108001_tile0013 ENST00000440978 EBF3        181       210       <NA>     42500
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50683 ENSG00000131721_tile0015 ENST00000371388  RHOXF2        211       240       <NA>      <NA>
+50702 ENSG00000203989_tile0015 ENST00000371402 RHOXF2B        211       240      50683     50683
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+61781 ENSG00000126561_tile0022 ENST00000590949 STAT5A        316       345       <NA>      <NA>
+61833 ENSG00000173757_tile0022 ENST00000293328 STAT5B        316       345       <NA>     61781
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+49827 ENSG00000111704_tile0007 ENST00000229307   NANOG         91       120       <NA>      <NA>
+49859 ENSG00000255192_tile0007 ENST00000528386 NANOGP8         91       120      49827     49827
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45787 ENSG00000196275_tile0014 ENST00000451013  GTF2IRD2        196       225       <NA>      <NA>
+45850 ENSG00000174428_tile0014 ENST00000472837 GTF2IRD2B        196       225      45787     45787
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+49359 ENSG00000273706_tile0016 ENST00000614239 LHX1        226       255       <NA>      <NA>
+49465 ENSG00000089116_tile0016 ENST00000261731 LHX5        226       255       <NA>     49359
+                          name      transcript  gene first_resi last_resi copyof_dna copyof_aa
+61415 ENSG00000170365_tile0019 ENST00000302085 SMAD1        271       300       <NA>      <NA>
+61510 ENSG00000113658_tile0019 ENST00000545279 SMAD5        271       300       <NA>     61415
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+50681 ENSG00000131721_tile0013 ENST00000371388  RHOXF2        181       210       <NA>      <NA>
+50700 ENSG00000203989_tile0013 ENST00000371402 RHOXF2B        181       210      50681     50681
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+61301 ENSG00000147862_tile0003 ENST00000380953 NFIB         31        60       <NA>      <NA>
+61333 ENSG00000141905_tile0003 ENST00000443272 NFIC         31        60       <NA>     61301
+                          name      transcript gene first_resi last_resi copyof_dna copyof_aa
+60425 ENSG00000087903_tile0042 ENST00000303657 RFX2        616       645       <NA>      <NA>
+60472 ENSG00000080298_tile0041 ENST00000617270 RFX3        601       630       <NA>     60425
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+49834 ENSG00000111704_tile0014 ENST00000229307   NANOG        196       225       <NA>      <NA>
+49866 ENSG00000255192_tile0014 ENST00000528386 NANOGP8        196       225      49834     49834
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45826 ENSG00000196275_tile0053 ENST00000451013  GTF2IRD2        781       810       <NA>      <NA>
+45889 ENSG00000174428_tile0053 ENST00000472837 GTF2IRD2B        781       810      45826     45826
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+33103 ENSG00000196946_tile0018 ENST00000396570 ZNF705A        256       285       <NA>      <NA>
+33163 ENSG00000215372_tile0018 ENST00000400156 ZNF705G        256       285      33103     33103
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45803 ENSG00000196275_tile0030 ENST00000451013  GTF2IRD2        436       465       <NA>      <NA>
+45866 ENSG00000174428_tile0030 ENST00000472837 GTF2IRD2B        436       465      45803     45803
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+49833 ENSG00000111704_tile0013 ENST00000229307   NANOG        181       210       <NA>      <NA>
+49865 ENSG00000255192_tile0013 ENST00000528386 NANOGP8        181       210      49833     49833
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45835 ENSG00000196275_tile0062 ENST00000451013  GTF2IRD2        916       945       <NA>      <NA>
+45898 ENSG00000174428_tile0062 ENST00000472837 GTF2IRD2B        916       945      45835     45835
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45834 ENSG00000196275_tile0061 ENST00000451013  GTF2IRD2        901       930       <NA>      <NA>
+45897 ENSG00000174428_tile0061 ENST00000472837 GTF2IRD2B        901       930      45834     45834
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+49830 ENSG00000111704_tile0010 ENST00000229307   NANOG        136       165       <NA>      <NA>
+49862 ENSG00000255192_tile0010 ENST00000528386 NANOGP8        136       165      49830     49830
+                          name      transcript      gene first_resi last_resi copyof_dna copyof_aa
+45807 ENSG00000196275_tile0034 ENST00000451013  GTF2IRD2        496       525       <NA>      <NA>
+45870 ENSG00000174428_tile0034 ENST00000472837 GTF2IRD2B        496       525       <NA>     45807
+                          name      transcript   gene first_resi last_resi copyof_dna copyof_aa
+24270 ENSG00000173480_tile0030 ENST00000312026 ZNF417        436       465       <NA>      <NA>
+29625 ENSG00000198466_tile0030 ENST00000339656 ZNF587        436       465       <NA>     24270
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+34957 ENSG00000197782_tile0003 ENST00000683561 ZNF780A         31        60       <NA>      <NA>
+34999 ENSG00000128000_tile0003 ENST00000434248 ZNF780B         31        60       <NA>     34957
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+33118 ENSG00000215356_tile0013 ENST00000400120 ZNF705B        181       210       <NA>      <NA>
+33138 ENSG00000215343_tile0013 ENST00000400085 ZNF705D        181       210      33118     33118
+                          name      transcript    gene first_resi last_resi copyof_dna copyof_aa
+43833 ENSG00000187559_tile0013 ENST00000342833 FOXD4L3        181       210       <NA>      <NA>
+43860 ENSG00000184659_tile0013 ENST00000377413 FOXD4L4        181       210       <NA>     43833
+43887 ENSG00000204779_tile0013 ENST00000377420 FOXD4L5        181       210      43860     43833
+43914 ENSG00000273514_tile0013 ENST00000622588 FOXD4L6        181       210      43833     43833
+[1] "Found 422 AA redundant tiles of which 184 are not DNA redundant"
+[1] "Dump R file transfac90.rda"
+[1] "Dump an Excel-readable csv file per library transfac90_lib*.csv"
+[1] "Using 30292 of 30405 (lib1), 31080 of 31199 (lib2) and 1620 of 1626 (lib3) unique tiles"
+[1] "Writing all 63230 tiles (62992 DNA unique and 62808 AA unique) to transfac_tiles.csv"
+[1] "Writing full sequences for 1626 of 1639 transcription factors to files - in total 961332 residues (original file)"
