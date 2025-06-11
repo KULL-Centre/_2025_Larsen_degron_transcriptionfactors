@@ -7,5 +7,8 @@ Contents
 - **counts**: Scripts for processing FASTQ files. Output counts and raw FASTQ files are available on ERDA
 - **score**: Scripts for calculating scores. FACS data files are available on ERDA
 - **plots**: Scripts for plotting 
+- **annotations**: Scripts for mapping scores to the library and annotating with PAP, ADPred and structural features
+
+The main resulting data is in annotations/transfac_tiles.csv.gz and transfac_proteins.csv.gz
 
 Sequencing counts, FASTQ files and FACS data are available on [ERDA](https://sid.erda.dk/sharelink/fKpEMvwVhJ)
