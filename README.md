@@ -8,6 +8,7 @@ Contents
 - **score**: Scripts for calculating scores. FACS data files are available on ERDA
 - **plots**: Scripts for plotting 
 - **annotations**: Scripts for mapping scores to the library and annotating with [PAP](https://github.com/KULL-Centre/_2025_Voutsinos_degron_cytosol), [ADPred](https://adpred.fredhutch.org/) and structural features
+- **analyses**: Scripts for analyses and plotting 
 
 The main resulting data is in annotations/transfac_tiles.csv.gz and transfac_proteins.csv.gz
 
