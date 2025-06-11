@@ -3,11 +3,11 @@ Scripts and output from "Comprehensive degron mapping in human transcription fac
 
 Contents
 --------
-- **library**: Script and input files for makeing the DNA libraries
+- **library**: Script and input files for makeing the DNA libraries based on [Lambert18](https://doi.org/10.1016/j.cell.2018.01.029)
 - **counts**: Scripts for processing FASTQ files. Output counts and raw FASTQ files are available on ERDA
 - **score**: Scripts for calculating scores. FACS data files are available on ERDA
 - **plots**: Scripts for plotting 
-- **annotations**: Scripts for mapping scores to the library and annotating with PAP, ADPred and structural features
+- **annotations**: Scripts for mapping scores to the library and annotating with [PAP](https://github.com/KULL-Centre/_2025_Voutsinos_degron_cytosol), [ADPred](https://adpred.fredhutch.org/) and structural features
 
 The main resulting data is in annotations/transfac_tiles.csv.gz and transfac_proteins.csv.gz
 
