@@ -8,4 +8,4 @@ Contents
 - **score**: Scripts for calculating scores. FACS data files are available on ERDA
 - **plots**: Scripts for plotting 
 
-Sequencing counts and FASTQ files are available on [ERDA](https://sid.erda.dk/sharelink/fKpEMvwVhJ)
+Sequencing counts, FASTQ files and FACS data are available on [ERDA](https://sid.erda.dk/sharelink/fKpEMvwVhJ)
