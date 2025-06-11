@@ -8,3 +8,5 @@ Contents
 - **score**: Scripts for calculating scores. FACS data files are available on ERDA
 - **models**: Scripts for training models
 - **plots**: Scripts for plotting 
+
+Sequencing counts and FASTQ files are available on [ERDA](https://sid.erda.dk/sharelink/fKpEMvwVhJ)
