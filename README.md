@@ -1,6 +1,8 @@
 # _2025_Larsen_degron_transcriptionfactors
 Scripts and output from "Comprehensive degron mapping in human transcription factors" by Fia B. Larsen, Vasileios Voutsinos, Nicolas Jonsson, Kristoffer E. Johansson, Freia D. Ethelberg, Kresten Lindorff-Larsen and Rasmus Hartmann-Petersen
 
+[Preprint](https://doi.org/10.1101/2025.05.16.654404)
+
 Contents
 --------
 - **library**: Script and input files for makeing the DNA libraries based on [Lambert18](https://doi.org/10.1016/j.cell.2018.01.029)
