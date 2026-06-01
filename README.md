@@ -17,3 +17,5 @@ The main resulting data is in annotations/transfac_tiles.csv.gz and transfac_pro
 Sequencing counts, FASTQ files and FACS data are available on [ERDA DOI:10.17894/ucph.e6ff0116-3fb4-4f71-8a7f-2ab162b6a943](https://doi.org/10.17894/ucph.e6ff0116-3fb4-4f71-8a7f-2ab162b6a943)
 
 FASTQ files are deposited at [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra) under BioProject ID: PRJNA1276444
+
+[![DOI](https://zenodo.org/badge/924697210.svg)](https://doi.org/10.5281/zenodo.20490354)
